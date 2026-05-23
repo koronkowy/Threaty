@@ -94,5 +94,17 @@
   "deadline": "",
   "post_date": "2026-05-23",
   "id": "8"
-  }
+  },
+  {
+  "id": "9",
+  "title": "Threat Hunting Investigator",
+  "company": "Cisco",
+  "url": "https://careers.cisco.com/global/en/job/1450538/Threat-Hunting-Investigator",
+  "company_url": "https://www.cisco.com",
+  "listed_locations": "Bangalore, India",
+  "eligibility_regions": "APAC",
+  "model": "Hybrid", 
+  "deadline": "",
+  "post_date": "2026-05-22"
+}
 ]
