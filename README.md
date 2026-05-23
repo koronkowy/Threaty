@@ -59,17 +59,25 @@ Your **Gemini API Key** is never hardcoded. It is stored in **GitHub Repository 
 
 ## 🗺️ Geographic & Regional Logic
 
-Threaty implements a dual-layer mapping system to handle the inconsistency of job board listings.
 
-| **Region**        | **Mapping Logic**       | **Examples**               |
-| ----------------------- | ----------------------------- | -------------------------------- |
-| **US-All**        | Nationwide remote roles       | US-based full remote             |
-| **US-East / DMV** | Covers East Coast & DC Metro  | VA, DC, MD, NYC, Boston          |
-| **US-West / PNW** | Covers West Coast & Tech Hubs | Seattle, Portland, SF, LA        |
-| **EMEA / DACH**   | Covers Europe/UK/Middle East  | London, Berlin, Tel Aviv, Prague |
-| **APAC**          | Covers Asia/Pacific           | Bangalore, Tokyo, Singapore      |
+| **Region**     | **Mapping Logic**                | **Examples / Hubs**                                                     |
+| -------------------- | -------------------------------------- | ----------------------------------------------------------------------------- |
+| **US-All**     | Nationwide remote roles                | US-based full remote; includes all regional hubs                              |
+| **US-East**    | Covers East Coast & DC Metro (DMV)     | VA, DC, MD, NYC, Boston; includes DMV, Tri-State, Mid-Atlantic, NOVA          |
+| **US-West**    | Covers West Coast & PNW                | Seattle, Portland, SF, LA; includes PNW, Mountain, Southwest, Bay Area, SOCAL |
+| **US-Central** | Covers Midwest & South-Central & TOLA  | Austin, Chicago, Dallas, Houston; includes TOLA, Midwest                      |
+| **EMEA**       | Covers Europe, UK, DACH, & Middle East | London, Berlin, Tel Aviv, Prague; includes DACH, Benelux, Gulf, Israel        |
+| **APAC**       | Covers Asia/Pacific                    | Bangalore, India, Tokyo, Singapore, Sydney; includes ASEAN, ANZ               |
+| **LATAM**      | Covers Latin America                   | São Paulo, Mexico City, Bogotá, Buenos Aires                                |
 
-* **Logic:** When you search for "Seattle," the engine automatically expands the query to include `US-West` and `US-All` roles.
-* **Satellite Hubs:** Our search dictionary maps commuter satellites (e.g., Redmond/Bellevue for Seattle; Reston/McLean for DMV) to their parent region automatically.
+### Regional Logic Summary
+
+* **Intelligent Expansion:** When you search for a specific hub (e.g., "Seattle"), the engine automatically expands the query to include the parent region (`US-West`) and nationwide remote roles (`US-All`).
+* **Satellite Hub Normalization:** The search dictionary automatically maps commuter satellites (e.g., Redmond/Bellevue for Seattle; Reston/McLean for DMV) to their parent region, ensuring relevant roles are never missed due to localized naming.
+* **Territory Alias Support:** The engine natively resolves industry shorthand. **Typing territory codes like ** **TOLA** **, ** **DMV** **, ** **DACH** **, ** **ANZ** **, or ****PNW** into the search bar instantly expands the query to include all associated cities, states, and regional authorization constraints.
+
+---
+
+
 
 *Built for the community. High signal, low noise.*
