@@ -13,7 +13,8 @@ jobs:
       pull-requests: write
       issues: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
       
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -30,7 +31,8 @@ jobs:
           # 1. Extract the first URL found in the issue body
           URL=$(grep -oE 'https?://[a-zA-Z0-9./?=_-]+' <<< "${{ github.event.issue.body }}" | head -n 1)
           
-          # 2. Run your parser logic
+          # 2. Run your verified parser logic
+          # Assuming you have parser.py in the root
           python3 parser.py "$URL" > new_job_temp.json
           
           # 3. Deduplication: Check if URL exists in jobs.json
@@ -38,7 +40,6 @@ jobs:
             echo "DUPLICATE_FOUND=true" >> $GITHUB_ENV
           else
             echo "DUPLICATE_FOUND=false" >> $GITHUB_ENV
-            cat new_job_temp.json >> job_payload.json
           fi
 
       - name: Handle Duplicate
@@ -57,3 +58,4 @@ jobs:
           title: "Review: New Job Submission #${{ github.event.issue.number }}"
           body: "Automated ingestion from Issue #${{ github.event.issue.number }}. Please review the JSON data."
           branch: "add-job-${{ github.event.issue.number }}"
+          add-paths: jobs.json
