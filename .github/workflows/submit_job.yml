@@ -1,0 +1,59 @@
+name: Job Submission Ingestion
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  ingest-job:
+    # Only run if the issue has the 'job-submission' label
+    if: contains(github.event.issue.labels.*.name, 'job-submission')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 google-genai
+        
+      - name: Run Data Clerk Parser
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          # 1. Extract the first URL found in the issue body
+          URL=$(grep -oE 'https?://[a-zA-Z0-9./?=_-]+' <<< "${{ github.event.issue.body }}" | head -n 1)
+          
+          # 2. Run your parser logic
+          python3 parser.py "$URL" > new_job_temp.json
+          
+          # 3. Deduplication: Check if URL exists in jobs.json
+          if grep -q "$URL" jobs.json; then
+            echo "DUPLICATE_FOUND=true" >> $GITHUB_ENV
+          else
+            echo "DUPLICATE_FOUND=false" >> $GITHUB_ENV
+            cat new_job_temp.json >> job_payload.json
+          fi
+
+      - name: Handle Duplicate
+        if: env.DUPLICATE_FOUND == 'true'
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --body "Duplicate detected: This URL is already on the board."
+          gh issue close ${{ github.event.issue.number }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create Pull Request
+        if: env.DUPLICATE_FOUND == 'false'
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Feat: Add new job from Issue #${{ github.event.issue.number }}"
+          title: "Review: New Job Submission #${{ github.event.issue.number }}"
+          body: "Automated ingestion from Issue #${{ github.event.issue.number }}. Please review the JSON data."
+          branch: "add-job-${{ github.event.issue.number }}"
