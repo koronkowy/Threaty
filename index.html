@@ -219,9 +219,9 @@
             <div class="bubble-header">
                 <strong>📥 How to Submit a Position</strong>
                 <a class="close-bubble" onclick="toggleBubble('submit-bubble')">[ Hide ]</a>
-            </div>
-            <h3>📥 How to Submit a Position</h3>
-    
+            </div><p style="margin-top: 25px; padding: 15px; border-left: 4px solid #ff69b4; background: #f9f9f9; font-size: 0.9em; color: #555;">
+        <strong>Note:</strong> Please submit only active job postings. Submitting non-job URLs or "junk" data may result in submission privileges being revoked.
+    </p>
     <p>To add a new role to the board, follow these three simple steps:</p>
     
     <p><strong>1. Open an Issue:</strong> Navigate to the <a href="https://github.com/koronkowy/Threaty/issues" style="color:#0078D4;">GitHub Issues</a> tab and click "New issue." Note: You can title the issue anything you want; it does not affect the submission.</p>
@@ -229,19 +229,33 @@
     <p><strong>2. Paste & Label:</strong> Paste the direct URL of the job posting into the issue body. <strong>Crucial:</strong> Add the <code>job-submission</code> label to the issue so the automated pipeline detects it.</p>
     
     <p><strong>3. Review & Merge:</strong> Our background "Data Clerk" will automatically scrape the listing and create a Pull Request. The team will receive a notification to review the generated JSON. Once approved, the role will be merged and appear live on the board.</p>
-    
-    <p style="margin-top: 25px; padding: 15px; border-left: 4px solid #ff69b4; background: #f9f9f9; font-size: 0.9em; color: #555;">
-        <strong>Note:</strong> Please submit only active job postings. Submitting non-job URLs or "junk" data may result in submission privileges being revoked.
-    </p>
         </div>
 
         <div id="about-bubble" class="bubble-area">
-            <div class="bubble-header">
-                <strong>🛡️ About Threaty / Purpose</strong>
-                <a class="close-bubble" onclick="toggleBubble('about-bubble')">[ Hide ]</a>
-            </div>
-            <p>Threaty filters out general engineering noise to isolate pure high-signal positions focused on Threat Intelligence Analysis, Detection Engineering, Incident Response, and Security Automation. All parsed rows surface region constraints directly to optimize tracking.</p>
-        </div>
+    <div class="bubble-header">
+        <strong>🛡️ About Threaty / Purpose</strong>
+        <a class="close-bubble" onclick="toggleBubble('about-bubble')">[ Hide ]</a>
+    </div>
+    <p>
+        Threaty is a curated job board built to filter out general engineering noise. 
+        This user-submitted board isolates high-signal positions focused on <strong>Cyber Threat Intelligence (CTI), 
+        Detection Engineering, Incident Response (IR), and of course, Thrunting</strong>. 
+        By surfacing region constraints directly in the dashboard, Threaty helps you identify roles 
+        that match your specific geographic and authorization requirements instantly.
+    </p>
+
+    <div class="credits" style="margin-top: 15px; border-top: 1px solid #ddd; padding-top: 10px; font-size: 0.9em;">
+        <p style="margin: 5px 0;">
+            Created by <a href="https://laceykasten.com/" style="color:#0078D4; text-decoration:none;">Lacey Kasten</a>.
+        </p>
+        <p style="margin: 5px 0;">
+            <strong>Powered by:</strong> GitHub Actions, Gemini AI (Data Clerk), & Vanilla JavaScript.
+        </p>
+        <p style="margin: 5px 0;">
+            <em>Threaty is an open-source project. Follow the project or contribute on <a href="https://github.com/koronkowy/Threaty" style="color:#0078D4; text-decoration:none;">GitHub</a>.</em>
+        </p>
+    </div>
+</div>
 
         <div id="guide-bubble" class="bubble-area">
             <div class="bubble-header">

@@ -56,6 +56,7 @@ jobs:
           body: "Automated ingestion from Issue #${{ github.event.issue.number }}. Please review the JSON data."
           branch: "add-job-${{ github.event.issue.number }}"
           add-paths: jobs.json
+          assignees: koronkowy
           
       - name: Comment on Issue
         run: |
