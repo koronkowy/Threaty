@@ -59,6 +59,16 @@ jobs:
           
       - name: Comment on Issue
         run: |
-          gh issue comment ${{ github.event.issue.number }} --body "Job processed. Please review the Pull Request for final approval."
+          # Capture the JSON data to include in the comment
+          JSON_DATA=$(cat new_job_temp.json)
+          COMMENT_BODY="Job processed successfully! Here is the data extracted:
+
+          \`\`\`json
+          $JSON_DATA
+          \`\`\`
+          
+          Please review the Pull Request for final approval."
+          
+          gh issue comment ${{ github.event.issue.number }} --body "$COMMENT_BODY"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
