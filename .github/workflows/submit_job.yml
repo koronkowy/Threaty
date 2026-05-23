@@ -3,6 +3,10 @@ on:
   issues:
     types: [opened]
 
+concurrency:
+  group: job-submission-pipeline
+  cancel-in-progress: false
+
 jobs:
   ingest-job:
     # Only run if the issue has the 'job-submission' label
