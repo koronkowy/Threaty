@@ -322,5 +322,17 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-05-23"
+  },
+  {
+    "title": "Principal Product Manager",
+    "company": "Trellix",
+    "status": "active",
+    "url": "https://careers.trellix.com/jobs/principal-product-manager/",
+    "company_url": "https://trellix.com",
+    "listed_locations": "Remote United States",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-05-23"
   }
 ]
