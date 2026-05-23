@@ -21,7 +21,7 @@ def parse_job(url):
         print(f"Error scraping: {e}", file=sys.stderr)
         sys.exit(1)
 
-   prompt = f"""
+    prompt = f"""
     Analyze the following job description and extract the data fields below.
     Required JSON Schema (Do not deviate):
     {{
