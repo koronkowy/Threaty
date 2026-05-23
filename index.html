@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threaty: A Threat Intelligence Job Board</title>
+    <style>
+        /* --- CORE CYBER-JOBS DESIGN SCHEME --- */
+        body {
+            font-family: Consolas, monospace;
+            font-size: 10pt;
+            background-color: #f4f4f4;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1050px;
+            max-height: 80vh;
+            background-color: white;
+            border: 2px solid #ff69b4; /* Signature Pink Border */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            position: relative;
+        }
+        
+        h1 {
+            text-align: left;
+            margin-top: 0;
+            color: #ff69b4;
+            font-size: 2em;
+        }
+        
+        .subheading {
+            font-size: 0.9em;
+            text-align: left;
+            margin: 10px 0 15px;
+            color: #555;
+        }
+        
+        .subheading a {
+            color: #0078D4; /* Signature Corporate Blue Accent */
+            text-decoration: none;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .subheading a:hover {
+            text-decoration: underline;
+        }
+
+        #searchBar {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-family: Consolas, monospace;
+            font-size: 10pt;
+            box-sizing: border-box;
+        }
+
+        #searchBar:focus {
+            outline: none;
+            border-color: #ff69b4;
+        }
+
+        .bubble-area {
+            display: none;
+            background-color: #fff9fc;
+            border: 1px solid #ff69b4;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            animation: fadeIn 0.2s ease-in-out;
+        }
+
+        .bubble-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0;
+            margin-bottom: 10px;
+            color: #ff69b4;
+            font-size: 1.1em;
+        }
+
+        .close-bubble {
+            color: #555;
+            text-decoration: none;
+            font-size: 0.9em;
+            cursor: pointer;
+        }
+
+        .meta-actions-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            font-size: 0.95em;
+        }
+
+        .result-counter {
+            color: #555;
+            font-weight: bold;
+        }
+
+        .toggle-label {
+            color: #555;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        /* --- STICKY TABLE HEADER LAYOUT --- */
+        .table-wrapper {
+            width: 100%;
+        }
+
+        .job-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        .job-table th {
+            position: sticky;
+            top: -20px;
+            background-color: white; 
+            border-bottom: 2px solid #ff69b4;
+            padding: 12px 10px;
+            color: #555;
+            text-transform: uppercase;
+            font-size: 0.9em;
+            z-index: 2;
+        }
+
+        .job-row {
+            border-bottom: 1px solid #ddd;
+        }
+
+        .job-row:hover {
+            background-color: #fff9fc;
+        }
+
+        .job-title {
+            color: #ff69b4;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.05em;
+        }
+
+        .job-title:hover {
+            text-decoration: underline;
+        }
+
+        .company-link {
+            color: #0078D4;
+            text-decoration: none;
+            font-size: 0.9em;
+            display: block;
+            margin-top: 2px;
+        }
+
+        .company-link:hover {
+            text-decoration: underline;
+        }
+
+        .location-city {
+            color: #111;
+            font-weight: bold;
+        }
+
+        .location-region {
+            color: #777;
+            font-size: 0.85em;
+            margin-top: 2px;
+        }
+
+        .text-blue {
+            color: #0078D4;
+        }
+
+        .status-expired {
+            color: #aaa;
+            text-decoration: line-through;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-5px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .container::-webkit-scrollbar {
+            width: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Threaty</h1>
+        <div class="subheading">
+            Threaty: A Threat Intelligence Job Board | 
+            <a onclick="toggleBubble('submit-bubble')">[ Submit Role ]</a> • 
+            <a onclick="toggleBubble('about-bubble')">[ About Board ]</a> • 
+            <a onclick="toggleBubble('guide-bubble')">[ Usage Guide ]</a>
+        </div>
+
+        <div id="submit-bubble" class="bubble-area">
+            <div class="bubble-header">
+                <strong>📥 How to Submit a Position</strong>
+                <a class="close-bubble" onclick="toggleBubble('submit-bubble')">[ Hide ]</a>
+            </div>
+            <p>To post an active tracking lead, open a new issue in the GitHub repository and paste the destination URL straight into the issue body text. The internal background scraping actions will analyze the landing page assets and format the live listing automatically.</p>
+        </div>
+
+        <div id="about-bubble" class="bubble-area">
+            <div class="bubble-header">
+                <strong>🛡️ About Threaty / Purpose</strong>
+                <a class="close-bubble" onclick="toggleBubble('about-bubble')">[ Hide ]</a>
+            </div>
+            <p>Threaty filters out general engineering noise to isolate pure high-signal positions focused on Threat Intelligence Analysis, Detection Engineering, Incident Response, and Security Automation. All parsed rows surface region constraints directly to optimize tracking.</p>
+        </div>
+
+        <div id="guide-bubble" class="bubble-area">
+            <div class="bubble-header">
+                <strong>⚙️ How to Navigate the Matrix</strong>
+                <a class="close-bubble" onclick="toggleBubble('guide-bubble')">[ Hide ]</a>
+            </div>
+            <p>Use the global keyboard matching engine below to scan companies, roles, or targeted countries. The listed locations prioritize precise hubs, while the sub-metadata paths define authorization scopes. Dead roles can be isolated via the visibility toggle switch.</p>
+        </div>
+
+        <input type="text" id="searchBar" placeholder="Search by title, company, region, corridor acronym, or specific suburb..." oninput="renderBoard()">
+
+        <div class="meta-actions-row">
+            <div id="matchCounter" class="result-counter">Showing 0 positions</div>
+            <label class="toggle-label">
+                <input type="checkbox" id="expiryToggle" onchange="renderBoard()"> Hide closed / expired
+            </label>
+        </div>
+
+        <div class="table-wrapper">
+            <table class="job-table">
+                <thead>
+                    <tr>
+                        <th style="padding-left: 0;">Role / Company</th>
+                        <th>Model</th>
+                        <th>Regions</th>
+                        <th>Recency</th>
+                        <th>Deadline</th>
+                    </tr>
+                </thead>
+                <tbody id="jobTableBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const SYSTEM_TODAY = new Date("2026-05-22");
+        let masterDatabase = [];
+
+        function toggleBubble(bubbleId) {
+            const el = document.getElementById(bubbleId);
+            const targets = ['submit-bubble', 'about-bubble', 'guide-bubble'];
+            targets.forEach(t => { if (t !== bubbleId) document.getElementById(t).style.display = 'none'; });
+            el.style.display = (el.style.display === 'block') ? 'none' : 'block';
+        }
+
+        // --- GLOBAL TECH HUB RELATIONSHIP MAP ---
+        // Enhanced EMEA properties to cleanly ingest Central European parameters
+        const regionalGeoDictionary = {
+            "us-east": [
+                "virginia", "va", "new york", "nyc", "brooklyn", "manhattan", "queens", "boston", "dc", "washington dc", "atlanta", "miami", "east coast", 
+                "mclean", "arlington", "reston", "herndon", "ashburn", "fairfax", "tysons", "alexandria", "baltimore", "charlotte", "pittsburgh", 
+                "dmv", "tri-state", "new jersey", "nj", "connecticut", "ct", "maryland", "md", "new england", "mid-atlantic", "nova", 
+                "northern virginia", "massachusetts", "ma", "pennsylvania", "pa", "philadelphia", "cambridge", "waltham", "burlington", 
+                "jersey city", "newark", "hoboken", "stamford", "greenwich", "bethesda", "rockville", "silver spring"
+            ],
+            
+            "us-west": [
+                "seattle", "bellevue", "redmond", "kirkland", "renton", "tacoma", "everett", "portland", "san francisco", "la", "los angeles", 
+                "denver", "boulder", "colorado springs", "phoenix", "west coast", "washington", "oregon", "california", "san jose", "silicon valley", 
+                "san diego", "las vegas", "salt lake city", "pnw", "pacific northwest", "bay area", "norcal", "socal", "mountain", "southwest", 
+                "colorado", "co", "utah", "ut", "arizona", "az", "nevada", "nv", "idaho", "id", "montana", "mt", "wyoming", "wy", 
+                "oakland", "palo alto", "mountain view", "sunnyvale", "cupertino", "santa clara", "menlo park", "redwood city", "berkeley", "hillsboro", "beaverton"
+            ],
+            
+            "us-central": [
+                "austin", "round rock", "chicago", "dallas", "fort worth", "plano", "frisco", "irving", "houston", "san antonio", 
+                "minneapolis", "st louis", "denison", "columbus", "huntsville", "tola", "texas", "tx", "oklahoma", "ok", "louisiana", "la", 
+                "arkansas", "ar", "south-central", "midwest", "ohio", "oh", "illinois", "il", "michigan", "mi", "indiana", "in", 
+                "colorado", "co", "denver", "naperville", "schaumburg", "dearborn", "ann arbor"
+            ],
+            
+            "emea": [
+                "london", "reading", "manchester", "birmingham", "bristol", "edinburgh", "glasgow", "belfast", "leeds", "cambridge uk", "oxford",
+                "dublin", "cork", "galway", "amsterdam", "rotterdam", "utrecht", "berlin", "frankfurt", "munich", "hamburg", "stuttgart", "dusseldorf",
+                "paris", "warsaw", "krakow", "prague", "prg", "czechia", "czech republic", "cz", "madrid", "barcelona", "lisbon", "brussels", "zurich", "geneva", "vienna", "tel aviv", "herzliya", "haifa", 
+                "jerusalem", "petah tikva", "uk", "ireland", "europe", "germany", "united kingdom", "israel", "netherlands", "poland", "belgium", "switzerland", "austria",
+                "dach", "benelux", "gulf", "gcc", "scotland"
+            ],
+            
+            "apac": [
+                "tokyo", "yokohama", "osaka", "kyoto", "nagoya", "singapore", "bengaluru", "bangalore", "hyderabad", "pune", "mumbai", "delhi", "gurgaon", "gurugram", 
+                "noida", "chennai", "kolkata", "sydney", "melbourne", "brisbane", "perth", "canberra", "auckland", "wellington", "seoul", "incheon", "cyberjaya", "kuala lumpur",
+                "japan", "india", "australia", "new zealand", "malaysia", "korea", "asia", "pacific", "anz", "asean"
+            ],
+            
+            "latam": [
+                "sao paulo", "são paulo", "rio de janeiro", "campinas", "mexico city", "cdmx", "monterrey", "guadalajara", "bogota", "bogotá", "medellin", 
+                "buenos aires", "santiago", "san jose cr", "brazil", "mexico", "colombia", "chile", "argentina", "costa rica", "latin america"
+            ]
+        };
+
+        // Programmatically compile unified cross-country dataset tracking context
+        regionalGeoDictionary["us-all"] = [
+            ...regionalGeoDictionary["us-east"],
+            ...regionalGeoDictionary["us-west"],
+            ...regionalGeoDictionary["us-central"],
+            "remote", "usa", "united states", "all us", "nationwide", "cross-country"
+        ];
+
+        // Structural Alias Mapping Normalization
+        const structuralAliases = {
+            "mountain": "us-west", "southwest": "us-west", "pnw": "us-west", "mountain view": "us-west",
+            "tola": "us-central", "us-tola": "us-central", "south-central": "us-central", "midwest": "us-central",
+            "new england": "us-east", "mid-atlantic": "us-east", "nova": "us-east", "dmv": "us-east", "tri-state": "us-east",
+            "dach": "emea", "benelux": "emea", "anz": "apac", "asean": "apac"
+        };
+        for (const [alias, parent] of Object.entries(structuralAliases)) {
+            if (regionalGeoDictionary[parent]) {
+                regionalGeoDictionary[alias] = regionalGeoDictionary[parent];
+            }
+        }
+
+        function fetchProductionDatabase() {
+            fetch('jobs.json')
+                .then(response => response.json())
+                .then(data => {
+                    masterDatabase = data;
+                    renderBoard();
+                })
+                .catch(error => {
+                    console.error("Data Engine Link Fault:", error);
+                    document.getElementById('matchCounter').innerText = "Database offline (Verify local Python server)";
+                });
+        }
+
+        function getRecencyText(dateString) {
+            const deltaDays = Math.floor((SYSTEM_TODAY - new Date(dateString)) / (1000 * 60 * 60 * 24));
+            return deltaDays === 0 ? "Today" : `${deltaDays}d ago`;
+        }
+
+        function renderBoard() {
+            const listContainer = document.getElementById('jobTableBody');
+            const shouldHide = document.getElementById('expiryToggle').checked;
+            
+            const queryRaw = document.getElementById('searchBar').value.toLowerCase().trim();
+            const queryTokens = queryRaw.split(/\s+/).filter(token => token.length > 0);
+            
+            listContainer.innerHTML = '';
+            let activeMatchCount = 0;
+
+            masterDatabase.forEach(role => {
+                const isPastDeadline = role.deadline && new Date(role.deadline) < SYSTEM_TODAY;
+                if (shouldHide && isPastDeadline) return;
+
+                let indexString = `${role.title} ${role.company} ${role.listed_locations} ${role.eligibility_regions} ${role.model}`.toLowerCase();
+                
+                const targetRegionKey = role.eligibility_regions.toLowerCase().trim();
+                if (regionalGeoDictionary[targetRegionKey]) {
+                    indexString += " " + regionalGeoDictionary[targetRegionKey].join(" ");
+                }
+
+                const matchesAllTokens = queryTokens.every(token => indexString.includes(token));
+                if (queryTokens.length > 0 && !matchesAllTokens) return;
+
+                activeMatchCount++;
+                const tr = document.createElement('tr');
+                tr.className = "job-row";
+                
+                tr.innerHTML = `
+                    <td style="padding: 12px 10px 12px 0;">
+                        <a href="${role.url}" class="job-title ${isPastDeadline ? 'status-expired' : ''}" target="_blank">${role.title}</a>
+                        <a href="${role.company_url || '#'}" class="company-link" target="_blank">${role.company} ↗</a>
+                    </td>
+                    <td class="text-blue">${role.model}</td>
+                    <td>
+                        <div class="location-city">${role.listed_locations}</div>
+                        <div class="location-region">${role.eligibility_regions}</div>
+                    </td>
+                    <td class="text-blue">${getRecencyText(role.post_date)}</td>
+                    <td class="${isPastDeadline ? 'status-expired' : 'text-blue'}">${role.deadline || '—'}</td>
+                `;
+                listContainer.appendChild(tr);
+            });
+
+            document.getElementById('matchCounter').innerText = `Showing ${activeMatchCount} position${activeMatchCount === 1 ? '' : 's'}`;
+        }
+
+        fetchProductionDatabase();
+    </script>
+</body>
+</html>

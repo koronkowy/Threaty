@@ -1,0 +1,86 @@
+[
+  {
+    "id": "1",
+    "title": "Threat Analyst, Mandiant Custom Intelligence",
+    "company": "Google / Mandiant",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/98976194145198790-threat-analyst-mandiant-custom-intelligence",
+    "company_url": "https://www.mandiant.com",
+    "model": "Remote",
+    "listed_locations": "Virginia, USA (or Remote US)",
+    "eligibility_regions": "US-All",
+    "post_date": "2026-05-22",
+    "deadline": ""
+  },
+  {
+    "id": "2",
+    "title": "Sr. Intelligence Analyst, GTAC Vulnerability Mission",
+    "company": "CrowdStrike",
+    "url": "https://crowstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Sr-Intelligence-Analyst--GTAC-Vulnerability-Mission--Remote-_R28825",
+    "company_url": "https://www.crowdstrike.com",
+    "model": "Remote",
+    "listed_locations": "UK, Ireland, or Germany (Remote)",
+    "eligibility_regions": "EMEA",
+    "post_date": "2026-05-22",
+    "deadline": ""
+  },
+  {
+    "id": "3",
+    "title": "Detection Engineer",
+    "company": "GreyNoise Intelligence",
+    "url": "https://job-boards.greenhouse.io/greynoiseintelligence/jobs/4677135005?gh_jid=4677135005",
+    "company_url": "https://www.greynoise.io/",
+    "model": "Remote",
+    "listed_locations": "United States (Remote)",
+    "eligibility_regions": "US-All",
+    "post_date": "2026-05-22",
+    "deadline": ""
+  },
+  {
+    "id": "4",
+    "title": "Senior Threat Data Infrastructure Engineer",
+    "company": "Recorded Future",
+    "url": "https://job-boards.greenhouse.io/recordedfuture/jobs/8535858002",
+    "company_url": "https://www.recordedfuture.com/",
+    "model": "Remote",
+    "listed_locations": "United Kingdom (Remote)",
+    "eligibility_regions": "EMEA",
+    "post_date": "2026-05-22",
+    "deadline": ""
+  },
+  {
+    "id": "5",
+    "title": "Cyber Threat Intelligence Analyst",
+    "company": "Bitsight",
+    "url": "https://bitsight.wd1.myworkdayjobs.com/en-US/Bitsight/details/Cyber-Threat-Intelligence-Analyst_JR101186",
+    "company_url": "https://www.bitsight.com/",
+    "model": "Hybrid",
+    "listed_locations": "Tel Aviv, Israel",
+    "eligibility_regions": "EMEA",
+    "post_date": "2026-05-22",
+    "deadline": ""
+  },
+  {
+    "id": "6",
+    "title": "Senior Backend Engineer, Threat Intelligence",
+    "company": "Rapid7",
+    "url": "https://careers.rapid7.com/jobs/senior-backend-engineer-threat-intelligence-prague-czechia-678f874a-6bc7-454a-aa5c-19423d4a2096",
+    "company_url": "https://www.rapid7.com/",
+    "model": "Hybrid",
+    "listed_locations": "Prague, Czechia",
+    "eligibility_regions": "EMEA",
+    "post_date": "2026-05-22",
+    "deadline": ""
+  },
+  {
+    "id": "7",
+    "title": "Senior Threat Advisor",
+    "company": "SentinelOne",
+    "url": "https://www.sentinelone.com/jobs/?gh_jid=7693689003",
+    "company_url": "https://www.sentinelone.com/",
+    "model": "Remote",
+    "listed_locations": "United States",
+    "eligibility_regions": "US-All",
+    "post_date": "2026-05-22",
+    "deadline": ""
+  }
+]
