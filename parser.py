@@ -39,7 +39,7 @@ def parse_job(url):
     """
     
     # Use the proven 'gemini-1.5-flash' endpoint
-    endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+    endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={api_key}"
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
     
     response = requests.post(endpoint, json=payload)
