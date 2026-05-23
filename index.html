@@ -270,7 +270,7 @@
         <div class="meta-actions-row">
             <div id="matchCounter" class="result-counter">Showing 0 positions</div>
             <label class="toggle-label">
-                <input type="checkbox" id="expiryToggle" onchange="renderBoard()"> Hide closed / expired
+                <input type="checkbox" id="hideExpired" onchange="renderBoard()"> Hide expired roles
             </label>
         </div>
 
@@ -387,51 +387,57 @@
         }
 
         function renderBoard() {
-            const listContainer = document.getElementById('jobTableBody');
-            const shouldHide = document.getElementById('expiryToggle').checked;
-            
-            const queryRaw = document.getElementById('searchBar').value.toLowerCase().trim();
-            const queryTokens = queryRaw.split(/\s+/).filter(token => token.length > 0);
-            
-            listContainer.innerHTML = '';
-            let activeMatchCount = 0;
+    const listContainer = document.getElementById('jobTableBody');
+    // Ensure this ID matches your HTML exactly
+    const hideExpired = document.getElementById('hideExpired').checked; 
+    
+    const queryRaw = document.getElementById('searchBar').value.toLowerCase().trim();
+    const queryTokens = queryRaw.split(/\s+/).filter(token => token.length > 0);
+    
+    listContainer.innerHTML = '';
+    let activeMatchCount = 0;
 
-            masterDatabase.forEach(role => {
-                const isPastDeadline = role.deadline && new Date(role.deadline) < SYSTEM_TODAY;
-                if (shouldHide && isPastDeadline) return;
+    masterDatabase.forEach(role => {
+        // --- THE FILTER LOGIC ---
+        // If toggle is ON, skip jobs marked 'expired'
+        if (hideExpired && role.status === 'expired') return;
+        // ------------------------
 
-                let indexString = `${role.title} ${role.company} ${role.listed_locations} ${role.eligibility_regions} ${role.model}`.toLowerCase();
-                
-                const targetRegionKey = role.eligibility_regions.toLowerCase().trim();
-                if (regionalGeoDictionary[targetRegionKey]) {
-                    indexString += " " + regionalGeoDictionary[targetRegionKey].join(" ");
-                }
-
-                const matchesAllTokens = queryTokens.every(token => indexString.includes(token));
-                if (queryTokens.length > 0 && !matchesAllTokens) return;
-
-                activeMatchCount++;
-                const tr = document.createElement('tr');
-                tr.className = "job-row";
-                
-                tr.innerHTML = `
-                    <td style="padding: 12px 10px 12px 0;">
-                        <a href="${role.url}" class="job-title ${isPastDeadline ? 'status-expired' : ''}" target="_blank">${role.title}</a>
-                        <a href="${role.company_url || '#'}" class="company-link" target="_blank">${role.company} ↗</a>
-                    </td>
-                    <td class="text-blue">${role.model}</td>
-                    <td>
-                        <div class="location-city">${role.listed_locations}</div>
-                        <div class="location-region">${role.eligibility_regions}</div>
-                    </td>
-                    <td class="text-blue">${getRecencyText(role.post_date)}</td>
-                    <td class="${isPastDeadline ? 'status-expired' : 'text-blue'}">${role.deadline || '—'}</td>
-                `;
-                listContainer.appendChild(tr);
-            });
-
-            document.getElementById('matchCounter').innerText = `Showing ${activeMatchCount} position${activeMatchCount === 1 ? '' : 's'}`;
+        let indexString = `${role.title} ${role.company} ${role.listed_locations} ${role.eligibility_regions} ${role.model}`.toLowerCase();
+        
+        const targetRegionKey = role.eligibility_regions.toLowerCase().trim();
+        if (regionalGeoDictionary[targetRegionKey]) {
+            indexString += " " + regionalGeoDictionary[targetRegionKey].join(" ");
         }
+
+        const matchesAllTokens = queryTokens.every(token => indexString.includes(token));
+        if (queryTokens.length > 0 && !matchesAllTokens) return;
+
+        activeMatchCount++;
+        const tr = document.createElement('tr');
+        // Add CSS class for expired styling
+        tr.className = `job-row ${role.status === 'expired' ? 'dimmed' : ''}`;
+        
+        tr.innerHTML = `
+            <td style="padding: 12px 10px 12px 0;">
+                <a href="${role.url}" class="job-title ${role.status === 'expired' ? 'status-expired' : ''}" target="_blank">${role.title}</a>
+                <a href="${role.company_url || '#'}" class="company-link" target="_blank">${role.company} ↗</a>
+            </td>
+            <td class="text-blue">${role.model}</td>
+            <td>
+                <div class="location-city">${role.listed_locations}</div>
+                <div class="location-region">${role.eligibility_regions}</div>
+            </td>
+            <td class="text-blue">${role.post_date}</td>
+            <td class="${role.status === 'expired' ? 'status-expired' : 'text-blue'}" style="text-align: center;">
+    ${role.deadline === 'Expired' ? 'Expired' : (role.deadline || '—')}
+</td>
+        `;
+        listContainer.appendChild(tr);
+    });
+
+    document.getElementById('matchCounter').innerText = `Showing ${activeMatchCount} position${activeMatchCount === 1 ? '' : 's'}`;
+}
 
         fetchProductionDatabase();
     </script>

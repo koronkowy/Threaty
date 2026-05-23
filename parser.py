@@ -27,6 +27,7 @@ def parse_job(url):
     {{
       "title": "Job Title",
       "company": "Company Name",
+      "status": "active",
       "url": "{url}",
       "company_url": "Main corporate website URL",
       "listed_locations": "Exact city/state listed",

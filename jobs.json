@@ -2,17 +2,19 @@
   {
     "title": "Threat Analyst, Mandiant Custom Intelligence",
     "company": "Google / Mandiant",
+    "status": "active",
     "url": "https://www.google.com/about/careers/applications/jobs/results/98976194145198790-threat-analyst-mandiant-custom-intelligence",
     "company_url": "https://www.mandiant.com",
     "model": "Remote",
     "listed_locations": "Virginia, USA (or Remote US)",
     "eligibility_regions": "US-All",
-    "post_date": "2026-05-22",
+    "post_date": "2026-03-22",
     "deadline": ""
   },
   {
     "title": "Sr. Intelligence Analyst, GTAC Vulnerability Mission",
     "company": "CrowdStrike",
+    "status": "active",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Sr-Intelligence-Analyst--GTAC-Vulnerability-Mission--Remote-_R28825",
     "company_url": "https://www.crowdstrike.com",
     "model": "Remote",
@@ -24,6 +26,7 @@
   {
     "title": "Detection Engineer",
     "company": "GreyNoise Intelligence",
+    "status": "active",
     "url": "https://job-boards.greenhouse.io/greynoiseintelligence/jobs/4677135005?gh_jid=4677135005",
     "company_url": "https://www.greynoise.io/",
     "model": "Remote",
@@ -35,6 +38,7 @@
   {
     "title": "Senior Threat Data Infrastructure Engineer",
     "company": "Recorded Future",
+    "status": "active",
     "url": "https://job-boards.greenhouse.io/recordedfuture/jobs/8535858002",
     "company_url": "https://www.recordedfuture.com/",
     "model": "Remote",
@@ -46,6 +50,7 @@
   {
     "title": "Cyber Threat Intelligence Analyst",
     "company": "Bitsight",
+    "status": "active",
     "url": "https://bitsight.wd1.myworkdayjobs.com/en-US/Bitsight/details/Cyber-Threat-Intelligence-Analyst_JR101186",
     "company_url": "https://www.bitsight.com/",
     "model": "Hybrid",
@@ -57,6 +62,7 @@
   {
     "title": "Senior Backend Engineer, Threat Intelligence",
     "company": "Rapid7",
+    "status": "active",
     "url": "https://careers.rapid7.com/jobs/senior-backend-engineer-threat-intelligence-prague-czechia-678f874a-6bc7-454a-aa5c-19423d4a2096",
     "company_url": "https://www.rapid7.com/",
     "model": "Hybrid",
@@ -68,6 +74,7 @@
   {
     "title": "Senior Threat Advisor",
     "company": "SentinelOne",
+    "status": "active",
     "url": "https://www.sentinelone.com/jobs/?gh_jid=7693689003",
     "company_url": "https://www.sentinelone.com/",
     "model": "Remote",
@@ -79,6 +86,7 @@
   {
     "title": "Customer Success Manager - Federal",
     "company": "GreyNoise Intelligence",
+    "status": "active",
     "url": "https://job-boards.greenhouse.io/greynoiseintelligence/jobs/4684861005?gh_jid=4684861005",
     "company_url": "https://greynoise.io",
     "listed_locations": "Washington, DC or Remote",
@@ -90,6 +98,7 @@
   {
     "title": "Threat Hunting Investigator",
     "company": "Cisco",
+    "status": "active",
     "url": "https://careers.cisco.com/global/en/job/1450538/Threat-Hunting-Investigator",
     "company_url": "https://www.cisco.com",
     "listed_locations": "Bangalore, India",
@@ -101,6 +110,7 @@
   {
     "title": "Forensic Analyst Technical Leader",
     "company": "Cisco",
+    "status": "active",
     "url": "https://careers.cisco.com/global/en/job/2011432/Forensic-Analyst-Technical-Leader",
     "company_url": "https://www.cisco.com",
     "listed_locations": "Canberra, Brisbane, Melbourne, Australia",
@@ -112,6 +122,7 @@
   {
     "title": "Threat Hunting Lead",
     "company": "Dropzone AI",
+    "status": "active",
     "url": "https://ats.rippling.com/dropzone-ai/jobs/1dd77f3b-e624-464a-aeed-7ff433eb0fee",
     "company_url": "https://www.dropzone.ai",
     "listed_locations": "United States",
@@ -123,6 +134,7 @@
   {
     "title": "Threat Analyst",
     "company": "Socket",
+    "status": "active",
     "url": "https://jobs.ashbyhq.com/socket/7049663a-829f-4346-81ee-423d78a8589d",
     "company_url": "https://socket.dev/",
     "listed_locations": "United States",
@@ -134,6 +146,7 @@
   {
     "title": "Senior OT Threat Hunter",
     "company": "Dragos",
+    "status": "active",
     "url": "https://job-boards.greenhouse.io/dragos/jobs/5169386008",
     "company_url": "https://www.dragos.com",
     "listed_locations": "Australia",
