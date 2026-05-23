@@ -220,7 +220,15 @@
                 <strong>📥 How to Submit a Position</strong>
                 <a class="close-bubble" onclick="toggleBubble('submit-bubble')">[ Hide ]</a>
             </div>
-            <p>To post an active tracking lead, open a new issue in the GitHub repository and paste the destination URL straight into the issue body text. The internal background scraping actions will analyze the landing page assets and format the live listing automatically.</p>
+            <p>To add a new role to the board, follow these three simple steps:</p>
+             <ul>
+        <li><strong>Open an Issue:</strong> Navigate to the <a href="https://github.com/koronkowy/Threaty/issues">GitHub Issues</a> tab and click "New issue." <em>Note: You can title the issue anything you want; it does not affect the submission.</em></li>
+        <li><strong>Paste & Label:</strong> Paste the direct URL of the job posting into the issue body. <strong>Crucial:</strong> Add the <code>job-submission</code> label to the issue so the automated pipeline detects it.</li>
+        <li><strong>Review & Merge:</strong> Our background "Data Clerk" will automatically scrape the listing and create a Pull Request. The team will receive a notification to review the generated JSON. Once we approve the changes, the role will be merged and appear live on the board.</li>
+    </ul>
+    <p style="font-size: 0.9em; color: #d9534f;">
+        <strong>Warning:</strong> Please do not submit URLs unless they are job postings. Too many junk submissions may result in you being banned from the ability to submit further jobs.
+    </p>
         </div>
 
         <div id="about-bubble" class="bubble-area">
