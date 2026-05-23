@@ -43,6 +43,8 @@ Threaty utilizes GitHub’s native infrastructure for a zero-cost, high-performa
 
 ## 🤖 Automation: Daily Health Check
 
+![Daily Health Check](https://github.com/koronkowy/Threaty/actions/workflows/health_check.yml/badge.svg)
+
 To ensure the job board stays relevant, I’ve built an automated **Health Check** pipeline that runs daily to identify expired or broken job postings.
 
 ### How it works
