@@ -54,7 +54,6 @@ def parse_job(url):
         content = data['candidates'][0]['content']['parts'][0]['text']
         json_text = content.replace('```json', '').replace('```', '').strip()
         parsed_json = json.loads(json_text)
-        parsed_json['id'] = 0 # Placeholder for PR review
         return json.dumps(parsed_json, indent=2)
     else:
         print(f"API Error: {response.text}", file=sys.stderr)

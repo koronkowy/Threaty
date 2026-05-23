@@ -35,22 +35,14 @@ jobs:
           # 1. Extract the first URL found in the issue body
           URL=$(grep -oE 'https?://[a-zA-Z0-9./?=_-]+' <<< "${{ github.event.issue.body }}" | head -n 1)
           
-          # 2. Run the parser and capture output
-          python3 parser.py "$URL" > raw_job.json
+          # 2. Run the parser
+          python3 parser.py "$URL" > new_job_temp.json
           
-          # 3. Calculate the next ID
-          # Reads the last ID from jobs.json, adds 1
-          LAST_ID=$(jq '.[-1].id' jobs.json | tr -d '"')
-          NEXT_ID=$((LAST_ID + 1))
-          
-          # 4. Inject the NEXT_ID into the new job object
-          jq --arg id "$NEXT_ID" '.id = $id' raw_job.json > new_job_temp.json
-          
-          # 5. Append to jobs.json
-          sed -i '$d' jobs.json
-          echo "," >> jobs.json
-          cat new_job_temp.json >> jobs.json
-          echo "]" >> jobs.json
+          # 3. Atomic Merge using jq 
+          # This reads your current jobs.json, adds the new job, and saves it back
+          # This replaces the fragile sed/echo/cat logic
+          jq -s '.[0] + [.[1]]' jobs.json new_job_temp.json > jobs_updated.json
+          mv jobs_updated.json jobs.json
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
