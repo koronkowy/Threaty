@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 from datetime import date
 
 def parse_job(url):
-    api_key = os.getenv("GEMINI_API_KEY")
-    if not api_key:
+    GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+    if not GEMINI_API_KEY:
         print("Error: GEMINI_API_KEY not set in environment.", file=sys.stderr)
         sys.exit(1)
 
