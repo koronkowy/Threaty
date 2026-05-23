@@ -77,58 +77,69 @@
     "deadline": ""
   },
   {
-  "title": "Customer Success Manager - Federal",
-  "company": "GreyNoise Intelligence",
-  "url": "https://job-boards.greenhouse.io/greynoiseintelligence/jobs/4684861005?gh_jid=4684861005",
-  "company_url": "https://greynoise.io",
-  "listed_locations": "Washington, DC or Remote",
-  "eligibility_regions": "US-All",
-  "model": "Remote",
-  "deadline": "",
-  "post_date": "2026-05-22"
+    "title": "Customer Success Manager - Federal",
+    "company": "GreyNoise Intelligence",
+    "url": "https://job-boards.greenhouse.io/greynoiseintelligence/jobs/4684861005?gh_jid=4684861005",
+    "company_url": "https://greynoise.io",
+    "listed_locations": "Washington, DC or Remote",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-05-22"
   },
   {
-  "title": "Threat Hunting Investigator",
-  "company": "Cisco",
-  "url": "https://careers.cisco.com/global/en/job/1450538/Threat-Hunting-Investigator",
-  "company_url": "https://www.cisco.com",
-  "listed_locations": "Bangalore, India",
-  "eligibility_regions": "APAC",
-  "model": "Hybrid", 
-  "deadline": "",
-  "post_date": "2026-05-22"
-},
-{
-  "title": "Forensic Analyst Technical Leader",
-  "company": "Cisco",
-  "url": "https://careers.cisco.com/global/en/job/2011432/Forensic-Analyst-Technical-Leader",
-  "company_url": "https://www.cisco.com",
-  "listed_locations": "Canberra, Brisbane, Melbourne, Australia",
-  "eligibility_regions": "APAC",
-  "model": "Hybrid",
-  "deadline": "",
-  "post_date": "2026-05-22"
-},
-{
-  "title": "Threat Hunting Lead",
-  "company": "Dropzone AI",
-  "url": "https://ats.rippling.com/dropzone-ai/jobs/1dd77f3b-e624-464a-aeed-7ff433eb0fee",
-  "company_url": "https://www.dropzone.ai",
-  "listed_locations": "United States",
-  "eligibility_regions": "US-All",
-  "model": "Remote",
-  "deadline": "",
-  "post_date": "2026-05-22"
-},
-{
-  "title": "Threat Analyst",
-  "company": "Socket",
-  "url": "https://jobs.ashbyhq.com/socket/7049663a-829f-4346-81ee-423d78a8589d",
-  "company_url": "https://socket.dev/",
-  "listed_locations": "United States",
-  "eligibility_regions": "US-All",
-  "model": "Remote",
-  "deadline": "",
-  "post_date": "2026-05-22"
-}
+    "title": "Threat Hunting Investigator",
+    "company": "Cisco",
+    "url": "https://careers.cisco.com/global/en/job/1450538/Threat-Hunting-Investigator",
+    "company_url": "https://www.cisco.com",
+    "listed_locations": "Bangalore, India",
+    "eligibility_regions": "APAC",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-05-22"
+  },
+  {
+    "title": "Forensic Analyst Technical Leader",
+    "company": "Cisco",
+    "url": "https://careers.cisco.com/global/en/job/2011432/Forensic-Analyst-Technical-Leader",
+    "company_url": "https://www.cisco.com",
+    "listed_locations": "Canberra, Brisbane, Melbourne, Australia",
+    "eligibility_regions": "APAC",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-05-22"
+  },
+  {
+    "title": "Threat Hunting Lead",
+    "company": "Dropzone AI",
+    "url": "https://ats.rippling.com/dropzone-ai/jobs/1dd77f3b-e624-464a-aeed-7ff433eb0fee",
+    "company_url": "https://www.dropzone.ai",
+    "listed_locations": "United States",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-05-22"
+  },
+  {
+    "title": "Threat Analyst",
+    "company": "Socket",
+    "url": "https://jobs.ashbyhq.com/socket/7049663a-829f-4346-81ee-423d78a8589d",
+    "company_url": "https://socket.dev/",
+    "listed_locations": "United States",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-05-22"
+  },
+  {
+    "title": "Senior OT Threat Hunter",
+    "company": "Dragos",
+    "url": "https://job-boards.greenhouse.io/dragos/jobs/5169386008",
+    "company_url": "https://www.dragos.com",
+    "listed_locations": "Australia",
+    "eligibility_regions": "APAC",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-05-22"
+  }
 ]
