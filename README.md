@@ -41,16 +41,6 @@ Threaty utilizes GitHub’s native infrastructure for a zero-cost, high-performa
 
 ## 🛡️ Security & Integrity
 
-### Branch Protection (The Gatekeeper)
-
-To ensure the integrity of our dataset, `main` is a protected branch.
-
-* **Ruleset:** We utilize GitHub Branch Rulesets to enforce that no code can be merged without:
-  * A successful pull request.
-  * A manual review/approval (Human-in-the-Loop).
-  * Passing status checks (the parser must succeed).
-* **Force Push/Deletion:** Disabled to ensure history remains immutable and accidental deletions are impossible.
-
 ### Secret Management
 
 Your **Gemini API Key** is never hardcoded. It is stored in **GitHub Repository Secrets** and injected into the workflow at runtime, ensuring complete security.
