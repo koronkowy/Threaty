@@ -2,29 +2,41 @@ name: Daily Job Health Check
 on:
   schedule:
     - cron: '0 0 * * *' # Runs at midnight UTC every day
-  workflow_dispatch: # Allows you to run it manually when you want
+  workflow_dispatch: # Allows you to run it manually
 
 jobs:
   health-check:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      pull-requests: write
     steps:
       - uses: actions/checkout@v4
+      
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
+
+      # 1. Install necessary dependencies
+      - name: Install Dependencies
+        run: |
+          pip install requests beautifulsoup4
+
+      # 2. Run the health check script
       - name: Run Health Check
         run: |
-          # This script will read jobs.json, check links, 
-          # and update statuses to "active" or "closed"
           python3 health_check.py
+
+      # 3. Commit & Push only if changes were detected
       - name: Commit & Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add jobs.json
-          git commit -m "chore: automated job health check"
-          git push
+          # Check if there are changes to commit
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: automated job health check"
+            git push
+          else
+            echo "No changes detected, skipping commit."
+          fi
