@@ -39,6 +39,32 @@ Threaty utilizes GitHub’s native infrastructure for a zero-cost, high-performa
 
 ---
 
+
+
+## 🤖 Automation: Daily Health Check
+
+To ensure the job board stays relevant, I’ve built an automated **Health Check** pipeline that runs daily to identify expired or broken job postings.
+
+### How it works
+
+The `health_check.py` script performs the following logic on every job in the database:
+
+1. **Maintenance Awareness:** It scrapes page content for keywords (e.g., "maintenance," "scheduled-downtime"). If found, it skips the job, preventing false "expired" statuses during temporary outages.
+2. **Deadline Verification:** Any job that has passed its `deadline` date is automatically flagged as `expired`.
+3. **Link Integrity:** The script validates that the job URL is still a valid, unique posting. It detects:
+   * **HTTP 404/410 Errors:** Confirmed broken links.
+   * **Generic Redirects:** If a link redirects to a career portal homepage (instead of a specific job ID), it marks the listing as `expired`.
+4. **Self-Healing:** Once a job is marked `expired`, the script updates the status in `jobs.json`, which automatically triggers the frontend to dim the listing and update the deadline display to "Expired".
+
+### Automated Pipeline
+
+This process is fully hands-free:
+
+* **GitHub Actions:** A scheduled workflow runs the script every day at midnight (UTC).
+* **Auto-Commit:** If any jobs are flagged as expired, the workflow automatically commits the changes to the `main` branch, keeping the live board updated without manual intervention.
+
+---
+
 ## 🛡️ Security & Integrity
 
 ### Secret Management
@@ -48,7 +74,6 @@ Your **Gemini API Key** is never hardcoded. It is stored in **GitHub Repository 
 ---
 
 ## 🗺️ Geographic & Regional Logic
-
 
 | **Region**     | **Mapping Logic**                | **Examples / Hubs**                                                     |
 | -------------------- | -------------------------------------- | ----------------------------------------------------------------------------- |
@@ -67,7 +92,5 @@ Your **Gemini API Key** is never hardcoded. It is stored in **GitHub Repository 
 * **Territory Alias Support:** The engine natively resolves industry shorthand. **Typing territory codes like ** **TOLA** **, ** **DMV** **, ** **DACH** **, ** **ANZ** **, or ****PNW** into the search bar instantly expands the query to include all associated cities, states, and regional authorization constraints.
 
 ---
-
-
 
 *Built for the community. High signal, low noise.*
