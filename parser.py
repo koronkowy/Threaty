@@ -21,20 +21,25 @@ def parse_job(url):
         print(f"Error scraping: {e}", file=sys.stderr)
         sys.exit(1)
 
-    prompt = f"""
+   prompt = f"""
     Analyze the following job description and extract the data fields below.
-    Required JSON Schema:
+    Required JSON Schema (Do not deviate):
     {{
       "title": "Job Title",
       "company": "Company Name",
       "url": "{url}",
       "company_url": "Main corporate website URL",
-      "listed_locations": "Exact location text",
-      "eligibility_regions": "US-All, US-East, US-West, US-Central, or EMEA",
+      "listed_locations": "Exact city/state listed",
+      "eligibility_regions": "Map locations to: US-All, US-East, US-West, US-Central, EMEA, or APAC",
       "model": "Remote, Hybrid, or Onsite",
       "deadline": "YYYY-MM-DD or empty string",
       "post_date": "{date.today().isoformat()}"
     }}
+    Rules:
+    - If listed_locations is Bangalore, Mumbai, Tokyo, etc., eligibility_regions MUST be 'APAC'.
+    - If listed_locations is in Germany, UK, etc., eligibility_regions MUST be 'EMEA'.
+    - If a field is missing, use an empty string. Do not hallucinate.
+
     Job Text: {text}
     """
     
