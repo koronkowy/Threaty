@@ -62,11 +62,9 @@ def main():
     if len(sys.argv) < 2:
         sys.exit(1)
 
-    # Split the input issue body into a list of URLs
     input_data = sys.argv[1]
     urls = [line.strip() for line in input_data.splitlines() if line.strip().startswith('http')]
     
-    # Load existing database
     db_file = 'jobs.json'
     try:
         with open(db_file, 'r') as f:
@@ -74,18 +72,29 @@ def main():
     except FileNotFoundError:
         jobs = []
 
-    # Process each URL
+    failed_urls = [] # List to track failures
+    
     for url in urls:
         print(f"[*] Processing: {url}")
         new_job = parse_job_with_gemini(url)
         if new_job:
             jobs.append(new_job)
             print(f"[+] Successfully added: {new_job['title']}")
+        else:
+            failed_urls.append(url) # Add to list if parsing failed
 
     # Save the full updated list
     with open(db_file, 'w') as f:
         json.dump(jobs, f, indent=2)
-    print(f"[*] Batch processing complete. Total jobs: {len(jobs)}")
+    
+    # Print failure block for the GitHub Action to capture
+    if failed_urls:
+        print("\nFAILED_URLS_START")
+        for f_url in failed_urls:
+            print(f_url)
+        print("FAILED_URLS_END")
+        
+    print(f"[*] Batch processing complete. Added: {len(urls) - len(failed_urls)}, Failed: {len(failed_urls)}")
 
 if __name__ == "__main__":
     main()
