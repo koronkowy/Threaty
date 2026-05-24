@@ -30,10 +30,10 @@ jobs:
       - name: Run Data Clerk Parser
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        # We redirect output to a log file so we can parse it later
         run: |
-          # Pass the entire issue body directly to the parser
-          # The parser now handles reading jobs.json, appending, and saving
-          python3 parser.py "${{ github.event.issue.body }}"
+          python3 parser.py "${{ github.event.issue.body }}" > run.log
+          cat run.log
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
@@ -46,7 +46,21 @@ jobs:
           assignees: koronkowy
           
       - name: Comment on Issue
+        if: always() # Ensures this runs even if the parser or PR creation has issues
         run: |
-          gh issue comment ${{ github.event.issue.number }} --body "Batch processing complete! Please review the linked Pull Request for final approval."
+          # Use sed to extract lines between our custom markers
+          FAILURES=$(sed -n '/FAILED_URLS_START/,/FAILED_URLS_END/p' run.log | sed '1d;$d')
+          
+          if [ ! -z "$FAILURES" ]; then
+            COMMENT="⚠️ Batch processing complete, but some jobs failed:
+            
+            $FAILURES
+            
+            Please check these links manually and submit them again if needed. The successful jobs are in the Pull Request below."
+          else
+            COMMENT="Batch processing complete! All jobs added successfully. Please review the Pull Request for final approval."
+          fi
+          
+          gh issue comment ${{ github.event.issue.number }} --body "$COMMENT"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
