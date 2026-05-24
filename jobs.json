@@ -610,5 +610,53 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-05-24"
+  },
+  {
+    "title": "Analyst, Unit 42 MDR",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/warsaw/analyst-unit-42-mdr/47263/94974208928",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Warsaw, Mazovia, Poland",
+    "eligibility_regions": "EMEA",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-05-24"
+  },
+  {
+    "title": "Sr Cloud Infrastructure Engineer (Advanced Threat Protection)",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/sr-site-reliability-engineer-advanced-threat-protection/47263/94312003312",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Santa Clara, California",
+    "eligibility_regions": "US-West",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-05-24"
+  },
+  {
+    "title": "QRadar Advisor",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/charlotte/qradar-advisor/47263/93425815648",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Charlotte, North Carolina, United States",
+    "eligibility_regions": "US-East",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-05-24"
+  },
+  {
+    "title": "Product Management Director, Okta Identity Threat Detection and Response Products",
+    "company": "Okta",
+    "status": "active",
+    "url": "https://www.okta.com/company/careers/product/product-management-director-okta-identity-threat-detection-and-response-1/",
+    "company_url": "https://www.okta.com",
+    "listed_locations": "New York, New York",
+    "eligibility_regions": "US-East",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-05-24"
   }
 ]
