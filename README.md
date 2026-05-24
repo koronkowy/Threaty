@@ -19,10 +19,17 @@ By surfacing region constraints, work models, and dynamic recency metrics direct
 To add a new role to the board, follow these three simple steps:
 
 1. **Open an Issue:** Navigate to the [GitHub Issues](https://github.com/koronkowy/Threaty/issues) tab and click "New issue." *Note: You can title the issue anything you want; it does not affect the submission.*
-2. **Paste & Label:** Paste the direct URL of the job posting into the issue body. **Crucial:** Add the `job-submission` label to the issue so the automated pipeline detects it.
+2. **Paste & Label:** Paste the direct URL of the job posting into the issue body. **Crucial:** Add the `job-submission` label to the issue so the automated pipeline detects it at the time of creating the issue.
 3. **Review & Merge:** Our background "Data Clerk" will automatically scrape the listing and create a Pull Request. The team will receive a notification to review the generated JSON. Once we approve the changes, the role will be merged and appear live on the board.
 
 > **Note:** Please submit only active job postings. Submitting non-job URLs or "junk" data may result in submission privileges being revoked.
+
+Threaty now supports **Bulk Ingestion**. You can submit multiple job postings at once to avoid merge conflicts and speed up your workflow.
+
+1. **Open an Issue:** Navigate to the [GitHub Issues](https://github.com/koronkowy/Threaty/issues) tab.
+2. **Paste URLs:** Simply paste the direct URLs of the job postings in the issue body, one per line.
+3. **Label:** Apply the `job-submission` label before submitting the issue.
+4. **Automatic Processing:** Our "Data Clerk" will process the batch, add them to `jobs.json`, and open a single Pull Request for your review. Failed links will be reported directly back to the issue.
 
 ---
 
@@ -38,8 +45,6 @@ Threaty utilizes GitHub’s native infrastructure for a zero-cost, high-performa
 4. **Human Gatekeeper:** A **Pull Request** is generated. This allows for manual verification of scope (CTI relevance), data accuracy, and final approval before hitting `main`.
 
 ---
-
-
 
 ## 🤖 Automation: Daily Health Check
 

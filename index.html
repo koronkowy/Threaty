@@ -215,21 +215,22 @@
             <a onclick="toggleBubble('guide-bubble')">[ Usage Guide ]</a>
         </div>
 
-        <div id="submit-bubble" class="bubble-area">
-            <div class="bubble-header">
-                <strong>📥 How to Submit a Position</strong>
-                <a class="close-bubble" onclick="toggleBubble('submit-bubble')">[ Hide ]</a>
-            </div><p style="margin-top: 25px; padding: 15px; border-left: 4px solid #ff69b4; background: #f9f9f9; font-size: 0.9em; color: #555;">
-        <strong>Note:</strong> Please submit only active job postings. Submitting non-job URLs or "junk" data may result in submission privileges being revoked.
+<div id="submit-bubble" class="bubble-area">
+    <div class="bubble-header">
+        <strong>📥 How to Submit Positions (Bulk)</strong>
+        <a class="close-bubble" onclick="toggleBubble('submit-bubble')">[ Hide ]</a>
+    </div>
+    <p style="margin-top: 15px; padding: 15px; border-left: 4px solid #ff69b4; background: #f9f9f9; font-size: 0.9em; color: #555;">
+        <strong>Note:</strong> You can submit multiple jobs at once! Simply paste a list of URLs (one per line) into the issue body.
     </p>
-    <p>To add a new role to the board, follow these three simple steps:</p>
+    <p>To add new roles, follow these three steps:</p>
     
-    <p><strong>1. Open an Issue:</strong> Navigate to the <a href="https://github.com/koronkowy/Threaty/issues" style="color:#0078D4;">GitHub Issues</a> tab and click "New issue." Note: You can title the issue anything you want; it does not affect the submission.</p>
+    <p><strong>1. Open an Issue:</strong> Navigate to the <a href="https://github.com/koronkowy/Threaty/issues" style="color:#0078D4;">GitHub Issues</a> tab and click "New issue."</p>
     
-    <p><strong>2. Paste & Label:</strong> Paste the direct URL of the job posting into the issue body. <strong>Crucial:</strong> Add the <code>job-submission</code> label to the issue so the automated pipeline detects it.</p>
+    <p><strong>2. Paste & Label:</strong> Paste the direct URLs of the job postings into the issue body, one per line. <strong>Crucial:</strong> Add the <code>job-submission</code> label so the pipeline detects the batch.</p>
     
-    <p><strong>3. Review & Merge:</strong> Our background "Data Clerk" will automatically scrape the listing and create a Pull Request. The team will receive a notification to review the generated JSON. Once approved, the role will be merged and appear live on the board.</p>
-        </div>
+    <p><strong>3. Review & Merge:</strong> Our "Data Clerk" will process every link, scrape the data, and open a single Pull Request containing all successful additions. Simply review the updated <code>jobs.json</code> and merge.</p>
+</div>
 
         <div id="about-bubble" class="bubble-area">
     <div class="bubble-header">
