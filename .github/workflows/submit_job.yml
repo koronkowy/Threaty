@@ -9,7 +9,6 @@ concurrency:
 
 jobs:
   ingest-job:
-    # Only run if the issue has the 'job-submission' label
     if: contains(github.event.issue.labels.*.name, 'job-submission')
     runs-on: ubuntu-latest
     permissions:
@@ -32,40 +31,22 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
-          # 1. Extract the first URL found in the issue body
-          URL=$(grep -oE 'https?://[a-zA-Z0-9./?=_-]+' <<< "${{ github.event.issue.body }}" | head -n 1)
-          
-          # 2. Run the parser
-          python3 parser.py "$URL" > new_job_temp.json
-          
-          # 3. Atomic Merge using jq 
-          # This reads your current jobs.json, adds the new job, and saves it back
-          # This replaces the fragile sed/echo/cat logic
-          jq -s '.[0] + [.[1]]' jobs.json new_job_temp.json > jobs_updated.json
-          mv jobs_updated.json jobs.json
+          # Pass the entire issue body directly to the parser
+          # The parser now handles reading jobs.json, appending, and saving
+          python3 parser.py "${{ github.event.issue.body }}"
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "Feat: Add new job from Issue #${{ github.event.issue.number }}"
-          title: "Review: New Job Submission #${{ github.event.issue.number }}"
-          body: "Automated ingestion from Issue #${{ github.event.issue.number }}. Please review the JSON data."
+          commit-message: "Feat: Add batch jobs from Issue #${{ github.event.issue.number }}"
+          title: "Review: Batch Job Submission #${{ github.event.issue.number }}"
+          body: "Automated ingestion from Issue #${{ github.event.issue.number }}. Please review the updated jobs.json."
           branch: "add-job-${{ github.event.issue.number }}"
           add-paths: jobs.json
           assignees: koronkowy
           
       - name: Comment on Issue
         run: |
-          # Capture the JSON data to include in the comment
-          JSON_DATA=$(cat new_job_temp.json)
-          COMMENT_BODY="Job processed successfully! Here is the data extracted:
-
-          \`\`\`json
-          $JSON_DATA
-          \`\`\`
-          
-          Please review the Pull Request for final approval."
-          
-          gh issue comment ${{ github.event.issue.number }} --body "$COMMENT_BODY"
+          gh issue comment ${{ github.event.issue.number }} --body "Batch processing complete! Please review the linked Pull Request for final approval."
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
