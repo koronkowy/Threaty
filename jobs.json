@@ -874,5 +874,41 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-05-27"
+  },
+  {
+    "title": "Staff Information Security Engineer - Threat Defense - Automation",
+    "company": "Proofpoint",
+    "status": "active",
+    "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Staff-Informaiton-Security-Engineer---Threat-Defense---Automation_R13936?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
+    "company_url": "https://www.proofpoint.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-05-27"
+  },
+  {
+    "title": "",
+    "company": "SentinelOne",
+    "status": "active",
+    "url": "https://www.sentinelone.com/jobs/?search=threat&l=United+States&gh_jid=7693689003",
+    "company_url": "https://www.sentinelone.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-05-27"
+  },
+  {
+    "title": "Security Research Engineer",
+    "company": "Cisco",
+    "status": "inactive",
+    "url": "https://careers.cisco.com/global/en/job/2012859/Security-Research-Engineer",
+    "company_url": "https://www.cisco.com",
+    "listed_locations": "Fulton, Maryland, United States of America",
+    "eligibility_regions": "US-East",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-05-27"
   }
 ]
