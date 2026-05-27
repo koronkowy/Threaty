@@ -30,17 +30,29 @@ def parse_job_with_gemini(url):
       "url": "{url}",
       "company_url": "Main corporate website URL",
       "listed_locations": "Exact city/state listed",
-      "eligibility_regions": "Map locations to: US-All, US-East, US-West, US-Central, EMEA, or APAC",
+      "eligibility_regions": "Map locations to: US-All, US-East, US-West, US-Central, EMEA, LATAM, or APAC",
       "model": "Remote, Hybrid, or Onsite",
       "deadline": "YYYY-MM-DD or empty string",
       "post_date": "{date.today().isoformat()}"
     }}
-    Rules: 
-    - If a field is missing, use an empty string. Do not hallucinate.
-    - Output ONLY the JSON block.
-    - If listed_locations is Bangalore, Mumbai, Tokyo, etc., eligibility_regions MUST be 'APAC'.
-    - If listed_locations is in Germany, UK, etc., eligibility_regions MUST be 'EMEA'.
-    - deadline refers to is a job posting has a submission deadline or position closing date
+
+    Rules:
+        - If a field is missing, use an empty string. Do not hallucinate.
+        - Output ONLY the JSON block.
+
+        - Work Model ('model') Extraction Logic:
+        1. Scan the raw text or scraping tags for explicit ATS telemetry, tracking properties, or metadata labels such as:
+            - '#LI-Remote', '#LI-Hybrid', '#LI-Onsite'
+            - 'workplaceTypes: 2' (LinkedIn Remote indicator)
+            - 'Location Type: Remote', 'Work Style: Hybrid'
+        2. If any matching tag or string is found, accurately set the model parameter to 'Remote', 'Hybrid', or 'Onsite'.
+        3. Fallback: If no metadata markers exist, evaluate the body text for standard structural clauses (e.g., "work from anywhere", "in-office requirements", "2 days a week in our Prague office") to deduce the correct setting.
+
+        - Regional Mapping logic:
+        - Foster City, Sunnyvale, Draper, Salt Lake City, Provo, Santa Clara, Milpitas, Redwood City, Cupertino: Map to 'US-West'.
+        - Queretaro, Monterrey, Guadalajara, Mexico City: Map to 'LATAM'.
+        - Bangalore, Mumbai, Tokyo, etc.: Map to 'APAC'.
+        - Germany, UK, etc.: Map to 'EMEA'.
 
     Job Text: {text}
     """
