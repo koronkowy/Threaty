@@ -965,8 +965,8 @@
     "status": "active",
     "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Staff-Software-Engineer_R14262?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
     "company_url": "https://www.proofpoint.com",
-    "listed_locations": "",
-    "eligibility_regions": "",
+    "listed_locations": "Draper, UT, Toronto, Canada, Pittsburgs, PA, Cork, Ireland",
+    "eligibility_regions": "US-East",
     "model": "",
     "deadline": "",
     "post_date": "2026-05-28"
@@ -979,7 +979,7 @@
     "company_url": "https://www.cisco.com",
     "listed_locations": "San Jose, California",
     "eligibility_regions": "US-West",
-    "model": "",
+    "model": "Remote",
     "deadline": "",
     "post_date": "2026-05-28"
   },
@@ -1105,13 +1105,13 @@
   },
   {
     "title": "Lead Cybersecurity Content Engineer - Defense",
-    "company": "Offsec Services",
+    "company": "Offensive Security",
     "status": "active",
     "url": "https://jobs.deel.com/offsec/job-details/3dc426ca-f39a-4536-848d-923ffe884c4c/overview",
-    "company_url": "",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "company_url": "https://www.offsec.com/",
+    "listed_locations": "Global Remote",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
     "deadline": "",
     "post_date": "2026-05-28"
   },
@@ -1133,11 +1133,11 @@
     "status": "active",
     "url": "https://fortra.wd12.myworkdayjobs.com/en-US/FortraCareers/job/VP--Managed-Security-Operations_R26-0155",
     "company_url": "https://www.fortra.com",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "listed_locations": "USA, Remote",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-05-28"
   },
   {
     "title": "Sr. Threat Researcher",
@@ -1145,9 +1145,9 @@
     "status": "active",
     "url": "https://fortra.wd12.myworkdayjobs.com/en-US/FortraCareers/job/Sr-Threat-Researcher_R26-0061",
     "company_url": "https://www.fortra.com",
-    "listed_locations": "",
+    "listed_locations": "Ontario, Canada",
     "eligibility_regions": "",
-    "model": "",
+    "model": "Remote",
     "deadline": "",
     "post_date": "2026-05-28"
   },
