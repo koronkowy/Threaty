@@ -1434,7 +1434,7 @@
     "url": "https://job-boards.greenhouse.io/andurilindustries/jobs/4925157007?gh_jid=4925157007",
     "company_url": "https://anduril.com",
     "listed_locations": "Seattle, Washington, United States",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-06-03"
@@ -1545,7 +1545,7 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-06-03"
   },
   {
     "title": "Security Software Engineer - Endpoint Security",
@@ -1564,7 +1564,7 @@
     "company": "DeleteMe",
     "status": "active",
     "url": "https://jobs.lever.co/deleteme/4e49da0e-1d77-4a5a-9814-695b0fa1480b",
-    "company_url": "",
+    "company_url": "https://joindeleteme.com/",
     "listed_locations": "Boston, MA",
     "eligibility_regions": "US-East",
     "model": "Onsite",
@@ -1576,7 +1576,7 @@
     "company": "DeleteMe",
     "status": "active",
     "url": "https://jobs.lever.co/deleteme/a935c980-f61d-448e-951f-a008bba8b97e",
-    "company_url": "",
+    "company_url": "https://joindeleteme.com/",
     "listed_locations": "Boston, MA",
     "eligibility_regions": "US-East",
     "model": "Onsite",
@@ -1588,7 +1588,7 @@
     "company": "DeleteMe",
     "status": "active",
     "url": "https://jobs.lever.co/deleteme/1ad06f05-8ca1-4025-9fcc-0df6e514f84a",
-    "company_url": "",
+    "company_url": "https://joindeleteme.com/",
     "listed_locations": "Boston, MA",
     "eligibility_regions": "US-East",
     "model": "Onsite",
