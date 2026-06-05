@@ -1930,5 +1930,17 @@
     "model": "Onsite",
     "deadline": "2026-06-17",
     "post_date": "2026-06-05"
+  },
+  {
+    "title": "Security Engineer 2 - Cyber Threat Intelligence",
+    "company": "Datadog",
+    "status": "active",
+    "url": "https://careers.datadoghq.com/detail/7982345/?gh_jid=7982345",
+    "company_url": "https://www.datadoghq.com",
+    "listed_locations": "New York, New York, USA",
+    "eligibility_regions": "US-East",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-06-05"
   }
 ]
