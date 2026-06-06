@@ -2109,7 +2109,7 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-06"
   },
   {
     "title": "Cyber Threat Intel Analyst",
@@ -2121,19 +2121,7 @@
     "eligibility_regions": "US-Central",
     "model": "Onsite",
     "deadline": "",
-    "post_date": ""
-  },
-  {
-    "title": "Senior Threat Intelligence Analyst",
-    "company": "Newrez",
-    "status": "active",
-    "url": "https://newrez.wd1.myworkdayjobs.com/en-US/NRZ/job/Senior-Threat-Intelligence-Analyst_R9720",
-    "company_url": "https://www.newrez.com",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
-    "deadline": "",
-    "post_date": ""
+    "post_date": "2026-06-06"
   },
   {
     "title": "Corporate Intelligence Analyst (Chicago Metropolitan Area)",
@@ -2141,21 +2129,21 @@
     "status": "active",
     "url": "https://www.allstate.jobs/job/22984300/corporate-intelligence-analyst-chicago-metropolitan-area-/",
     "company_url": "https://www.allstate.com",
-    "listed_locations": "Chicago Metropolitan Area, Illinois, IL",
+    "listed_locations": "Chicago, IL",
     "eligibility_regions": "US-Central",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-12"
+    "post_date": "2026-06-06"
   },
   {
-    "title": "",
-    "company": "BambooHR",
+    "title": "Cyber Threat Intel Analyst- Senior",
+    "company": "Cintel",
     "status": "active",
     "url": "https://cintel.bamboohr.com/careers/477",
-    "company_url": "",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "company_url": "https://www.cintel-inc.com/",
+    "listed_locations": "Redstone Arsenal, AL, Huntsville, AL",
+    "eligibility_regions": "US-Central",
+    "model": "Onsite",
     "deadline": "",
     "post_date": "2026-06-06"
   },
@@ -2167,31 +2155,31 @@
     "company_url": "https://www.netflix.com",
     "listed_locations": "Los Angeles, California, United States of America",
     "eligibility_regions": "US-West",
-    "model": "",
+    "model": "Onsite",
     "deadline": "",
     "post_date": "2026-06-06"
   },
   {
-    "title": "",
-    "company": "",
+    "title": "Manager, Intelligence",
+    "company": "Crisis24",
     "status": "active",
     "url": "https://jobs.dayforcehcm.com/en-US/crisis24/CANDIDATEPORTAL/jobs/22134",
-    "company_url": "",
-    "listed_locations": "",
+    "company_url": "https://www.crisis24.com/",
+    "listed_locations": "Annapolis, MD",
     "eligibility_regions": "",
-    "model": "",
+    "model": "Hybrid",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-06-06"
   },
   {
     "title": "Director, Threat Research",
     "company": "Illumio",
     "status": "active",
     "url": "https://jobs.ashbyhq.com/Illumio/655520ae-c520-476d-99f6-d5b508007d78",
-    "company_url": "",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "company_url": "https://www.illumio.com/",
+    "listed_locations": "Sunnyvale, CA",
+    "eligibility_regions": "US-West",
+    "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-06-06"
   },
@@ -2213,8 +2201,8 @@
     "status": "active",
     "url": "https://lennar.wd1.myworkdayjobs.com/en-US/Lennar_Jobs/job/Sr-Threat-Intelligence-Analyst_R26_0000001828",
     "company_url": "https://www.lennar.com",
-    "listed_locations": "",
-    "eligibility_regions": "",
+    "listed_locations": "Miami, FL, Irving, TX",
+    "eligibility_regions": "US-East, US-Central",
     "model": "",
     "deadline": "",
     "post_date": "2026-06-06"
@@ -2237,18 +2225,18 @@
     "status": "active",
     "url": "https://careers.fiserv.com/us/en/job/FFFYJUSR10388596EXTERNALENUS/VP-Cyber-Threat-Intelligence",
     "company_url": "https://www.fiserv.com",
-    "listed_locations": "Berkeley Heights, New Jersey, United States of America",
+    "listed_locations": "Berkeley Heights, NJ",
     "eligibility_regions": "US-East",
-    "model": "",
+    "model": "Onsite",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-06-06"
   },
   {
     "title": "Senior Threat Intelligence Automation Engineer",
     "company": "Galvanick",
     "status": "active",
     "url": "https://jobs.lever.co/galvanick/b8d365af-dda5-44fe-9fc1-e86d819b8b49",
-    "company_url": "",
+    "company_url": "https://www.galvanick.com/",
     "listed_locations": "Seattle, WA",
     "eligibility_regions": "US-West",
     "model": "Onsite",
@@ -2256,16 +2244,16 @@
     "post_date": "2026-06-06"
   },
   {
-    "title": "Manager, Cyber Threat Researcher, Cyber Intelligence (Remote Eligible)",
+    "title": "Manager, Cyber Threat Researcher, Cyber Intelligence",
     "company": "Capital One",
     "status": "active",
     "url": "https://www.capitalonecareers.com/job/mclean/manager-cyber-threat-researcher-cyber-intelligence-remote-eligible/1732/95857652768",
     "company_url": "https://www.capitalone.com",
-    "listed_locations": "McLean, Virginia | Richmond, Virginia | Remote | New York, New York | Plano, Texas | Chicago, Illinois",
+    "listed_locations": "McLean, VA, Richmond, VA, Remote, US, New York, NY, Plano, TX, Chicago, IL",
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-01"
+    "post_date": "2026-06-06"
   },
   {
     "title": "Director, Okta Threat Intelligence",
@@ -2273,7 +2261,7 @@
     "status": "active",
     "url": "https://www.okta.com/company/careers/security/director-okta-threat-intelligence-7923358/",
     "company_url": "https://www.okta.com",
-    "listed_locations": "Bellevue, Washington; Chicago, Illinois; New York, New York; Washington, DC",
+    "listed_locations": "Bellevue, WA, Chicago, IL, New York, NY, Washington, DC",
     "eligibility_regions": "US-All",
     "model": "Hybrid",
     "deadline": "",
@@ -2299,9 +2287,9 @@
     "company_url": "https://www.dowjones.com",
     "listed_locations": "New York, NY",
     "eligibility_regions": "US-East",
-    "model": "",
+    "model": "Hybrid",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-06-06"
   },
   {
     "title": "Technical Cyber Threat Investigator",
@@ -2309,11 +2297,11 @@
     "status": "active",
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5066995008",
     "company_url": "https://www.anthropic.com",
-    "listed_locations": "San Francisco, CA | Washington, DC",
+    "listed_locations": "San Francisco, CA, Washington, DC",
     "eligibility_regions": "US-East, US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-06-06"
   },
   {
     "title": "IT Manager - Threat Intelligence",
@@ -2321,9 +2309,9 @@
     "status": "active",
     "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/IT-Manager--Threat-Intelligence_R64102",
     "company_url": "https://www.medtronic.com",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "listed_locations": "Mounds View, MN, Fridley, MN, Fort Worth, TX, Lafayette, CO, Irvine, CA, Jacksonville, FL, Boston, MA, Memphis, TN",
+    "eligibility_regions": "US-ALL",
+    "model": "Onsite",
     "deadline": "",
     "post_date": "2026-06-06"
   }
