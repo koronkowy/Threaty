@@ -16,6 +16,8 @@ By surfacing region constraints, work models, and dynamic recency metrics direct
 
 ## 📥 How to Submit a Position
 
+> **Note:** Links from job sites like LinkedIn, Monster, ZipRecruiter, Indeed, Jobleads, or Glassdoor are unable to be parsed due to parsing being blocked by those aggregation website. Please find the direct job posting or the URL will not be able to be submitted. This is not likely to change because of the nature of these sites and their restriction on being accessed by something like a parser.
+
 To add a new role to the board, follow these three simple steps:
 
 1. **Open an Issue:** Navigate to the [GitHub Issues](https://github.com/koronkowy/Threaty/issues) tab and click "New issue." *Note: You can title the issue anything you want; it does not affect the submission.*
