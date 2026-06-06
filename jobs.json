@@ -1956,15 +1956,39 @@
     "post_date": "2026-06-06"
   },
   {
-    "title": "Cnsltng Dir - Threat Hunter",
+    "title": "Consulting Director - Threat Hunter",
     "company": "CNA",
     "status": "active",
     "url": "https://cna.wd1.myworkdayjobs.com/en-US/CNA_Careers/job/Cnsltng-Dir--Threat-Hunter_R-7373",
     "company_url": "https://www.cna.com",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "listed_locations": "Chicago, IL",
+    "eligibility_regions": "US-East",
+    "model": "Hybrid",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-06-06"
+  },
+  {
+    "title": "Threat Intelligence Analyst",
+    "company": "TENEX",
+    "status": "active",
+    "url": "https://tenex.ai/careers/open-positions/?ashby_jid=591faa7b-7065-40c6-9c74-3bbc7807ccba",
+    "company_url": "https://tenex.ai/",
+    "listed_locations": "Sarasota, FL, Kansas City, MO",
+    "eligibility_regions": "US-All",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-06-06"
+  },
+  {
+    "title": "Senior Threat Intelligence Analyst",
+    "company": "TENEX",
+    "status": "active",
+    "url": "https://tenex.ai/careers/open-positions/?ashby_jid=a0458ccb-be64-43c8-bf1c-4f500570f771",
+    "company_url": "https://tenex.ai/",
+    "listed_locations": "Sarasota, FL, Kansas City, MO, Scottsdale, AZ",
+    "eligibility_regions": "US-All",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-06-06"
   }
 ]
