@@ -2002,5 +2002,41 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-06"
+  },
+  {
+    "title": "Intelligence and Services Operations Manager",
+    "company": "Dragos",
+    "status": "active",
+    "url": "https://job-boards.greenhouse.io/dragos/jobs/5216640008",
+    "company_url": "",
+    "listed_locations": "United States",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": ""
+  },
+  {
+    "title": "Principal Security Engineer - Threat Intelligence",
+    "company": "Snowflake",
+    "status": "active",
+    "url": "https://careers.snowflake.com/us/en/job/SNCOUSAE146E6CC0C540E9B7ADA5B0B3BD1488EXTERNALENUS7504DF05EBF74C43B9BFF3820D0171E5/Principal-Security-Engineer-Threat-Intelligence",
+    "company_url": "https://www.snowflake.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": ""
+  },
+  {
+    "title": "Sr. Principal Cybersecurity Researcher (Unit 42)",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/sr-principal-cybersecurity-researcher-unit-42/47263/95988054544",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Santa Clara, California, United States",
+    "eligibility_regions": "US-West",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-06-06"
   }
 ]
