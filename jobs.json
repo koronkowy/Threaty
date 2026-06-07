@@ -2441,9 +2441,9 @@
     "status": "active",
     "url": "https://collegeboard.wd1.myworkdayjobs.com/en-US/Careers/job/Sr-Engineer--Platform-Threat-Intelligence_REQ002561",
     "company_url": "https://www.collegeboard.org",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "listed_locations": "Remote, USA",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-07"
   },
@@ -2453,9 +2453,9 @@
     "status": "active",
     "url": "https://arcticwolf.wd1.myworkdayjobs.com/en-US/External/job/Director--Threat-Intelligence-Research_R26_444",
     "company_url": "https://arcticwolf.com",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "listed_locations": "Remote, USA",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-07"
   },
@@ -2465,7 +2465,7 @@
     "status": "active",
     "url": "https://www.wiz.io/careers/job/4658917006/threat-intelligence-researcher-cloud?gh_jid=4658917006",
     "company_url": "https://www.wiz.io",
-    "listed_locations": "Remote - USA",
+    "listed_locations": "Remote, USA",
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "2026-09-29",
@@ -2481,6 +2481,6 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-06-07"
   }
 ]
