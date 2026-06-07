@@ -2398,5 +2398,41 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-06-07"
+  },
+  {
+    "title": "Cyber Intelligence Analyst",
+    "company": "MANTECH",
+    "status": "active",
+    "url": "https://careers.mantech.com/en_US/careers/JobDetail/Cyber-Intelligence-Analyst/64139",
+    "company_url": "https://www.mantech.com",
+    "listed_locations": "Quantico, VA",
+    "eligibility_regions": "US-East",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-06-07"
+  },
+  {
+    "title": "Security Researcher",
+    "company": "Iru",
+    "status": "active",
+    "url": "https://jobs.lever.co/iru/75cb1bb5-b7cd-4661-a51a-02e48ad3501e",
+    "company_url": "https://www.iru.com/",
+    "listed_locations": "Miami, FL",
+    "eligibility_regions": "US-East",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-06-07"
+  },
+  {
+    "title": "Intelligence Analyst",
+    "company": "BTAS",
+    "status": "active",
+    "url": "https://btas.com/openings/?gnk=job&gni=8a7885ac958c3cbe0195ce2937d92bee&lang=en",
+    "company_url": "https://btas.com",
+    "listed_locations": "El Segundo, CA",
+    "eligibility_regions": "US-East",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-06-07"
   }
 ]
