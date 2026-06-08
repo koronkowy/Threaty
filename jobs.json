@@ -2590,5 +2590,41 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-06-07"
+  },
+  {
+    "title": "Staff Threat Intelligence Manager",
+    "company": "GitHub, Inc.",
+    "status": "active",
+    "url": "https://www.github.careers/careers-home/jobs/5290?lang=en-us",
+    "company_url": "https://github.com",
+    "listed_locations": "United States",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-06-07"
+  },
+  {
+    "title": "Intelligence Analyst",
+    "company": "Cherokee Federal",
+    "status": "active",
+    "url": "https://ibtcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/careers/job/42695/?keyword=Intelligence+Analyst",
+    "company_url": "https://cherokee-federal.com",
+    "listed_locations": "San Antonio, TX",
+    "eligibility_regions": "US-Central",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-06-07"
+  },
+  {
+    "title": "Global Security Operations Center - Intelligence Analyst",
+    "company": "Thermo Fisher Scientific",
+    "status": "active",
+    "url": "https://jobs.thermofisher.com/global/en/job/R-01355527/Global-Security-Operations-Center-Intelligence-Analyst",
+    "company_url": "https://www.thermofisher.com",
+    "listed_locations": "Waltham, MA",
+    "eligibility_regions": "US-East",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-06-07"
   }
 ]
