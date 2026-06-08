@@ -2633,9 +2633,9 @@
     "status": "active",
     "url": "https://apply.careers.microsoft.com/careers/job/1970393556867409?domain=microsoft.com&hl=en",
     "company_url": "https://www.microsoft.com",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "listed_locations": "Redmond, WA",
+    "eligibility_regions": "US-West",
+    "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-06-08"
   }
