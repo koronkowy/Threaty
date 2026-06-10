@@ -2710,5 +2710,65 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-06-09"
+  },
+  {
+    "title": "Cyber Threat Hunter",
+    "company": "Fiserv",
+    "status": "active",
+    "url": "https://fiserv.wd5.myworkdayjobs.com/EXT/job/Berkeley-Heights-New-Jersey/Cyber-Threat-Hunter_R-10395867-1",
+    "company_url": "https://www.fiserv.com",
+    "listed_locations": "Berkeley Heights, NJ, Alpharetta, GA, Coral Springs, FL",
+    "eligibility_regions": "US-East",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-06-09"
+  },
+  {
+    "title": "Principal Application Security Consultant, National Security, Mandiant",
+    "company": "Google",
+    "status": "active",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/93794131418981062-principal-application-security-consultant-national-security-mandiant",
+    "company_url": "https://www.google.com",
+    "listed_locations": "Ottawa, ON, Canada",
+    "eligibility_regions": "",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-06-09"
+  },
+  {
+    "title": "Associate Principal Analyst, Content Adversarial Red Team",
+    "company": "Google",
+    "status": "active",
+    "url": "https://www.google.com/about/careers/applications/jobs/results/98946322647655110-associate-principal-analyst-content-adversarial-red-team",
+    "company_url": "https://www.google.com",
+    "listed_locations": "Seattle, WA, Austin, TX",
+    "eligibility_regions": "US-All",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-06-09"
+  },
+  {
+    "title": "Senior Security Research Scientist",
+    "company": "Censys",
+    "status": "active",
+    "url": "https://job-boards.greenhouse.io/censys/jobs/8370476002",
+    "company_url": "",
+    "listed_locations": "Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-06-09"
+  },
+  {
+    "title": "Manager of Governance, Risk and Compliance (GRC)",
+    "company": "SpyCloud",
+    "status": "active",
+    "url": "https://job-boards.greenhouse.io/spycloud/jobs/7645106003",
+    "company_url": "https://spycloud.com",
+    "listed_locations": "Austin, Texas",
+    "eligibility_regions": "US-Central",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-06-09"
   }
 ]
