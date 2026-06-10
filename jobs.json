@@ -2717,11 +2717,11 @@
     "status": "active",
     "url": "https://fiserv.wd5.myworkdayjobs.com/EXT/job/Berkeley-Heights-New-Jersey/Cyber-Threat-Hunter_R-10395867-1",
     "company_url": "https://www.fiserv.com",
-    "listed_locations": "Berkeley Heights, New Jersey",
+    "listed_locations": "Berkeley Heights, NJ, Alpharetta, GA, Coral Springs, FL",
     "eligibility_regions": "US-East",
-    "model": "",
+    "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-10"
+    "post_date": "2026-06-09"
   },
   {
     "title": "Principal Application Security Consultant, National Security, Mandiant",
@@ -2733,19 +2733,7 @@
     "eligibility_regions": "",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-10"
-  },
-  {
-    "title": "Engineering Analyst, Trust and Safety, Egregious Harms",
-    "company": "Google",
-    "status": "active",
-    "url": "https://www.google.com/about/careers/applications/jobs/results/77878775768851142-engineering-analyst-trust-and-safety-egregious-harms",
-    "company_url": "https://www.google.com",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
-    "deadline": "",
-    "post_date": "2026-06-10"
+    "post_date": "2026-06-09"
   },
   {
     "title": "Associate Principal Analyst, Content Adversarial Red Team",
@@ -2753,11 +2741,11 @@
     "status": "active",
     "url": "https://www.google.com/about/careers/applications/jobs/results/98946322647655110-associate-principal-analyst-content-adversarial-red-team",
     "company_url": "https://www.google.com",
-    "listed_locations": "Seattle, WA, USA; Austin, TX, USA",
+    "listed_locations": "Seattle, WA, Austin, TX",
     "eligibility_regions": "US-All",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-10"
+    "post_date": "2026-06-09"
   },
   {
     "title": "Senior Security Research Scientist",
@@ -2769,7 +2757,7 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-10"
+    "post_date": "2026-06-09"
   },
   {
     "title": "Manager of Governance, Risk and Compliance (GRC)",
@@ -2781,6 +2769,6 @@
     "eligibility_regions": "US-Central",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-10"
+    "post_date": "2026-06-09"
   }
 ]
