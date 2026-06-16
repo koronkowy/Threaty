@@ -326,7 +326,7 @@
   {
     "title": "Principal Product Manager",
     "company": "Trellix",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.trellix.com/jobs/principal-product-manager/",
     "company_url": "https://trellix.com",
     "listed_locations": "Remote United States",
@@ -2798,13 +2798,13 @@
   {
     "title": "Disruption Engineer",
     "company": "Google",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.google.com/about/careers/applications/jobs/results/119061063244096198-disruption-engineer",
     "company_url": "https://www.google.com",
     "listed_locations": "New York, NY, Reston, VA, Sunnyvale, CA",
     "eligibility_regions": "US-All",
     "model": "Remote",
-    "deadline": "2026-06-15",
+    "deadline": "Expired",
     "post_date": "2026-06-15"
   },
   {
@@ -2942,13 +2942,13 @@
   {
     "title": "Threat Intel Lead",
     "company": "State Law Enforcement Division (SLED)",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.governmentjobs.com/jobs/5358085-0/threat-intel-lead",
     "company_url": "https://www.sled.sc.gov",
     "listed_locations": "Richland County, SC",
     "eligibility_regions": "US-East",
     "model": "Onsite",
-    "deadline": "2026-06-14",
+    "deadline": "Expired",
     "post_date": "2026-05-29"
   },
   {
