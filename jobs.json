@@ -3096,13 +3096,37 @@
     "post_date": "2026-06-16"
   },
   {
-    "title": "",
-    "company": "",
+    "title": "Security Operations Center Engineer",
+    "company": "IBM",
     "status": "active",
     "url": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=117991&source=WEB_Search_NA",
-    "company_url": "",
-    "listed_locations": "",
-    "eligibility_regions": "",
+    "company_url": "https://www.ibm.com/",
+    "listed_locations": "Richardson, TX, Austin, TX",
+    "eligibility_regions": "US-Central",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-06-17"
+  },
+  {
+    "title": "Technical Threat Investigator, Threat Intel Engineering",
+    "company": "OpenAI",
+    "status": "active",
+    "url": "https://openai.com/careers/technical-threat-investigator-threat-intel-engineering-san-francisco/",
+    "company_url": "https://www.ibm.com/",
+    "listed_locations": "San Francisco, CA, New York, NY, Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-06-17"
+  },
+  {
+    "title": "Principal Researcher (Threats), Financial Services",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/virginia/principal-researcher-financial-services/47263/96478012592",
+    "company_url": "https://www.paloaltonetworks.com/",
+    "listed_locations": "VA",
+    "eligibility_regions": "US-East",
     "model": "",
     "deadline": "",
     "post_date": "2026-06-17"
