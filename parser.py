@@ -2,15 +2,20 @@ import os
 import requests
 import json
 import sys
+import time
+import random
 from bs4 import BeautifulSoup
 from datetime import date
 
 def parse_job_with_gemini(url):
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+    if not GEMINI_API_KEY:
+        print("Error: GEMINI_API_KEY not set in environment.", file=sys.stderr)
+        return None
     
     # 1. Scrape the page
     try:
-        headers = {'User-Agent': 'Mozilla/5.0'}
+        headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'}
         response = requests.get(url, headers=headers, timeout=10)
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
@@ -57,18 +62,35 @@ def parse_job_with_gemini(url):
     Job Text: {text}
     """
     
-    endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_API_KEY}"
+    # 3. Use the verified 2.0-flash model to avoid 404s
+    endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={GEMINI_API_KEY}"
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
     
-    response = requests.post(endpoint, json=payload)
+    # 4. Exponential backoff loop to handle 503/429 spikes safely
+    max_retries = 5
+    base_delay = 4
     
-    if response.status_code == 200:
-        content = response.json()['candidates'][0]['content']['parts'][0]['text']
-        json_text = content.replace('```json', '').replace('```', '').strip()
-        return json.loads(json_text)
-    else:
-        print(f"API Error for {url}: {response.text}", file=sys.stderr)
-        return None
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(endpoint, json=payload, timeout=30)
+            
+            # Catch server overloads and apply randomized jitter
+            if response.status_code in [429, 503]:
+                delay = (base_delay ** attempt) + random.uniform(0, 2)
+                print(f"[!] Server reported {response.status_code}. Retrying in {delay:.2f}s... (Attempt {attempt + 1}/{max_retries})", file=sys.stderr)
+                time.sleep(delay)
+                continue
+                
+            response.raise_for_status()
+            content = response.json()['candidates'][0]['content']['parts'][0]['text']
+            json_text = content.replace('```json', '').replace('```', '').strip()
+            return json.loads(json_text)
+            
+        except Exception as e:
+            if attempt == max_retries - 1:
+                print(f"API Error for {url}: {e}", file=sys.stderr)
+                return None
+            time.sleep(base_delay)
 
 def main():
     if len(sys.argv) < 2:
@@ -81,32 +103,41 @@ def main():
     try:
         with open(db_file, 'r') as f:
             jobs = json.load(f)
-    except FileNotFoundError:
+    except (FileNotFoundError, json.JSONDecodeError):
         jobs = []
 
-    failed_urls = [] # List to track failures
+    failed_urls = []
+    success_count = 0
     
     for url in urls:
+        # Deduplication check - save your API quota!
+        if any(job.get('url') == url for job in jobs):
+            print(f"[-] Skipping duplicate link: {url}")
+            continue
+            
         print(f"[*] Processing: {url}")
         new_job = parse_job_with_gemini(url)
+        
         if new_job:
             jobs.append(new_job)
-            print(f"[+] Successfully added: {new_job['title']}")
+            success_count += 1
+            print(f"[+] Successfully added: {new_job.get('title', 'Unknown Title')}")
+            time.sleep(2) # Polite spacer between API calls
         else:
-            failed_urls.append(url) # Add to list if parsing failed
+            failed_urls.append(url)
 
-    # Save the full updated list
+    # Save the full updated list safely
     with open(db_file, 'w') as f:
         json.dump(jobs, f, indent=2)
     
-    # Print failure block for the GitHub Action to capture
+    # Print failure block for the GitHub Action to catch
     if failed_urls:
         print("\nFAILED_URLS_START")
         for f_url in failed_urls:
             print(f_url)
         print("FAILED_URLS_END")
         
-    print(f"[*] Batch processing complete. Added: {len(urls) - len(failed_urls)}, Failed: {len(failed_urls)}")
+    print(f"[*] Batch processing complete. Added: {success_count}, Failed: {len(failed_urls)}")
 
 if __name__ == "__main__":
     main()
