@@ -3302,38 +3302,38 @@
   {
     "title": "Senior AI Security Engineer",
     "company": "MITRE",
-    "status": "inactive",
+    "status": "active",
     "url": "https://careers.mitre.org/us/en/job/R116625/Senior-AI-Security-Engineer",
     "company_url": "https://www.mitre.org",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "listed_locations": "McLean, VA",
+    "eligibility_regions": "US-East",
+    "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-21"
+    "post_date": "2026-06-20"
   },
   {
     "title": "Operational Technology (OT) Systems Security, Lead",
     "company": "MITRE",
-    "status": "inactive",
+    "status": "active",
     "url": "https://careers.mitre.org/us/en/job/R116606/Operational-Technology-OT-Systems-Security-Lead",
     "company_url": "https://www.mitre.org",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "listed_locations": "Bedford, MA, Fort Meade, MD, Colorado Springs, CO, McLean, VA",
+    "eligibility_regions": "US-East, US-West",
+    "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-21"
+    "post_date": "2026-06-20"
   },
   {
-    "title": "",
-    "company": "",
+    "title": "Threat Intelligence Investigator",
+    "company": "Sony",
     "status": "active",
-    "url": "",
-    "company_url": "",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "url": "https://job-boards.greenhouse.io/sonyinteractiveentertainmentglobal/jobs/6092583004",
+    "company_url": "https://www.sony.com/",
+    "listed_locations": "San Mateo, CA",
+    "eligibility_regions": "US-West",
+    "model": "Hybrid",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-06-20"
   },
   {
     "title": "Threat Intelligence Researcher- CTI",
@@ -3345,7 +3345,7 @@
     "eligibility_regions": "",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-21"
+    "post_date": "2026-06-20"
   },
   {
     "title": "Threat Engineering Team Lead- Detection & Response",
@@ -3357,7 +3357,7 @@
     "eligibility_regions": "",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-21"
+    "post_date": "2026-06-20"
   },
   {
     "title": "Senior Threat Intelligence Researcher",
@@ -3369,7 +3369,7 @@
     "eligibility_regions": "",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-21"
+    "post_date": "2026-06-20"
   },
   {
     "title": "Senior Threat Engineer- Detection",
@@ -3381,7 +3381,7 @@
     "eligibility_regions": "",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-21"
+    "post_date": "2026-06-20"
   },
   {
     "title": "Senior Backend Engineer- CTI",
@@ -3393,18 +3393,18 @@
     "eligibility_regions": "",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-21"
+    "post_date": "2026-06-20"
   },
   {
-    "title": "Cyber Threat Researcher- Customers",
-    "company": "Dream Security",
+    "title": "IBM CISO - Cybersecurity Forensic Analyst",
+    "company": "IBM",
     "status": "active",
-    "url": "https://dreamgroup.com/comeet-positions/cyber-threat-researcher-customers-a966c",
-    "company_url": "https://dreamgroup.com",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "url": "https://careers.ibm.com/en_US/careers/JobDetail?jobId=116174",
+    "company_url": "https://www.ibm.com/",
+    "listed_locations": "Austin, TX",
+    "eligibility_regions": "US-Central",
+    "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-21"
+    "post_date": "2026-06-20"
   }
 ]
