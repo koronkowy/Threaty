@@ -3298,5 +3298,113 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-20"
+  },
+  {
+    "title": "Senior AI Security Engineer",
+    "company": "MITRE",
+    "status": "inactive",
+    "url": "https://careers.mitre.org/us/en/job/R116625/Senior-AI-Security-Engineer",
+    "company_url": "https://www.mitre.org",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-06-21"
+  },
+  {
+    "title": "Operational Technology (OT) Systems Security, Lead",
+    "company": "MITRE",
+    "status": "inactive",
+    "url": "https://careers.mitre.org/us/en/job/R116606/Operational-Technology-OT-Systems-Security-Lead",
+    "company_url": "https://www.mitre.org",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-06-21"
+  },
+  {
+    "title": "",
+    "company": "",
+    "status": "active",
+    "url": "",
+    "company_url": "",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": ""
+  },
+  {
+    "title": "Threat Intelligence Researcher- CTI",
+    "company": "Dream",
+    "status": "active",
+    "url": "https://dreamgroup.com/comeet-positions/threat-intelligence-researcher-cti-8706c",
+    "company_url": "https://dreamgroup.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-06-21"
+  },
+  {
+    "title": "Threat Engineering Team Lead- Detection & Response",
+    "company": "Dream",
+    "status": "active",
+    "url": "https://dreamgroup.com/comeet-positions/threat-engineering-team-lead-detection-response-8906c",
+    "company_url": "https://dreamgroup.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-06-21"
+  },
+  {
+    "title": "Senior Threat Intelligence Researcher",
+    "company": "Dream",
+    "status": "active",
+    "url": "https://dreamgroup.com/comeet-positions/senior-threat-intelligence-researcher-2126d",
+    "company_url": "https://dreamgroup.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-06-21"
+  },
+  {
+    "title": "Senior Threat Engineer- Detection",
+    "company": "Dream",
+    "status": "active",
+    "url": "https://dreamgroup.com/comeet-positions/senior-threat-engineer-detection-8906f",
+    "company_url": "https://dreamgroup.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-06-21"
+  },
+  {
+    "title": "Senior Backend Engineer- CTI",
+    "company": "Dream",
+    "status": "active",
+    "url": "https://dreamgroup.com/comeet-positions/senior-backend-engineer-cti-59f5a",
+    "company_url": "https://dreamgroup.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-06-21"
+  },
+  {
+    "title": "Cyber Threat Researcher- Customers",
+    "company": "Dream Security",
+    "status": "active",
+    "url": "https://dreamgroup.com/comeet-positions/cyber-threat-researcher-customers-a966c",
+    "company_url": "https://dreamgroup.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-06-21"
   }
 ]
