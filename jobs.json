@@ -3406,5 +3406,29 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-06-20"
+  },
+  {
+    "title": "Senior Manager, Cyber Engineered Defense (CrowdStrike Services)",
+    "company": "Kroll",
+    "status": "active",
+    "url": "https://careers.kroll.com/en/job/united-states/senior-manager-cyber-engineered-defense-crowdstrike-services/21013981",
+    "company_url": "https://careers.kroll.com",
+    "listed_locations": "United States",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-06-22"
+  },
+  {
+    "title": "Senior Manager - SIEM SOAR Engineer",
+    "company": "Kroll",
+    "status": "active",
+    "url": "https://careers.kroll.com/en/job/united-states/senior-manager-siem-soar-engineer/21014349",
+    "company_url": "https://www.kroll.com",
+    "listed_locations": "United States",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-06-22"
   }
 ]
