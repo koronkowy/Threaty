@@ -3433,15 +3433,15 @@
   },
   {
     "title": "Junior Threat Analyst",
-    "company": "Pool Re Services Limited",
+    "company": "Pool Re",
     "status": "active",
     "url": "https://poolreserviceslimited.peoplehr.net/Pages/JobBoard/Opening.aspx?v=757ddc97-a955-46ad-8d34-13a4bebeb42e",
-    "company_url": "",
+    "company_url": "https://www.poolre.co.uk/",
     "listed_locations": "London",
     "eligibility_regions": "EMEA",
     "model": "Hybrid",
     "deadline": "2026-07-01",
-    "post_date": "2026-06-30"
+    "post_date": "2026-06-29"
   },
   {
     "title": "Sr. Swimlane SOAR Engineer",
@@ -3449,11 +3449,11 @@
     "status": "active",
     "url": "https://optiv.wd5.myworkdayjobs.com/en-US/Optiv_Careers/job/Sr-Swimlane-SOAR-Engineer---Remote--USA_2026-13791?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
     "company_url": "https://www.optiv.com",
-    "listed_locations": "Remote, USA",
+    "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-06-29"
   },
   {
     "title": "Principal Consultant - SIEM",
@@ -3461,11 +3461,11 @@
     "status": "active",
     "url": "https://optiv.wd5.myworkdayjobs.com/en-US/Optiv_Careers/job/Principal-Consultant---SIEM---Remote--USA_2026-13755?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
     "company_url": "https://www.optiv.com",
-    "listed_locations": "Remote, USA",
+    "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-30"
+    "post_date": "2026-06-29"
   },
   {
     "title": "Threat Intelligence Researcher (Cloud)",
@@ -3473,10 +3473,10 @@
     "status": "active",
     "url": "https://www.wiz.io/careers/job/4625139006/threat-intelligence-researcher-cloud?gh_jid=4625139006",
     "company_url": "https://www.wiz.io",
-    "listed_locations": "New York City; Remote - USA",
+    "listed_locations": "New York City, Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-30"
+    "post_date": "2026-06-29"
   }
 ]
