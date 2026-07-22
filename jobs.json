@@ -3490,5 +3490,53 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-07-10"
+  },
+  {
+    "title": "",
+    "company": "TRM Labs",
+    "status": "active",
+    "url": "https://www.trmlabs.com/careers?ashby_jid=95282b00-3699-4ffe-a88a-057313621f34",
+    "company_url": "https://www.trmlabs.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-07-22"
+  },
+  {
+    "title": "",
+    "company": "",
+    "status": "active",
+    "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/en-GB/panwexternalcareers/job/Sr-Threat-Hunter_JR-018923",
+    "company_url": "",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-07-22"
+  },
+  {
+    "title": "Detection & Response, Lead",
+    "company": "Ramp",
+    "status": "active",
+    "url": "https://jobs.ashbyhq.com/ramp/f0918978-d6da-4cd7-b248-055aaa108426",
+    "company_url": "",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-07-22"
+  },
+  {
+    "title": "Senior Security Incident Responder",
+    "company": "Avalara",
+    "status": "active",
+    "url": "https://app.careerpuck.com/job-board/avalara/job/2026-17298?source=LinkedIn",
+    "company_url": "",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-07-22"
   }
 ]
