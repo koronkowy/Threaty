@@ -215,21 +215,25 @@
             <a onclick="toggleBubble('guide-bubble')">[ Usage Guide ]</a>
         </div>
 
-<div id="submit-bubble" class="bubble-area">
+<div id="submit-bubble" class="bubble-area" style="display: none;">
     <div class="bubble-header">
-        <strong>📥 How to Submit Positions (Bulk)</strong>
-        <a class="close-bubble" onclick="toggleBubble('submit-bubble')">[ Hide ]</a>
+        <h2 style="margin: 0; color: #ff69b4; font-size: 1.1em;">📥 How to Submit a Position</h2>
+        <button class="close-bubble" onclick="toggleBubble('submit-bubble')" style="background: none; border: none; cursor: pointer; color: #555;">✖</button>
     </div>
-    <p style="margin-top: 15px; padding: 15px; border-left: 4px solid #ff69b4; background: #f9f9f9; font-size: 0.9em; color: #555;">
-        <strong>Note:</strong> You can submit multiple jobs at once! Simply paste a list of URLs (one per line) into the issue body.
-    </p>
-    <p>To add new roles, follow these three steps:</p>
     
-    <p><strong>1. Open an Issue:</strong> Navigate to the <a href="https://github.com/koronkowy/Threaty/issues" style="color:#0078D4;">GitHub Issues</a> tab and click "New issue."</p>
+    <div class="submission-warning" style="background-color: #f9f9f9; border-left: 4px solid #ff69b4; padding: 10px; margin-top: 15px; margin-bottom: 15px;">
+        <p style="margin: 0; color: #555; font-size: 0.9em;"><strong>Transparency Note:</strong> Submitting an issue does <em>not</em> instantly post the job. To protect our API quotas and keep the board high-signal, a maintainer must manually review your links before the automation pipeline is allowed to run.</p>
+    </div>
+
+    <p style="margin-top: 0;">To add new roles to the board, follow these steps:</p>
     
-    <p><strong>2. Paste & Label:</strong> Paste the direct URLs of the job postings into the issue body, one per line. <strong>Crucial:</strong> Add the <code>job-submission</code> label so the pipeline detects the batch.</p>
-    
-    <p><strong>3. Review & Merge:</strong> Our "Data Clerk" will process every link, scrape the data, and open a single Pull Request containing all successful additions. Simply review the updated <code>jobs.json</code> and merge.</p>
+    <ul style="margin-top: 10px; padding-left: 20px;">
+        <li style="margin-bottom: 8px;"><strong>Open an Issue:</strong> Navigate to our <a href="https://github.com/koronkowy/Threaty/issues" target="_blank" style="color: #0078D4; text-decoration: none;">GitHub Issues tab</a> and click "New issue."</li>
+        <li style="margin-bottom: 8px;"><strong>Batch Your URLs:</strong> Paste the direct URLs of the job postings into the issue body. (Please use <em>one URL per line</em>).</li>
+        <li style="margin-bottom: 8px;"><strong>Wait for Review:</strong> A maintainer will manually review your links. If they fit the board's strict scope, the maintainer will apply the <code>job-submission</code> label.</li>
+        <li style="margin-bottom: 8px;"><strong>Automated Parsing:</strong> That label triggers our background "Data Clerk" to scrape the listings and generate the necessary data.</li>
+        <li><strong>Live Deployment:</strong> Once we merge the generated data, the roles will appear live on the board!</li>
+    </ul>
 </div>
 
         <div id="about-bubble" class="bubble-area">
