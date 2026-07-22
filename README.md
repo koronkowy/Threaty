@@ -13,25 +13,17 @@ By surfacing region constraints, work models, and dynamic recency metrics direct
 *Threaty is an open-source project. Follow the project or contribute on [GitHub](https://github.com/koronkowy/Threaty).*
 
 ---
-
 ## 📥 How to Submit a Position
 
-> **Note:** Links from job sites like LinkedIn, Monster, ZipRecruiter, Indeed, Jobleads, or Glassdoor are unable to be parsed due to parsing being blocked by those aggregation website. Please find the direct job posting or the URL will not be able to be submitted. This is not likely to change because of the nature of these sites and their restriction on being accessed by something like a parser.
+We welcome community contributions! To propose new roles for the board, follow these steps:
 
-To add a new role to the board, follow these three simple steps:
+1. **Open an Issue:** Navigate to the GitHub Issues tab and click "New issue."
+2. **Batch Your URLs:** Paste the direct URLs of the job postings into the issue body. (Please use *one URL per line* if submitting a batch).
+3. **The Gatekeeper Review (Why the delay?):** To protect our backend API quotas from spam and ensure only high-signal Threat Intel roles make it to the board, **automation does not run immediately**. Once you submit your issue, a repository maintainer will manually review the links.
+4. **Automation Trigger:** If the links fit our scope, the maintainer will manually apply the `job-submission` label. This label triggers our background "Data Clerk" to extract the job data and create a Pull Request.
+5. **Live Deployment:** Once the generated data is merged by the maintainer, the roles will instantly appear live on the board.
 
-1. **Open an Issue:** Navigate to the [GitHub Issues](https://github.com/koronkowy/Threaty/issues) tab and click "New issue." *Note: You can title the issue anything you want; it does not affect the submission.*
-2. **Paste & Label:** Paste the direct URL of the job posting into the issue body. **Crucial:** Add the `job-submission` label to the issue so the automated pipeline detects it at the time of creating the issue.
-3. **Review & Merge:** Our background "Data Clerk" will automatically scrape the listing and create a Pull Request. The team will receive a notification to review the generated JSON. Once we approve the changes, the role will be merged and appear live on the board.
-
-> **Note:** Please submit only active job postings. Submitting non-job URLs or "junk" data may result in submission privileges being revoked.
-
-Threaty now supports **Bulk Ingestion**. You can submit multiple job postings at once to avoid merge conflicts and speed up your workflow.
-
-1. **Open an Issue:** Navigate to the [GitHub Issues](https://github.com/koronkowy/Threaty/issues) tab.
-2. **Paste URLs:** Simply paste the direct URLs of the job postings in the issue body, one per line.
-3. **Label:** Apply the `job-submission` label before submitting the issue.
-4. **Automatic Processing:** Our "Data Clerk" will process the batch, add them to `jobs.json`, and open a single Pull Request for your review. Failed links will be reported directly back to the issue.
+> **Note:** Please submit only active job postings relevant to CTI, Detection Engineering, IR, or Security Automation. Submitting generic IT roles, non-job URLs, or "junk" data may result in submission privileges being revoked.
 
 ---
 
@@ -98,7 +90,7 @@ Your **Gemini API Key** is never hardcoded. It is stored in **GitHub Repository 
 
 * **Intelligent Expansion:** When you search for a specific hub (e.g., "Seattle"), the engine automatically expands the query to include the parent region (`US-West`) and nationwide remote roles (`US-All`).
 * **Satellite Hub Normalization:** The search dictionary automatically maps commuter satellites (e.g., Redmond/Bellevue for Seattle; Reston/McLean for DMV) to their parent region, ensuring relevant roles are never missed due to localized naming.
-* **Territory Alias Support:** The engine natively resolves industry shorthand. **Typing territory codes like ** **TOLA** **, ** **DMV** **, ** **DACH** **, ** **ANZ** **, or ****PNW** into the search bar instantly expands the query to include all associated cities, states, and regional authorization constraints.
+* **Territory Alias Support:** The engine natively resolves industry shorthand. Typing territory codes like **TOLA**, **DMV**, **DACH**, **ANZ**, or **PNW** into the search bar instantly expands the query to include all associated cities, states, and regional authorization constraints.
 
 ---
 
