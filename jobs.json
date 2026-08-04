@@ -3730,5 +3730,89 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-23"
+  },
+  {
+    "title": "Enablement Manager, Global Investigators",
+    "company": "TRM Labs",
+    "status": "active",
+    "url": "https://www.trmlabs.com/careers?ashby_jid=044457c2-be99-4101-ae60-6e61ce2d5d2f",
+    "company_url": "https://www.trmlabs.com",
+    "listed_locations": "Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-08-04"
+  },
+  {
+    "title": "All Source Investigator",
+    "company": "TRM Labs",
+    "status": "active",
+    "url": "https://www.trmlabs.com/careers?ashby_jid=c73b68b0-aeb7-49ff-a42c-4fa32236b6b0",
+    "company_url": "https://www.trmlabs.com",
+    "listed_locations": "Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-08-04"
+  },
+  {
+    "title": "Cyber Threat Intelligence Analyst",
+    "company": "TRM Labs",
+    "status": "active",
+    "url": "https://www.trmlabs.com/careers?ashby_jid=7107ebcd-3df1-4de3-8ab3-fb145d267edd",
+    "company_url": "https://www.trmlabs.com",
+    "listed_locations": "Remote (US), UK",
+    "eligibility_regions": "US-All, EMEA",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-08-04"
+  },
+  {
+    "title": "Lead, All-Source Investigations",
+    "company": "TRM Labs",
+    "status": "active",
+    "url": "https://www.trmlabs.com/careers?ashby_jid=9a7e4e3d-e4c2-47ea-a57b-d7a449160d08",
+    "company_url": "https://www.trmlabs.com",
+    "listed_locations": "Washington, DC, MD, VA",
+    "eligibility_regions": "US-East",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-08-04"
+  },
+  {
+    "title": "Lead, All-Source Investigator",
+    "company": "TRM Labs",
+    "status": "active",
+    "url": "https://www.trmlabs.com/careers?ashby_jid=41988841-3686-4d18-a749-c9f9b9960f26",
+    "company_url": "https://www.trmlabs.com",
+    "listed_locations": "Washington, DC, MD, VA",
+    "eligibility_regions": "US-East",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-08-04"
+  },
+  {
+    "title": "Sr Manager - CSIRT",
+    "company": "Target",
+    "status": "active",
+    "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Sr-Manager---CSIRT_R0000446605",
+    "company_url": "https://www.target.com/",
+    "listed_locations": "Brooklyn Park, MN",
+    "eligibility_regions": "US-Central",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-08-04"
+  },
+  {
+    "title": "Senior Capabilities Hunter",
+    "company": "Dragos",
+    "status": "active",
+    "url": "https://job-boards.greenhouse.io/dragos/jobs/5352195008",
+    "company_url": "https://www.dragos.com/",
+    "listed_locations": "United States",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-08-04"
   }
 ]
