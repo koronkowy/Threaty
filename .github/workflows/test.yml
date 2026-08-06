@@ -1,0 +1,10 @@
+name: Pulse Check
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "GitHub is actually listening!"
