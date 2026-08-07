@@ -1,7 +1,7 @@
 name: Job Submission Ingestion
 on:
   issues:
-    types: [opened, labeled, reopened]
+    types: [labeled]
 
 concurrency:
   group: job-submission-pipeline
