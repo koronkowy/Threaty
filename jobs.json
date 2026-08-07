@@ -3856,83 +3856,83 @@
     "company": "Dragos",
     "status": "active",
     "url": "https://job-boards.greenhouse.io/dragos/jobs/5323758008",
-    "company_url": "",
+    "company_url": "https://www.dragos.com/",
     "listed_locations": "United States",
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-07"
+    "post_date": "2026-08-06"
   },
   {
-    "title": "Detection Engineer \u2013 Night Shift (Wed\u2013Sat, 5pm\u20133am MST)",
+    "title": "Detection Engineer – Night Shift (Wed–Sat, 5pm–3am MST)",
     "company": "Zscaler",
     "status": "active",
     "url": "https://job-boards.greenhouse.io/zscaler/jobs/5177381007",
-    "company_url": "",
-    "listed_locations": "USA - Update Location",
+    "company_url": "https://www.zscaler.com/",
+    "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-07"
+    "post_date": "2026-08-06"
   },
   {
     "title": "Staff Machine Learning Engineer - Data Lake, Anomaly Detection",
     "company": "Zscaler",
     "status": "active",
     "url": "https://job-boards.greenhouse.io/zscaler/jobs/5114450007",
-    "company_url": "",
-    "listed_locations": "San Jose, California, USA",
+    "company_url": "https://www.zscaler.com/",
+    "listed_locations": "San Jose, CA",
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-08-07"
+    "post_date": "2026-08-06"
   },
   {
     "title": "InfoSec Specialist - SOC",
     "company": "McAfee",
     "status": "active",
     "url": "https://careers.mcafee.com/jobs/1405?lang=en-us",
-    "company_url": "",
-    "listed_locations": "San Jose, California",
-    "eligibility_regions": "US-West",
-    "model": "Onsite",
+    "company_url": "https://www.mcafee.com/",
+    "listed_locations": "San Jose, CA, Frisco, TX",
+    "eligibility_regions": "US-West, US-Central",
+    "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-08-07"
+    "post_date": "2026-08-06"
   },
   {
-    "title": "Product Security Analyst III",
+    "title": "Product Security Analyst 3",
     "company": "ExtraHop",
     "status": "active",
     "url": "https://job-boards.greenhouse.io/extrahopnetworks/jobs/6100809004",
-    "company_url": "",
+    "company_url": "https://www.extrahop.com/",
     "listed_locations": "Remote",
     "eligibility_regions": "US-All",
-    "model": "Remote",
+    "model": "Remote, Hybrid",
     "deadline": "",
-    "post_date": "2026-08-07"
+    "post_date": "2026-08-06"
   },
   {
-    "title": "Principal Software Engineer | Data Science",
+    "title": "Principal Software Engineer, Data Science",
     "company": "ExtraHop",
     "status": "active",
     "url": "https://job-boards.greenhouse.io/extrahopnetworks/jobs/6100830004",
-    "company_url": "",
-    "listed_locations": "Seattle, WA",
-    "eligibility_regions": "US-West",
-    "model": "Remote",
+    "company_url": "https://www.extrahop.com/",
+    "listed_locations": "Seattle, WA, Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Remote, Hybrid",
     "deadline": "",
-    "post_date": "2026-08-07"
+    "post_date": "2026-08-06"
   },
   {
-    "title": "Manager, Engineering | ML Infrastructure & Tooling",
+    "title": "Manager, Engineering, ML Infrastructure & Tooling",
     "company": "ExtraHop",
     "status": "active",
     "url": "https://job-boards.greenhouse.io/extrahopnetworks/jobs/6016209004",
-    "company_url": "",
-    "listed_locations": "Seattle, WA",
-    "eligibility_regions": "US-West",
-    "model": "Remote",
+    "company_url": "https://www.extrahop.com/",
+    "listed_locations": "Seattle, WA, Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Remote, Hybrid",
     "deadline": "",
-    "post_date": "2026-08-07"
+    "post_date": "2026-08-06"
   }
 ]
