@@ -3814,5 +3814,41 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-04"
+  },
+  {
+    "title": "Cyber Operations Analyst",
+    "company": "Arctic Wolf",
+    "status": "active",
+    "url": "https://arcticwolf.wd1.myworkdayjobs.com/en-US/External/job/Cyber-Operations-Analyst_R26_814",
+    "company_url": "https://arcticwolf.com/",
+    "listed_locations": "Pleasant Grove, UT",
+    "eligibility_regions": "US-West",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-08-06"
+  },
+  {
+    "title": "Director, Product - XDR",
+    "company": "Arctic Wolf",
+    "status": "active",
+    "url": "https://arcticwolf.wd1.myworkdayjobs.com/en-US/External/job/Director--Product---XDR_R26_810",
+    "company_url": "https://arcticwolf.com/",
+    "listed_locations": "Remote (US), Remote (CA), San Antonio, TX, Eden Prairie, MN, Waterloo, ON",
+    "eligibility_regions": "US-All",
+    "model": "Remote, Hybrid",
+    "deadline": "",
+    "post_date": "2026-08-06"
+  },
+  {
+    "title": "Director, Product Management - Endpoint Detection & Response",
+    "company": "Arctic Wolf",
+    "status": "active",
+    "url": "https://arcticwolf.wd1.myworkdayjobs.com/en-US/External/job/Director--Product-Management---Endpoint-Detection---Response_R26_809-1",
+    "company_url": "https://arcticwolf.com",
+    "listed_locations": "Remote (US), Remote (CA), San Antonio, TX, Eden Prairie, MN, Waterloo, ON",
+    "eligibility_regions": "US-All",
+    "model": "Remote, Hybrid",
+    "deadline": "",
+    "post_date": "2026-08-06"
   }
 ]
