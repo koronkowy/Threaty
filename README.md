@@ -70,11 +70,21 @@ This process is fully hands-free:
 
 ---
 
-## 🛡️ Security & Integrity
+## 🤖 AI Integration & Gemini API Usage
+
+![Gemini 429 Errors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/koronkowy/Threaty/main/badge_429.json&logo=googlegemini) ![Gemini 503 Errors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/koronkowy/Threaty/main/badge_503.json&logo=googlegemini)
+
+> **Note:** If the **Gemini 429 Errors** badge is red, job postings may be delayed as we have hit our daily quota or per-minute rate limits for the Gemini AI. If the **Gemini 503 Errors** badge is red, the Gemini API is currently overloaded or experiencing downtime. Please check back later!
+
+Threaty relies on Google's **Gemini AI** (specifically the `gemini-flash-latest` model) acting as a "Data Clerk" to parse and structure the unstructured text of job descriptions.
+
+This project is built to work fairly well even on **Gemini's Free Tier**. However, the free tier does come with restrictions regarding daily limits and per-minute API calls. If the ingestion pipeline is processing a large batch of jobs, you may encounter temporary rate limits (429 errors).
+
+If you bring your own "beefier" API key (a paid tier), you should not experience these same rate limiting issues and can ingest jobs much faster. However, regardless of the tier, be mindful of your usage to control costs or stay within quotas.
 
 ### Secret Management
 
-Your **Gemini API Key** is never hardcoded. It is stored in **GitHub Repository Secrets** and injected into the workflow at runtime, ensuring complete security.
+Your **Gemini API Key** is never hardcoded. It must be stored in **GitHub Repository Secrets** and is injected into the GitHub Actions workflow at runtime, ensuring complete security.
 
 ---
 
