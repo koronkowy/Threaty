@@ -16,9 +16,12 @@ def parse_job_with_gemini(url):
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
         text = soup.get_text(separator=' ', strip=True)[:15000]
+    except requests.exceptions.Timeout as e:
+        print(f"Timeout scraping {url}: {e}", file=sys.stderr)
+        return None, "TIMEOUT"
     except Exception as e:
         print(f"Error scraping {url}: {e}", file=sys.stderr)
-        return None
+        return None, "OTHER"
 
     # 2. Gemini Prompt
     prompt = f"""
@@ -72,16 +75,19 @@ def parse_job_with_gemini(url):
                 content = response.json()['candidates'][0]['content']['parts'][0]['text']
                 json_text = content.replace('```json', '').replace('```', '').strip()
                 try:
-                    return json.loads(json_text)
+                    return json.loads(json_text), None
                 except json.JSONDecodeError as e:
                     print(f"JSON Decode Error for {url}: {e}\nResponse text: {json_text}", file=sys.stderr)
-                    return None
+                    return None, "JSON_ERROR"
             elif response.status_code in [429, 500, 502, 503, 504]:
                 print(f"API Error for {url}: Status {response.status_code} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
             else:
                 print(f"API Error for {url}: {response.text}", file=sys.stderr)
-                return None
+                return None, "API_ERROR"
 
+        except requests.exceptions.Timeout as e:
+            print(f"Timeout Exception for {url}: {e} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
+            # Will retry on next iteration
         except requests.exceptions.RequestException as e:
             print(f"Request Exception for {url}: {e} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
 
@@ -91,7 +97,7 @@ def parse_job_with_gemini(url):
             time.sleep(delay)
 
     print(f"Failed to process {url} after {max_retries} attempts.", file=sys.stderr)
-    return None
+    return None, "API_ERROR"
 
 def main():
     if len(sys.argv) < 2:
@@ -107,29 +113,49 @@ def main():
     except FileNotFoundError:
         jobs = []
 
-    failed_urls = [] # List to track failures
+    failed_categories = {
+        "DUPLICATE": [],
+        "TIMEOUT": [],
+        "API_ERROR": [],
+        "JSON_ERROR": [],
+        "OTHER": []
+    }
+
+    existing_urls = {job.get('url') for job in jobs if job.get('url')}
     
+    success_count = 0
     for url in urls:
         print(f"[*] Processing: {url}")
-        new_job = parse_job_with_gemini(url)
+
+        if url in existing_urls:
+            print(f"[-] Duplicate found, skipping: {url}")
+            failed_categories["DUPLICATE"].append(url)
+            continue
+
+        new_job, error_reason = parse_job_with_gemini(url)
         if new_job:
             jobs.append(new_job)
+            existing_urls.add(new_job['url'])
+            success_count += 1
             print(f"[+] Successfully added: {new_job['title']}")
         else:
-            failed_urls.append(url) # Add to list if parsing failed
+            reason = error_reason if error_reason in failed_categories else "OTHER"
+            failed_categories[reason].append(url)
 
     # Save the full updated list
     with open(db_file, 'w') as f:
         json.dump(jobs, f, indent=2)
     
-    # Print failure block for the GitHub Action to capture
-    if failed_urls:
-        print("\nFAILED_URLS_START")
-        for f_url in failed_urls:
-            print(f_url)
-        print("FAILED_URLS_END")
-        
-    print(f"[*] Batch processing complete. Added: {len(urls) - len(failed_urls)}, Failed: {len(failed_urls)}")
+    # Print failure blocks for the GitHub Action to capture
+    for category, f_urls in failed_categories.items():
+        if f_urls:
+            print(f"\n{category}_URLS_START")
+            for f_url in f_urls:
+                print(f_url)
+            print(f"{category}_URLS_END")
+
+    total_failures = sum(len(v) for v in failed_categories.values())
+    print(f"[*] Batch processing complete. Added: {success_count}, Failed: {total_failures}")
 
 if __name__ == "__main__":
     main()

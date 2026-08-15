@@ -49,16 +49,50 @@ jobs:
         if: always() # Ensures this runs even if the parser or PR creation has issues
         run: |
           # Use sed to extract lines between our custom markers
-          FAILURES=$(sed -n '/FAILED_URLS_START/,/FAILED_URLS_END/p' run.log | sed '1d;$d')
+          DUPLICATES=$(sed -n '/DUPLICATE_URLS_START/,/DUPLICATE_URLS_END/p' run.log | sed '1d;$d')
+          TIMEOUTS=$(sed -n '/TIMEOUT_URLS_START/,/TIMEOUT_URLS_END/p' run.log | sed '1d;$d')
+          API_ERRORS=$(sed -n '/API_ERROR_URLS_START/,/API_ERROR_URLS_END/p' run.log | sed '1d;$d')
+          JSON_ERRORS=$(sed -n '/JSON_ERROR_URLS_START/,/JSON_ERROR_URLS_END/p' run.log | sed '1d;$d')
+          OTHER_ERRORS=$(sed -n '/OTHER_URLS_START/,/OTHER_URLS_END/p' run.log | sed '1d;$d')
           
-          if [ ! -z "$FAILURES" ]; then
-            COMMENT="⚠️ Batch processing complete, but some jobs failed:
-            
-            $FAILURES
-            
-            Please check these links manually and submit them again if needed. The successful jobs are in the Pull Request below."
-          else
-            COMMENT="Batch processing complete! All jobs added successfully. Please review the Pull Request for final approval."
+          COMMENT="Batch processing complete! The successful jobs are in the Pull Request below."
+          HAS_ERRORS=false
+
+          # Initialize ERROR_DETAILS using printf to properly interpret \n
+          printf -v ERROR_DETAILS ""
+
+          if [ ! -z "$DUPLICATES" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Duplicates (Skipped):**\n%s" "$DUPLICATES"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ ! -z "$TIMEOUTS" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Failed due to Timeouts:**\n%s" "$TIMEOUTS"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ ! -z "$API_ERRORS" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Failed due to Gemini API Errors (e.g. Model Busy, Rate Limit):**\n%s" "$API_ERRORS"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ ! -z "$JSON_ERRORS" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Failed due to Malformed JSON from AI:**\n%s" "$JSON_ERRORS"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ ! -z "$OTHER_ERRORS" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Failed due to Other Errors (e.g. Scraping Failed):**\n%s" "$OTHER_ERRORS"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ "$HAS_ERRORS" = true ]; then
+             printf -v COMMENT "⚠️ Batch processing complete, but some jobs had issues:%s\n\nPlease check these links manually and submit them again if needed. The successful jobs are in the Pull Request below." "$ERROR_DETAILS"
           fi
           
           gh issue comment ${{ github.event.issue.number }} --body "$COMMENT"
