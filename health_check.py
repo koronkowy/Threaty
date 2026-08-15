@@ -2,6 +2,7 @@ import json
 import requests
 from datetime import date
 from bs4 import BeautifulSoup
+from error_tracker import update_badges
 
 # Add phrases that indicate a temporary outage, not a permanent closure
 TEMPORARY_OUTAGE_KEYWORDS = ["maintenance", "scheduled-downtime", "temporary"]
@@ -53,3 +54,6 @@ with open('jobs.json', 'r+') as f:
     f.seek(0)
     json.dump(jobs, f, indent=2)
     f.truncate()
+
+# Update error tracking badges so they decay after 24h
+update_badges()

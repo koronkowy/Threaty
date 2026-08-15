@@ -42,7 +42,11 @@ jobs:
           title: "Review: Batch Job Submission #${{ github.event.issue.number }}"
           body: "Automated ingestion from Issue #${{ github.event.issue.number }}. Please review the updated jobs.json."
           branch: "add-job-${{ github.event.issue.number }}"
-          add-paths: jobs.json
+          add-paths: |
+            jobs.json
+            api_errors_log.json
+            badge_429.json
+            badge_503.json
           assignees: koronkowy
           
       - name: Comment on Issue

@@ -5,6 +5,7 @@ import json
 import sys
 from bs4 import BeautifulSoup
 from datetime import date
+from error_tracker import log_api_error, update_badges
 
 def parse_job_with_gemini(url):
     GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
@@ -81,6 +82,8 @@ def parse_job_with_gemini(url):
                     return None, "JSON_ERROR"
             elif response.status_code in [429, 500, 502, 503, 504]:
                 print(f"API Error for {url}: Status {response.status_code} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
+                if response.status_code in [429, 503]:
+                    log_api_error(response.status_code)
             else:
                 print(f"API Error for {url}: {response.text}", file=sys.stderr)
                 return None, "API_ERROR"
@@ -156,6 +159,8 @@ def main():
 
     total_failures = sum(len(v) for v in failed_categories.values())
     print(f"[*] Batch processing complete. Added: {success_count}, Failed: {total_failures}")
+
+    update_badges()
 
 if __name__ == "__main__":
     main()
