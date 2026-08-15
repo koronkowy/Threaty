@@ -3941,11 +3941,11 @@
     "status": "active",
     "url": "https://careers.rapid7.com/jobs/lead-product-manager-ai-soc-ca-united-states",
     "company_url": "https://www.rapid7.com",
-    "listed_locations": "CA, United States",
+    "listed_locations": "CA, Remote (US)",
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-14"
   },
   {
     "title": "Detection Engineer- SkillBridge Intern",
@@ -3953,23 +3953,23 @@
     "status": "active",
     "url": "https://job-boards.greenhouse.io/zscaler/jobs/5114254007",
     "company_url": "https://www.zscaler.com",
-    "listed_locations": "Remote - USA",
+    "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-14"
   },
   {
-    "title": "Threat Response Engineer (TRE) - Day Shift (10am-6pm MT)",
+    "title": "Threat Response Engineer (TRE)",
     "company": "Zscaler",
     "status": "active",
     "url": "https://job-boards.greenhouse.io/zscaler/jobs/5177404007",
     "company_url": "https://www.zscaler.com",
-    "listed_locations": "USA",
+    "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-14"
   },
   {
     "title": "Senior Product Manager - Security Research",
@@ -3977,35 +3977,35 @@
     "status": "active",
     "url": "https://qualys.wd5.myworkdayjobs.com/en-US/Careers/job/Senior-Product-Manager--Security-Research_R0004199",
     "company_url": "https://www.qualys.com",
-    "listed_locations": "",
-    "eligibility_regions": "",
-    "model": "",
+    "listed_locations": "Foster City, CA",
+    "eligibility_regions": "US-West",
+    "model": "Remote, Hybrid",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-14"
   },
   {
-    "title": "",
-    "company": "",
+    "title": "Technical Escalation Manager",
+    "company": "Qualys",
     "status": "active",
     "url": "https://qualys.wd5.myworkdayjobs.com/en-US/Careers/job/Technical-Escalation-Manager_R0004717",
-    "company_url": "",
-    "listed_locations": "",
-    "eligibility_regions": "",
+    "company_url": "https://www.qualys.com",
+    "listed_locations": "Raleigh, NC",
+    "eligibility_regions": "US-East",
     "model": "",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-14"
   },
   {
     "title": "Cybersecurity Engineer",
     "company": "Barracuda Networks Inc.",
     "status": "active",
     "url": "https://jobs.jobvite.com/careers/barracuda-networks-inc/job/ov8vAfws",
-    "company_url": "",
-    "listed_locations": "Chelmsford, Massachusetts, North Carolina",
+    "company_url": "https://www.barracuda.com/",
+    "listed_locations": "Chelmsford, MA, North Carolina",
     "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-14"
   },
   {
     "title": "Security Program Manager (Part Time)",
@@ -4013,11 +4013,11 @@
     "status": "active",
     "url": "https://job-boards.greenhouse.io/bugcrowd/jobs/8097496?gh_jid=8097496",
     "company_url": "https://www.bugcrowd.com",
-    "listed_locations": "Remote - US",
+    "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-15"
+    "post_date": "2026-08-14"
   },
   {
     "title": "Manager, Security Operations",
@@ -4025,11 +4025,11 @@
     "status": "active",
     "url": "https://job-boards.greenhouse.io/bugcrowd/jobs/8065555?gh_jid=8065555",
     "company_url": "https://www.bugcrowd.com",
-    "listed_locations": "Remote - US",
+    "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-15"
+    "post_date": "2026-08-14"
   },
   {
     "title": "Principal Consultant, DFIR, Reactive Services (Unit 42) - Remote",
@@ -4037,11 +4037,11 @@
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/burbank/principal-consultant-dfir-reactive-services-unit-42-remote/47263/96174882256",
     "company_url": "",
-    "listed_locations": "Burbank, California, United States of America",
-    "eligibility_regions": "US-West",
-    "model": "Remote",
+    "listed_locations": "Burbank, California, Remote (US)",
+    "eligibility_regions": "US-West, US-All",
+    "model": "Remote, Hybrid",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-14"
   },
   {
     "title": "Principal Consultant, Cloud DFIR (Unit 42) - Remote",
@@ -4049,11 +4049,11 @@
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/harrisburg/principal-consultant-cloud-dfir-unit-42-remote/47263/96270268480",
     "company_url": "https://www.paloaltonetworks.com",
-    "listed_locations": "Harrisburg, Pennsylvania, United States of America",
-    "eligibility_regions": "US-East",
-    "model": "Remote",
+    "listed_locations": "Harrisburg, PA, Remote (US)",
+    "eligibility_regions": "US-East, US-All",
+    "model": "Remote, Hybrid",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-14"
   },
   {
     "title": "Senior Consulting Director, AI Security, Proactive Services (Unit 42)",
@@ -4061,11 +4061,11 @@
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/senior-consulting-director-ai-security-proactive-services-unit-42/47263/97442358944",
     "company_url": "https://www.paloaltonetworks.com",
-    "listed_locations": "Santa Clara, California, United States of America",
-    "eligibility_regions": "US-West",
-    "model": "Remote",
+    "listed_locations": "Santa Clara, CA, Remote (US)",
+    "eligibility_regions": "US-West, US-All",
+    "model": "Remote, Hybrid",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-14"
   },
   {
     "title": "Practice Architect, Delivery Architecture (COE)",
@@ -4073,10 +4073,10 @@
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/austin/practice-architect-delivery-architecture-coe/47263/99220485152",
     "company_url": "https://www.paloaltonetworks.com",
-    "listed_locations": "Austin, Texas, United States of America, Arlington, Virginia, United States of America, Chicago, Illinois, United States of America, Dallas, Texas, United States of America",
+    "listed_locations": "Austin, TX, Arlington, VA, Chicago, IL, Dallas, TX, Remote (US)",
     "eligibility_regions": "US-All",
-    "model": "Remote",
+    "model": "Remote, Hybrid",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-14"
   }
 ]
