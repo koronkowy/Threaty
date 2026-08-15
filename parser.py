@@ -65,6 +65,7 @@ def parse_job_with_gemini(url):
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
     
     max_retries = 3
+    base_delay = 2
     
     for attempt in range(max_retries):
         try:
@@ -78,30 +79,20 @@ def parse_job_with_gemini(url):
                 except json.JSONDecodeError as e:
                     print(f"JSON Decode Error for {url}: {e}\nResponse text: {json_text}", file=sys.stderr)
                     return None, "JSON_ERROR"
-            elif response.status_code == 429:
-                print(f"API Error for {url}: Status 429 Too Many Requests (Rate limit exceeded) on attempt {attempt + 1}/{max_retries}. Detail: {response.text}", file=sys.stderr)
-                delay = 60
-            elif response.status_code in [500, 502, 503, 504]:
-                status_desc = {
-                    500: "Internal Server Error",
-                    502: "Bad Gateway",
-                    503: "Service Unavailable (Model busy)",
-                    504: "Gateway Timeout"
-                }.get(response.status_code, "Server Error")
-                print(f"API Error for {url}: Status {response.status_code} {status_desc} on attempt {attempt + 1}/{max_retries}. Detail: {response.text}", file=sys.stderr)
-                delay = 15 * (2 ** attempt)
+            elif response.status_code in [429, 500, 502, 503, 504]:
+                print(f"API Error for {url}: Status {response.status_code} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
             else:
-                print(f"API Error for {url}: Status {response.status_code}. Detail: {response.text}", file=sys.stderr)
+                print(f"API Error for {url}: {response.text}", file=sys.stderr)
                 return None, "API_ERROR"
 
         except requests.exceptions.Timeout as e:
             print(f"Timeout Exception for {url}: {e} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
-            delay = 10 * (2 ** attempt)
+            # Will retry on next iteration
         except requests.exceptions.RequestException as e:
             print(f"Request Exception for {url}: {e} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
-            delay = 5 * (2 ** attempt)
 
         if attempt < max_retries - 1:
+            delay = base_delay * (2 ** attempt)
             print(f"Retrying {url} in {delay} seconds...", file=sys.stderr)
             time.sleep(delay)
 
@@ -150,9 +141,6 @@ def main():
         else:
             reason = error_reason if error_reason in failed_categories else "OTHER"
             failed_categories[reason].append(url)
-
-        # Pacing to avoid hitting Gemini Free Tier 15 RPM limits immediately
-        time.sleep(5)
 
     # Save the full updated list
     with open(db_file, 'w') as f:
