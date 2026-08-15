@@ -2,10 +2,6 @@
 
 # 🛡️ Threaty: The High-Signal Threat Intel Job Board
 
-![Gemini 429 Errors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/koronkowy/Threaty/main/badge_429.json) ![Gemini 503 Errors](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/koronkowy/Threaty/main/badge_503.json)
-
-> **Note:** If the **Gemini 429 Errors** badge is red, job postings may be delayed as we have hit our daily quota for the Gemini AI. If the **Gemini 503 Errors** badge is red, the Gemini API is currently overloaded or experiencing downtime. Please check back later!
-
 **Threaty** is a curated minimalist job board designed to filter out general engineering noise. It isolate roles specifically within **Cyber Threat Intelligence (CTI), Detection Engineering, Incident Response (IR), and Security Automation.**
 
 By surfacing region constraints, work models, and dynamic recency metrics directly in the dashboard, Threaty helps you identify roles that match your specific geographic and authorization requirements instantly.
