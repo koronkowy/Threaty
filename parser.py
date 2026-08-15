@@ -1,4 +1,5 @@
 import os
+import time
 import requests
 import json
 import sys
@@ -60,15 +61,37 @@ def parse_job_with_gemini(url):
     endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_API_KEY}"
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
     
-    response = requests.post(endpoint, json=payload)
+    max_retries = 3
+    base_delay = 2
     
-    if response.status_code == 200:
-        content = response.json()['candidates'][0]['content']['parts'][0]['text']
-        json_text = content.replace('```json', '').replace('```', '').strip()
-        return json.loads(json_text)
-    else:
-        print(f"API Error for {url}: {response.text}", file=sys.stderr)
-        return None
+    for attempt in range(max_retries):
+        try:
+            response = requests.post(endpoint, json=payload, timeout=30)
+
+            if response.status_code == 200:
+                content = response.json()['candidates'][0]['content']['parts'][0]['text']
+                json_text = content.replace('```json', '').replace('```', '').strip()
+                try:
+                    return json.loads(json_text)
+                except json.JSONDecodeError as e:
+                    print(f"JSON Decode Error for {url}: {e}\nResponse text: {json_text}", file=sys.stderr)
+                    return None
+            elif response.status_code in [429, 500, 502, 503, 504]:
+                print(f"API Error for {url}: Status {response.status_code} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
+            else:
+                print(f"API Error for {url}: {response.text}", file=sys.stderr)
+                return None
+
+        except requests.exceptions.RequestException as e:
+            print(f"Request Exception for {url}: {e} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
+
+        if attempt < max_retries - 1:
+            delay = base_delay * (2 ** attempt)
+            print(f"Retrying {url} in {delay} seconds...", file=sys.stderr)
+            time.sleep(delay)
+
+    print(f"Failed to process {url} after {max_retries} attempts.", file=sys.stderr)
+    return None
 
 def main():
     if len(sys.argv) < 2:
