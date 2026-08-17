@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
   "label": "Gemini 429 Errors (24h)",
-  "message": "16",
-  "color": "critical"
+  "message": "0",
+  "color": "success"
 }
