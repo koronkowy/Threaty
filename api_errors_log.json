@@ -62,5 +62,25 @@
   {
     "timestamp": 1787023230.4503775,
     "status_code": 429
+  },
+  {
+    "timestamp": 1787079504.3956966,
+    "status_code": 503
+  },
+  {
+    "timestamp": 1787079516.3069687,
+    "status_code": 503
+  },
+  {
+    "timestamp": 1787079563.5120173,
+    "status_code": 503
+  },
+  {
+    "timestamp": 1787079589.6516564,
+    "status_code": 503
+  },
+  {
+    "timestamp": 1787079595.4809113,
+    "status_code": 503
   }
 ]
