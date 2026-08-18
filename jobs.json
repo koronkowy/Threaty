@@ -4234,5 +4234,53 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-08-17"
+  },
+  {
+    "title": "Retool Developer",
+    "company": "IPinfo",
+    "status": "active",
+    "url": "https://ipinfo.applytojob.com/apply/76y0IV5x3X/Retool-Developer",
+    "company_url": "",
+    "listed_locations": "Remote",
+    "eligibility_regions": "",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": ""
+  },
+  {
+    "title": "DFIR",
+    "company": "CYE",
+    "status": "active",
+    "url": "https://cyesec.com/careers/6d8de0b9-1969-41ab-ba0f-e3dd7ac6b6dd",
+    "company_url": "https://cyesec.com",
+    "listed_locations": "United States",
+    "eligibility_regions": "US-Central, US-East",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-08-18"
+  },
+  {
+    "title": "Senior Director of Subject Matter Expert - CTEM, RBVM, ASPM - Risk Operation Center (ROC)",
+    "company": "Qualys",
+    "status": "active",
+    "url": "https://qualys.wd5.myworkdayjobs.com/en-US/Careers/job/Senior-Director-of-Subject-Matter-Expert---CTEM--RBVM--ASPM---Risk-Operation-Center--ROC-_R0004540?locations=f92a9a956d98011784169af0f5cd55cb",
+    "company_url": "https://www.qualys.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": ""
+  },
+  {
+    "title": "",
+    "company": "",
+    "status": "active",
+    "url": "https://qualys.wd5.myworkdayjobs.com/en-US/Careers/job/Director-Sr-Director--Product-Management--Risk-Based-Vulnerability-Mgmt--RBVM-_R0004590?locations=f92a9a956d98011784169af0f5cd55cb",
+    "company_url": "",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-08-18"
   }
 ]
