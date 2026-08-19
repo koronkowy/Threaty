@@ -4289,23 +4289,23 @@
     "status": "active",
     "url": "https://job-boards.greenhouse.io/bugcrowd/jobs/8064887?gh_jid=8064887",
     "company_url": "https://www.bugcrowd.com",
-    "listed_locations": "Remote - US",
+    "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-19"
   },
   {
-    "title": "Principal Consultant \u2013 SOC Transformation & XSIAM Deployment",
+    "title": "Principal Consultant, SOC Transformation & XSIAM Deployment",
     "company": "Palo Alto Networks",
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/pennsylvania/principal-consultant-soc-transformation-and-xsiam-deployment/47263/96174863600",
     "company_url": "https://www.paloaltonetworks.com",
-    "listed_locations": "Remote, Pennsylvania, United States of America",
-    "eligibility_regions": "US-East",
+    "listed_locations": "PA, Remote (US)",
+    "eligibility_regions": "US-East, US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-19"
   },
   {
     "title": "Senior Consultant, DFIR, Reactive Services (Unit 42)",
@@ -4313,35 +4313,23 @@
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/senior-consultant-dfir-reactive-services-unit-42/47263/96174875472",
     "company_url": "https://www.paloaltonetworks.com",
-    "listed_locations": "Santa Clara, California, United States of America",
-    "eligibility_regions": "US-West",
+    "listed_locations": "Santa Clara, CA, Remote (US)",
+    "eligibility_regions": "US-West, US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": ""
-  },
-  {
-    "title": "Consulting Director, SOC Assessment Service, Proactive Services - Unit 42",
-    "company": "Palo Alto Networks",
-    "status": "active",
-    "url": "https://jobs.paloaltonetworks.com/en/job/charleston/consulting-director-soc-assessment-service-proactive-services-unit-42-remote/47263/96174872880",
-    "company_url": "https://www.paloaltonetworks.com",
-    "listed_locations": "Charleston",
-    "eligibility_regions": "US-East",
-    "model": "Remote",
-    "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-19"
   },
   {
     "title": "Managed XSIAM Service Delivery Lead",
     "company": "Palo Alto Networks",
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/maryland/position-managed-xsiam-service-delivery-lead/47263/98717735760",
-    "company_url": "",
-    "listed_locations": "Remote, Maryland, United States of America",
-    "eligibility_regions": "US-East",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "MD, Remote (US)",
+    "eligibility_regions": "US-East, US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-19"
   },
   {
     "title": "Managed XSIAM Service Delivery Lead",
@@ -4349,8 +4337,8 @@
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/managed-xsiam-service-delivery-lead/47263/96174876064",
     "company_url": "https://www.paloaltonetworks.com",
-    "listed_locations": "Santa Clara, California, United States of America",
-    "eligibility_regions": "US-West",
+    "listed_locations": "Santa Clara, CA, Remote (US)",
+    "eligibility_regions": "US-West, US-All",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-19"
@@ -4361,11 +4349,11 @@
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/director-ecosystems/47263/98755665520",
     "company_url": "https://www.paloaltonetworks.com",
-    "listed_locations": "Santa Clara, California, United States of America",
-    "eligibility_regions": "US-West",
+    "listed_locations": "Santa Clara, CA, Remote (US)",
+    "eligibility_regions": "US-West, US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-19"
   },
   {
     "title": "Global Account Manager - Intelligence Community",
@@ -4373,8 +4361,8 @@
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/reston/global-account-manager-intelligence-community/47263/97872744192",
     "company_url": "https://www.paloaltonetworks.com",
-    "listed_locations": "Reston, Virginia, United States of America, Baltimore, Maryland, United States of America, Washington DC, District of Columbia, United States of America",
-    "eligibility_regions": "US-East",
+    "listed_locations": "Reston, VA, Baltimore, MD, Washington, DC, Remote (US)",
+    "eligibility_regions": "US-East, US-All",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-19"
@@ -4384,12 +4372,12 @@
     "company": "Palo Alto Networks",
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/texas/principal-product-intelligence-analyst-cortex-xsiam/47263/96174863216",
-    "company_url": "",
-    "listed_locations": "Remote, Texas, United States of America",
-    "eligibility_regions": "US-Central",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "TX, Remote (US)",
+    "eligibility_regions": "US-Central, US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-19"
   },
   {
     "title": "Senior Staff Information Security Engineer \u2013 AI & Attack Surface Management",
@@ -4397,11 +4385,11 @@
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/senior-staff-information-security-engineer-ai-and-attack-surface-management/47263/98068166432",
     "company_url": "https://www.paloaltonetworks.com",
-    "listed_locations": "Santa Clara, California, United States of America",
+    "listed_locations": "Santa Clara, CA",
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-19"
   },
   {
     "title": "Principal Product Manager (Threat Prevention)",
@@ -4409,7 +4397,7 @@
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/principal-product-manager-threat-prevention/47263/96174866976",
     "company_url": "https://www.paloaltonetworks.com",
-    "listed_locations": "Santa Clara, California, United States of America",
+    "listed_locations": "Santa Clara, CA",
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
@@ -4421,10 +4409,10 @@
     "status": "active",
     "url": "https://jobs.paloaltonetworks.com/en/job/connecticut/sr-principal-engineer-software-unit-42/47263/96174875984",
     "company_url": "https://www.paloaltonetworks.com",
-    "listed_locations": "Remote, Connecticut, United States of America",
-    "eligibility_regions": "US-East",
+    "listed_locations": "CT, Remote (US)",
+    "eligibility_regions": "US-East, US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": ""
+    "post_date": "2026-08-19"
   }
 ]
