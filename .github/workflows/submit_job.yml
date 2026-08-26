@@ -58,6 +58,7 @@ jobs:
           API_ERRORS=$(sed -n '/API_ERROR_URLS_START/,/API_ERROR_URLS_END/p' run.log | sed '1d;$d')
           JSON_ERRORS=$(sed -n '/JSON_ERROR_URLS_START/,/JSON_ERROR_URLS_END/p' run.log | sed '1d;$d')
           OTHER_ERRORS=$(sed -n '/OTHER_URLS_START/,/OTHER_URLS_END/p' run.log | sed '1d;$d')
+          SHELVED=$(sed -n '/SHELVED_URLS_START/,/SHELVED_URLS_END/p' run.log | sed '1d;$d')
           
           COMMENT="Batch processing complete! The successful jobs are in the Pull Request below."
           HAS_ERRORS=false
@@ -92,6 +93,12 @@ jobs:
           if [ ! -z "$OTHER_ERRORS" ]; then
             HAS_ERRORS=true
             printf -v ADDITION "\n\n**Failed due to Other Errors (e.g. Scraping Failed):**\n%s" "$OTHER_ERRORS"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ ! -z "$SHELVED" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Shelved (these were not parsed due to failures, please try parsing another time):**\n%s" "$SHELVED"
             ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
           fi
 
