@@ -62,44 +62,64 @@ def parse_job_with_gemini(url):
     Job Text: {text}
     """
     
-    endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={GEMINI_API_KEY}"
+    models_to_try = [
+        "gemini-flash-latest",
+        "gemini-1.5-flash",
+        "gemini-1.5-pro",
+        "gemini-1.0-pro"
+    ]
+
     payload = {"contents": [{"parts": [{"text": prompt}]}]}
     
     max_retries = 3
     base_delay = 2
     
-    for attempt in range(max_retries):
-        try:
-            response = requests.post(endpoint, json=payload, timeout=30)
+    for model_index, model in enumerate(models_to_try):
+        endpoint = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_API_KEY}"
 
-            if response.status_code == 200:
-                content = response.json()['candidates'][0]['content']['parts'][0]['text']
-                json_text = content.replace('```json', '').replace('```', '').strip()
-                try:
-                    return json.loads(json_text), None
-                except json.JSONDecodeError as e:
-                    print(f"JSON Decode Error for {url}: {e}\nResponse text: {json_text}", file=sys.stderr)
-                    return None, "JSON_ERROR"
-            elif response.status_code in [429, 500, 502, 503, 504]:
-                print(f"API Error for {url}: Status {response.status_code} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
-                if response.status_code in [429, 503]:
-                    log_api_error(response.status_code)
+        for attempt in range(max_retries):
+            try:
+                response = requests.post(endpoint, json=payload, timeout=60)
+
+                if response.status_code == 200:
+                    content = response.json()['candidates'][0]['content']['parts'][0]['text']
+                    json_text = content.replace('```json', '').replace('```', '').strip()
+                    try:
+                        return json.loads(json_text), None
+                    except json.JSONDecodeError as e:
+                        print(f"JSON Decode Error for {url} with model {model}: {e}\nResponse text: {json_text}", file=sys.stderr)
+                        # JSON decode error is usually due to bad formatting, retrying same model might not help but different model might.
+                        break # Break inner loop, try next model
+                elif response.status_code in [429, 500, 502, 503, 504]:
+                    print(f"API Error for {url} with model {model}: Status {response.status_code} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
+                    if response.status_code in [429, 503]:
+                        log_api_error(response.status_code)
+
+                    if response.status_code == 429:
+                        # If we hit a rate limit, don't keep hammering the same model. Break to try next model immediately.
+                        break
+                else:
+                    print(f"API Error for {url} with model {model}: {response.text}", file=sys.stderr)
+                    # Other API errors, might be model specific, let's try next model
+                    break
+
+            except requests.exceptions.Timeout as e:
+                print(f"Timeout Exception for {url} with model {model}: {e} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
+                # Will retry on next iteration
+            except requests.exceptions.RequestException as e:
+                print(f"Request Exception for {url} with model {model}: {e} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
+
+            if attempt < max_retries - 1:
+                delay = base_delay * (2 ** attempt)
+                print(f"Retrying {url} in {delay} seconds...", file=sys.stderr)
+                time.sleep(delay)
             else:
-                print(f"API Error for {url}: {response.text}", file=sys.stderr)
-                return None, "API_ERROR"
+                # Max retries reached for this model
+                pass
 
-        except requests.exceptions.Timeout as e:
-            print(f"Timeout Exception for {url}: {e} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
-            # Will retry on next iteration
-        except requests.exceptions.RequestException as e:
-            print(f"Request Exception for {url}: {e} on attempt {attempt + 1}/{max_retries}", file=sys.stderr)
+        print(f"Failed to process {url} with model {model} after {max_retries} attempts.", file=sys.stderr)
 
-        if attempt < max_retries - 1:
-            delay = base_delay * (2 ** attempt)
-            print(f"Retrying {url} in {delay} seconds...", file=sys.stderr)
-            time.sleep(delay)
-
-    print(f"Failed to process {url} after {max_retries} attempts.", file=sys.stderr)
+    print(f"Failed to process {url} after trying all fallback models.", file=sys.stderr)
     return None, "API_ERROR"
 
 def main():
@@ -121,14 +141,23 @@ def main():
         "TIMEOUT": [],
         "API_ERROR": [],
         "JSON_ERROR": [],
-        "OTHER": []
+        "OTHER": [],
+        "SHELVED": []
     }
 
     existing_urls = {job.get('url') for job in jobs if job.get('url')}
     
     success_count = 0
-    for url in urls:
+    consecutive_api_errors = 0
+    MAX_CONSECUTIVE_ERRORS = 3
+
+    for index, url in enumerate(urls):
         print(f"[*] Processing: {url}")
+
+        if consecutive_api_errors >= MAX_CONSECUTIVE_ERRORS:
+            print(f"[-] Aborting batch due to multiple consecutive API errors. Shelving: {url}")
+            failed_categories["SHELVED"].append(url)
+            continue
 
         if url in existing_urls:
             print(f"[-] Duplicate found, skipping: {url}")
@@ -140,10 +169,15 @@ def main():
             jobs.append(new_job)
             existing_urls.add(new_job['url'])
             success_count += 1
+            consecutive_api_errors = 0 # reset on success
             print(f"[+] Successfully added: {new_job['title']}")
         else:
             reason = error_reason if error_reason in failed_categories else "OTHER"
             failed_categories[reason].append(url)
+            if reason == "API_ERROR":
+                consecutive_api_errors += 1
+            else:
+                consecutive_api_errors = 0
 
     # Save the full updated list
     with open(db_file, 'w') as f:
