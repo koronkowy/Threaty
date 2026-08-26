@@ -4414,5 +4414,113 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-19"
+  },
+  {
+    "title": "Principal Product Manager (Cortex Cloud)",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/principal-product-manager-cortex-cloud/47263/96174882064",
+    "company_url": "https://www.paloaltonetworks.com/",
+    "listed_locations": "Santa Clara, CA",
+    "eligibility_regions": "US-West",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-08-26"
+  },
+  {
+    "title": "Principal Technical Marketing Engineer, Analyst Relations (Cortex Cloud)",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/burbank/principal-technical-marketing-engineer-analyst-relations-cortex-cloud/47263/98684566672",
+    "company_url": "https://www.paloaltonetworks.com/",
+    "listed_locations": "Burbank, CA, Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-08-26"
+  },
+  {
+    "title": "Principal Infosec Engineer- Product Security Incident Response",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/principal-infosec-engineer-product-security-incident-response/47263/98068166240",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Santa Clara, CA",
+    "eligibility_regions": "US-West",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-08-26"
+  },
+  {
+    "title": "Senior Threat Researcher, Unit 42",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/sacramento/senior-threat-researcher-unit-42/47263/98434298592",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Sacramento, CA, Remote (US)",
+    "eligibility_regions": "US-West, US-All",
+    "model": "Hybrid, Remote",
+    "deadline": "",
+    "post_date": "2026-08-26"
+  },
+  {
+    "title": "Senior Threat Researcher, Unit 42",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/virginia/senior-threat-researcher-unit-42/47263/96975306512",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "VA, Remote (US)",
+    "eligibility_regions": "US-East, US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-08-26"
+  },
+  {
+    "title": "Principal Security Researcher - Advanced Threat Prevention",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/principal-security-researcher-advanced-threat-prevention/47263/97926136000",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Santa Clara, CA, San Francisco, CA, San Jose, CA",
+    "eligibility_regions": "US-West",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-08-26"
+  },
+  {
+    "title": "Principal Cloud Infrastructure Engineer (Advanced Threat Protection)",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/principal-cloud-infrastructure-engineer-advanced-threat-protection/47263/96936732064",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Santa Clara, CA",
+    "eligibility_regions": "US-West",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-08-26"
+  },
+  {
+    "title": "Sr. Principal Cybersecurity Researcher - Rapid Response (Unit 42)",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/sr-principal-cybersecurity-researcher-unit-42/47263/96174881776",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Santa Clara, CA, Remote (US)",
+    "eligibility_regions": "US-West, US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-08-26"
+  },
+  {
+    "title": "Principal Researcher (Unit 42)",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/arlington/principal-researcher-unit-42/47263/96174864048",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Arlington, VA, Remote (US)",
+    "eligibility_regions": "US-East, US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-08-26"
   }
 ]
