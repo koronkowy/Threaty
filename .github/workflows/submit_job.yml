@@ -7,6 +7,10 @@ concurrency:
   group: job-submission-pipeline
   cancel-in-progress: false
 
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+  NODE_OPTIONS: "--no-deprecation"
+
 jobs:
   ingest-job:
     if: contains(github.event.issue.labels.*.name, 'job-submission')
