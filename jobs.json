@@ -4630,5 +4630,77 @@
     "model": "Hybrid, Remote",
     "deadline": "",
     "post_date": "2026-08-26"
+  },
+  {
+    "title": "Sr Threat Hunter",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/baton-rouge/sr-threat-hunter/47263/97776023424",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-09-10"
+  },
+  {
+    "title": "Principal Researcher, Financial Services",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/new-york/principal-researcher-financial-services/47263/96478012592",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-09-10"
+  },
+  {
+    "title": "Principal Technical Marketing Engineer (Malware Defense)",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/principal-technical-marketing-engineer-malware-defense/47263/96174870944",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Santa Clara, CA",
+    "eligibility_regions": "US-West",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-09-10"
+  },
+  {
+    "title": "Senior MSIAM SOC Engineer (Unit 42)",
+    "company": "Palo Alto Networks",
+    "status": "active",
+    "url": "https://jobs.paloaltonetworks.com/en/job/charlotte/senior-msiam-soc-engineer-unit-42/47263/97170833744",
+    "company_url": "https://www.paloaltonetworks.com",
+    "listed_locations": "Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-09-10"
+  },
+  {
+    "title": "Senior Threat Intelligence Research Engineer",
+    "company": "Fortinet",
+    "status": "active",
+    "url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/20754/",
+    "company_url": "https://www.fortinet.com/",
+    "listed_locations": "Sunnyvale, CA",
+    "eligibility_regions": "US-West",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-09-10"
+  },
+  {
+    "title": "Senior Threat Intelligence Research Engineer",
+    "company": "Fortinet",
+    "status": "active",
+    "url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/20619/",
+    "company_url": "https://www.fortinet.com/",
+    "listed_locations": "Sunnyvale, CA, Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-09-10"
   }
 ]
