@@ -4702,5 +4702,53 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-10"
+  },
+  {
+    "title": "Director - Cyber Threat Intelligence (CTI)",
+    "company": "Target",
+    "status": "active",
+    "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Director---Cyber-Threat-Intelligence--CTI-_R0000452240-1",
+    "company_url": "",
+    "listed_locations": "Brooklyn Park, MN",
+    "eligibility_regions": "US-Central",
+    "model": "",
+    "deadline": "",
+    "post_date": ""
+  },
+  {
+    "title": "Sr Software Engineer - Linux Sensor",
+    "company": "CrowdStrike",
+    "status": "active",
+    "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Sr-Software-Engineer---Linux-Sensor--Hybrid-_R27317?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
+    "company_url": "https://www.crowdstrike.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-09-12"
+  },
+  {
+    "title": "Sr. Windows Sensor Engineer",
+    "company": "CrowdStrike",
+    "status": "active",
+    "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Sr-Windows-Sensor-Engineer_R29553?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
+    "company_url": "https://www.crowdstrike.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-09-12"
+  },
+  {
+    "title": "Software Engineer - Sensor (macOS) - Hybrid",
+    "company": "CrowdStrike",
+    "status": "active",
+    "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Software-Engineer---Sensor--macOS---Hybrid-_R29279?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
+    "company_url": "https://www.crowdstrike.com",
+    "listed_locations": "",
+    "eligibility_regions": "",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-09-12"
   }
 ]
