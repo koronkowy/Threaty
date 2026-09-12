@@ -1,14 +1,6 @@
 [
   {
-    "timestamp": 1789076203.739019,
-    "status_code": 429
-  },
-  {
-    "timestamp": 1789076204.6217904,
-    "status_code": 429
-  },
-  {
-    "timestamp": 1789076205.517898,
-    "status_code": 429
+    "timestamp": 1789177226.3587883,
+    "status_code": 503
   }
 ]
