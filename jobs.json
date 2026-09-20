@@ -4870,5 +4870,113 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-09-13"
+  },
+  {
+    "title": "Cyber Threat Hunter (TS/SCI Clearance Required)",
+    "company": "Trellix",
+    "status": "active",
+    "url": "https://careers.trellix.com/jobs/cyber-threat-hunter-ts-sci-clearance-required/",
+    "company_url": "https://trellix.com",
+    "listed_locations": "Fairfax, VA, Fort Belvoir, VA",
+    "eligibility_regions": "US-East",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-09-19"
+  },
+  {
+    "title": "Director of Product, Web Protections",
+    "company": "McAfee",
+    "status": "active",
+    "url": "https://careers.mcafee.com/jobs/1727?lang=en-us",
+    "company_url": "https://www.mcafee.com/",
+    "listed_locations": "San Jose, CA, New York, NY, Newport Beach, CA, Frisco, TX, San Jose, CA",
+    "eligibility_regions": "US-West, US-East, US-Central",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-09-19"
+  },
+  {
+    "title": "Principal Software Engineer, AI SIEM",
+    "company": "SentinelOne",
+    "status": "active",
+    "url": "https://www.sentinelone.com/jobs/?search=SIEM&l=United+States&gh_jid=7814850003",
+    "company_url": "https://www.sentinelone.com",
+    "listed_locations": "Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-09-19"
+  },
+  {
+    "title": "Staff Information Security Engineer - Threat Defense - Automation",
+    "company": "Proofpoint",
+    "status": "active",
+    "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Staff-Information-Security-Engineer---Threat-Defense---Automation_R14506",
+    "company_url": "https://www.proofpoint.com/",
+    "listed_locations": "Sunnyvale, CA, Draper, UT",
+    "eligibility_regions": "US-West",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-09-19"
+  },
+  {
+    "title": "Senior Cyber Threat Defense - Security Operations Engineer",
+    "company": "Proofpoint",
+    "status": "active",
+    "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Senior-Cyber-Threat-Defense---Security-Operations-Engineer_R14519",
+    "company_url": "https://www.proofpoint.com/",
+    "listed_locations": "Draper, UT",
+    "eligibility_regions": "US-West",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-09-19"
+  },
+  {
+    "title": "Manager - Threat Protection Services",
+    "company": "Proofpoint",
+    "status": "active",
+    "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Manager--Threat-Protection-Services_R14299-1",
+    "company_url": "https://www.proofpoint.com/",
+    "listed_locations": "CA, WY, AZ, UT, CO, NV, OR, NE, MT, WA, ID, ND",
+    "eligibility_regions": "US-West, US-Central",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-09-19"
+  },
+  {
+    "title": "Security Operations Center Operator",
+    "company": "Sound Transit",
+    "status": "active",
+    "url": "https://recruiting.ultipro.com/SOU1036SOUND/JobBoard/dcc5dbea-875e-4cd1-bfd2-8e046cecc54f/OpportunityDetail?opportunityId=d32ca77d-c097-4b69-9a81-71dbed7dc29b",
+    "company_url": "https://www.soundtransit.org/",
+    "listed_locations": "Seattle, WA",
+    "eligibility_regions": "US-West",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-09-19"
+  },
+  {
+    "title": "Vice President - Cyber Incident Response",
+    "company": "Federal Reserve System",
+    "status": "active",
+    "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Richmond-VA/Vice-President---Cyber-Incident-Response_R-0000033257-1",
+    "company_url": "https://fee.org/",
+    "listed_locations": "Richmond, VA, Atlanta, GA, Boston, MA, Chicago, IL, Cleveland, OH, Dallas, TX, Denver, CO, Kansas City, Minneapolis, MN, New York, NY, Philadelphia, PA, San Francisco, CA, St. Louis, MO",
+    "eligibility_regions": "US-East, US-West, US-East",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-09-19"
+  },
+  {
+    "title": "Cyber Threat Intel Analyst",
+    "company": "Wiz",
+    "status": "active",
+    "url": "https://www.wiz.io/careers/job/4705367006/cyber-threat-intel-analyst?gh_jid=4705367006",
+    "company_url": "https://www.wiz.io",
+    "listed_locations": "Washington, DC",
+    "eligibility_regions": "US-East",
+    "model": "",
+    "deadline": "2026-10-01",
+    "post_date": "2026-09-19"
   }
 ]
