@@ -401,7 +401,7 @@
     listContainer.innerHTML = '';
     let activeMatchCount = 0;
 
-    masterDatabase.reverse().forEach(role => {
+    [...masterDatabase].reverse().forEach(role => {
         // --- THE FILTER LOGIC ---
         // If toggle is ON, skip jobs marked 'expired'
         if (hideExpired && role.status === 'expired') return;
