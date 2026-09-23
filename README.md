@@ -88,13 +88,16 @@ Your **Gemini API Key** is never hardcoded. It must be stored in **GitHub Reposi
 
 | **Region**     | **Mapping Logic**                | **Examples / Hubs**                                                     |
 | -------------------- | -------------------------------------- | ----------------------------------------------------------------------------- |
-| **US-All**     | Nationwide remote roles                | US-based full remote; includes all regional hubs                              |
-| **US-East**    | Covers East Coast & DC Metro (DMV)     | VA, DC, MD, NYC, Boston; includes DMV, Tri-State, Mid-Atlantic, NOVA          |
-| **US-West**    | Covers West Coast & PNW                | Seattle, Portland, SF, LA; includes PNW, Mountain, Southwest, Bay Area, SOCAL |
-| **US-Central** | Covers Midwest & South-Central & TOLA  | Austin, Chicago, Dallas, Houston; includes TOLA, Midwest                      |
-| **EMEA**       | Covers Europe, UK, DACH, & Middle East | London, Berlin, Tel Aviv, Prague; includes DACH, Benelux, Gulf, Israel        |
-| **APAC**       | Covers Asia/Pacific                    | Bangalore, India, Tokyo, Singapore, Sydney; includes ASEAN, ANZ               |
-| **LATAM**      | Covers Latin America                   | São Paulo, Mexico City, Bogotá, Buenos Aires                                |
+| **US-All**     | Nationwide remote roles                | Remote (US), Nationwide, United States, Americas, Global Remote               |
+| **US-East**    | Covers East Coast & DC Metro (DMV)     | VA, DC, MD, NYC, NY, Boston, MA, PA, NC, NJ, SC, FL, GA, OH, CT, ME, DMV      |
+| **US-West**    | Covers West Coast & PNW                | WA, Seattle, Portland, OR, CA, SF, LA, San Francisco, UT, NV, AZ, CO, HI, PNW, Bay Area, SOCAL, Sunnyvale, Santa Clara, Draper, Costa Mesa, Mountain View, Burbank |
+| **US-Central** | Covers Midwest & South-Central & TOLA  | TX, Austin, Dallas, Houston, IL, Chicago, MN, TN, AL, MO, NE, ND, WI, MI, TOLA, Midwest |
+| **EMEA**       | Covers Europe, UK, DACH, & Middle East | Europe, UK, Germany, London, Berlin, Tel Aviv, Prague, Czechia, Switzerland, Zurich, Poland, Ireland, Scotland, Wales, Austria, Luxembourg, Saudi Arabia, Bratislava, DACH, EMEA |
+| **APAC**       | Covers Asia/Pacific                    | India, Bangalore, Tokyo, Singapore, Sydney, Australia, Japan, Philippines, Manila, APAC, ANZ |
+| **LATAM**      | Covers Latin America                   | São Paulo, Mexico, Bogotá, Buenos Aires, Queretaro, Monterrey, Guadalajara, LATAM |
+| **Canada**     | Covers Canada                          | Canada, ON, Ontario, Toronto, Ottawa, Vancouver                               |
+
+> **Note:** "Washington" resolves to `US-West` (WA state) unless it explicitly includes "DC" (which resolves to `US-East`).
 
 ### Regional Logic Summary
 
