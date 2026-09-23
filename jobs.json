@@ -7,7 +7,7 @@
     "company_url": "https://www.mandiant.com",
     "model": "Remote",
     "listed_locations": "VA, Remote (US)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-East",
     "post_date": "2026-05-22",
     "deadline": "Expired"
   },
@@ -78,7 +78,7 @@
     "url": "https://job-boards.greenhouse.io/greynoiseintelligence/jobs/4684861005?gh_jid=4684861005",
     "company_url": "https://greynoise.io",
     "listed_locations": "Washington, DC or Remote",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-05-22"
@@ -306,7 +306,7 @@
     "url": "https://bitdefender.csod.com/ux/ats/careersite/1/home/requisition/688?c=bitdefender",
     "company_url": "https://www.bitdefender.com",
     "listed_locations": "Remote (US)",
-    "eligibility_regions": "US-ALL",
+    "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-05-23"
@@ -354,7 +354,7 @@
     "url": "https://www.ivanti.com/company/careers/job?gh_jid=5769430003",
     "company_url": "https://www.ivanti.com",
     "listed_locations": "Remote (US)",
-    "eligibility_regions": "US-ALL",
+    "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-05-23"
@@ -378,7 +378,7 @@
     "url": "https://nebulock.io/careers/senior-backend-engineer-data",
     "company_url": "https://nebulock.io",
     "listed_locations": "Boston, MA",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-05-24"
@@ -522,7 +522,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/toronto/principal-consultant-soc-advisory-proactive-services-unit-42-remote/47263/91053599872",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "Toronto, Ontario, Canada",
-    "eligibility_regions": "",
+    "eligibility_regions": "Canada",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-05-24"
@@ -618,7 +618,7 @@
     "url": "https://nebulock.io/careers/senior-full-stack-engineer",
     "company_url": "https://nebulock.io",
     "listed_locations": "Remote (US) or Hybrid (Boston, MA)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-05-27"
@@ -642,7 +642,7 @@
     "url": "https://www.okta.com/company/careers/product/product-manager-identity-threat-protection-7603685/",
     "company_url": "https://www.okta.com",
     "listed_locations": "Bellevue, WA, Chicago, IL, New York, NY, San Francisco, CA, Toronto, Ontario, Canada, Washington, DC",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "Canada, US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-05-27"
@@ -654,7 +654,7 @@
     "url": "https://www.okta.com/company/careers/security/director-okta-threat-intelligence-7923358/",
     "company_url": "https://www.okta.com",
     "listed_locations": "Bellevue, WA, Chicago, IL",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-05-27"
@@ -738,7 +738,7 @@
     "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Product-Manager--Threat-Protection_R14123?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
     "company_url": "https://www.proofpoint.com",
     "listed_locations": "Sunnyvale, CA, Toronto, Canada, Pittsburgh, PA, Draper, UT",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "Canada, US-East, US-West",
     "model": "",
     "deadline": "Expired",
     "post_date": "2026-05-27"
@@ -750,7 +750,7 @@
     "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Sr-Software-Engineer--Threat-Intelligence_R14247?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
     "company_url": "https://www.proofpoint.com",
     "listed_locations": "Pittsburgh, PA, NJ, NC, NY, WA, SC, MA",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-East, US-West",
     "model": "",
     "deadline": "Expired",
     "post_date": "2026-05-27"
@@ -762,7 +762,7 @@
     "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Security-Software-Engineer_R14278?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
     "company_url": "https://www.proofpoint.com",
     "listed_locations": "UT, NY, CA, TX, CO",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "",
     "deadline": "Expired",
     "post_date": "2026-05-27"
@@ -798,7 +798,7 @@
     "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Sr-Product-Marketing-Manager_R14218-1?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
     "company_url": "https://www.proofpoint.com",
     "listed_locations": "MA, NY, Pittsburgh, PA, Draper, UT",
-    "eligibility_regions": "US-East",
+    "eligibility_regions": "US-East, US-West",
     "model": "",
     "deadline": "Expired",
     "post_date": "2026-05-27"
@@ -870,7 +870,7 @@
     "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Principal-Product-Manager--Applied-AI---Agentic-Services-Solutions_R14136?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
     "company_url": "https://www.proofpoint.com",
     "listed_locations": "Sunnyvale, CA, NC, FL, NJ, TX, MN, MI, MA, MD, Pittsburgh, PA, Pennsylvania, PA, AZ, UT, OR, Illinois, IL, VA, GA",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-05-28"
@@ -882,7 +882,7 @@
     "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Principal-ML-Architect---Security-AI---Advanced-Model-Systems_R14162?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
     "company_url": "https://www.proofpoint.com",
     "listed_locations": "Sunnyvale, CA, Singapore",
-    "eligibility_regions": "US-West, APAC",
+    "eligibility_regions": "APAC, US-West",
     "model": "",
     "deadline": "Expired",
     "post_date": "2026-05-28"
@@ -918,7 +918,7 @@
     "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Staff-Software-Engineer_R14262?locationCountry=bc33aa3152ec42d4995f4791a106ed09",
     "company_url": "https://www.proofpoint.com",
     "listed_locations": "Draper, UT, Toronto, Canada, Pittsburgh, PA, Cork, Ireland",
-    "eligibility_regions": "US-East, EMEA",
+    "eligibility_regions": "Canada, EMEA, US-East, US-West",
     "model": "",
     "deadline": "Expired",
     "post_date": "2026-05-28"
@@ -1098,7 +1098,7 @@
     "url": "https://fortra.wd12.myworkdayjobs.com/en-US/FortraCareers/job/Sr-Threat-Researcher_R26-0061",
     "company_url": "https://www.fortra.com",
     "listed_locations": "Ontario, Canada",
-    "eligibility_regions": "",
+    "eligibility_regions": "Canada",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-05-28"
@@ -1182,7 +1182,7 @@
     "url": "https://jobs.ashbyhq.com/hackerone/72cdf9a9-74cb-4c0e-8cf8-241ba32680ec",
     "company_url": "https://www.hackerone.com",
     "listed_locations": "Austin, TX, Boston, MA, San Francisco, CA, Seattle, WA, Washington, DC",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-05-29"
@@ -1206,7 +1206,7 @@
     "url": "https://job-boards.greenhouse.io/andurilindustries/jobs/4753186007?gh_jid=4753186007",
     "company_url": "https://anduril.com",
     "listed_locations": "Costa Mesa, CA, Seattle, WA, Atlanta, GA",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-East, US-West",
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-05-29"
@@ -1434,7 +1434,7 @@
     "url": "https://job-boards.greenhouse.io/andurilindustries/jobs/5026035007?gh_jid=5026035007",
     "company_url": "https://anduril.com",
     "listed_locations": "Boston, MA, Costa Mesa, CA, Seattle, WA, Washington, DC",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-East, US-West",
     "model": "Onsite",
     "deadline": "Expired",
     "post_date": "2026-06-03"
@@ -1554,7 +1554,7 @@
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5066995008",
     "company_url": "https://www.anthropic.com",
     "listed_locations": "San Francisco, CA, Washington, DC",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-06-03"
@@ -1590,7 +1590,7 @@
     "url": "https://jobs.lever.co/deleteme/b8b95e2b-cd7c-4d53-8628-d219bc9cf5b9",
     "company_url": "https://joindeleteme.com/",
     "listed_locations": "US",
-    "eligibility_regions": "US-West",
+    "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-04"
@@ -1614,7 +1614,7 @@
     "url": "https://job-boards.greenhouse.io/spycloud/jobs/7644006003",
     "company_url": "https://spycloud.com",
     "listed_locations": "Austin, TX",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-06-04"
@@ -1638,7 +1638,7 @@
     "url": "https://job-boards.greenhouse.io/spycloud/jobs/7732573003",
     "company_url": "https://spycloud.com",
     "listed_locations": "Austin, TX",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-06-04"
@@ -1698,7 +1698,7 @@
     "url": "https://job-boards.greenhouse.io/spycloud/jobs/7740383003",
     "company_url": "https://spycloud.com",
     "listed_locations": "Remote",
-    "eligibility_regions": "US-All, EMEA",
+    "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-06-04"
@@ -1722,7 +1722,7 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/98976194145198790-threat-analyst-mandiant-custom-intelligence",
     "company_url": "https://www.google.com",
     "listed_locations": "VA",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-06-04"
@@ -1794,7 +1794,7 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/114524693116920518-senior-client-advisor-mandiant-google-cloud",
     "company_url": "https://www.google.com",
     "listed_locations": "MN",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-06-04"
@@ -1830,7 +1830,7 @@
     "url": "https://usbank.wd1.myworkdayjobs.com/US_Bank_Careers/job/Cincinnati-OH/Lead-Cyber-Threat-Intelligence-Analyst_2026-0013879",
     "company_url": "https://www.usbank.com",
     "listed_locations": "Cincinnati, OH",
-    "eligibility_regions": "US-Central",
+    "eligibility_regions": "US-East",
     "model": "",
     "deadline": "Expired",
     "post_date": "2026-06-05"
@@ -1878,7 +1878,7 @@
     "url": "https://jobs.xcelenergy.com/cyber-intelligence-consultant-cos490/job/0D8A5330D77A900383526D1F09DEBFBF",
     "company_url": "https://www.xcelenergy.com",
     "listed_locations": "Denver, CO, Minneapolis, MN",
-    "eligibility_regions": "US-Central",
+    "eligibility_regions": "US-Central, US-West",
     "model": "Onsite",
     "deadline": "Expired",
     "post_date": "2026-06-05"
@@ -1914,7 +1914,7 @@
     "url": "https://cna.wd1.myworkdayjobs.com/en-US/CNA_Careers/job/Cnsltng-Dir--Threat-Hunter_R-7373",
     "company_url": "https://www.cna.com",
     "listed_locations": "Chicago, IL",
-    "eligibility_regions": "US-East",
+    "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-06-06"
@@ -1926,7 +1926,7 @@
     "url": "https://tenex.ai/careers/open-positions/?ashby_jid=591faa7b-7065-40c6-9c74-3bbc7807ccba",
     "company_url": "https://tenex.ai/",
     "listed_locations": "Sarasota, FL, Kansas City, MO",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central, US-East",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-06-06"
@@ -1938,7 +1938,7 @@
     "url": "https://tenex.ai/careers/open-positions/?ashby_jid=a0458ccb-be64-43c8-bf1c-4f500570f771",
     "company_url": "https://tenex.ai/",
     "listed_locations": "Sarasota, FL, Kansas City, MO, Scottsdale, AZ",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-06-06"
@@ -2022,7 +2022,7 @@
     "url": "https://www.builtinchicago.org/job/cyber-threat-intelligence-cti-analyst/9312223",
     "company_url": "https://www.computershare.com",
     "listed_locations": "Chicago, IL",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-07-26"
@@ -2034,7 +2034,7 @@
     "url": "https://apply.deloitte.com/en_US/careers/JobDetail/Cyber-Threat-Intel-Analyst/354276",
     "company_url": "https://www.deloitte.com",
     "listed_locations": "Colorado Springs, CO",
-    "eligibility_regions": "US-Central",
+    "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
     "post_date": "2026-06-06"
@@ -2058,7 +2058,7 @@
     "url": "https://talentnetwork.millgroupinc.com/join/jobs/3083?lang=en-us",
     "company_url": "https://www.millgroupinc.com",
     "listed_locations": "Colorado Springs, CO",
-    "eligibility_regions": "US-Central",
+    "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-06-06"
@@ -2106,7 +2106,7 @@
     "url": "https://jobs.dayforcehcm.com/en-US/crisis24/CANDIDATEPORTAL/jobs/22134",
     "company_url": "https://www.crisis24.com/",
     "listed_locations": "Annapolis, MD",
-    "eligibility_regions": "",
+    "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-06-06"
@@ -2130,7 +2130,7 @@
     "url": "https://jobs.lever.co/dnb/6e90f086-8658-43a5-b98c-abdc341a158c",
     "company_url": "https://www.dnb.com",
     "listed_locations": "Austin, TX, Center Valley, PA, Jacksonville, FL",
-    "eligibility_regions": "US-East, US-Central",
+    "eligibility_regions": "US-Central, US-East",
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-06-06"
@@ -2142,7 +2142,7 @@
     "url": "https://lennar.wd1.myworkdayjobs.com/en-US/Lennar_Jobs/job/Sr-Threat-Intelligence-Analyst_R26_0000001828",
     "company_url": "https://www.lennar.com",
     "listed_locations": "Miami, FL, Irving, TX",
-    "eligibility_regions": "US-East, US-Central",
+    "eligibility_regions": "US-Central, US-East",
     "model": "",
     "deadline": "Expired",
     "post_date": "2026-06-06"
@@ -2190,7 +2190,7 @@
     "url": "https://www.capitalonecareers.com/job/mclean/manager-cyber-threat-researcher-cyber-intelligence-remote-eligible/1732/95857652768",
     "company_url": "https://www.capitalone.com",
     "listed_locations": "McLean, VA, Richmond, VA, Remote, US, New York, NY, Plano, TX, Chicago, IL",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-Central, US-East",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-06"
@@ -2202,7 +2202,7 @@
     "url": "https://www.okta.com/company/careers/security/director-okta-threat-intelligence-7923358/",
     "company_url": "https://www.okta.com",
     "listed_locations": "Bellevue, WA, Chicago, IL, New York, NY, Washington, DC",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-06-06"
@@ -2238,7 +2238,7 @@
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5066995008",
     "company_url": "https://www.anthropic.com",
     "listed_locations": "San Francisco, CA, Washington, DC",
-    "eligibility_regions": "US-East, US-West",
+    "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-06-06"
@@ -2250,7 +2250,7 @@
     "url": "https://medtronic.wd1.myworkdayjobs.com/en-US/MedtronicCareers/job/IT-Manager--Threat-Intelligence_R64102",
     "company_url": "https://www.medtronic.com",
     "listed_locations": "Mounds View, MN, Fridley, MN, Fort Worth, TX, Lafayette, CO, Irvine, CA, Jacksonville, FL, Boston, MA, Memphis, TN",
-    "eligibility_regions": "US-ALL",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Onsite",
     "deadline": "Expired",
     "post_date": "2026-06-06"
@@ -2322,7 +2322,7 @@
     "url": "https://careers.bankofamerica.com/en-us/job-detail/26018922/cyber-crime-sr-specialist-cyber-threat-exp-required-multiple-locations",
     "company_url": "https://www.bankofamerica.com/",
     "listed_locations": "Addison, TX, Charlotte, NC, Denver, CO",
-    "eligibility_regions": "US-Central, US-East",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "",
     "deadline": "Expired",
     "post_date": "2026-06-06"
@@ -2382,7 +2382,7 @@
     "url": "https://btas.com/openings/?gnk=job&gni=8a7885ac958c3cbe0195ce2937d92bee&lang=en",
     "company_url": "https://btas.com",
     "listed_locations": "El Segundo, CA",
-    "eligibility_regions": "US-East",
+    "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
     "post_date": "2026-06-07"
@@ -2502,7 +2502,7 @@
     "url": "https://careers.gic.com.sg/job/New-York-VP%2C-Threat-Intelligence-Cyber-Security-Assurance-&-Defense/1357440366/",
     "company_url": "https://www.gic.com.sg",
     "listed_locations": "New York, US",
-    "eligibility_regions": "US-East",
+    "eligibility_regions": "US-All, US-East",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-06-07"
@@ -2514,7 +2514,7 @@
     "url": "https://job-boards.greenhouse.io/robinhood/jobs/7615747?t=gh_src%3D&gh_jid=7615747&ref=jobsbyculture.com",
     "company_url": "https://robinhood.com",
     "listed_locations": "Toronto, Canada",
-    "eligibility_regions": "",
+    "eligibility_regions": "Canada",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-06-07"
@@ -2610,7 +2610,7 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/120267889025393350-product-manager-workspace-abuse-and-safety-enterprise-protections",
     "company_url": "https://www.google.com",
     "listed_locations": "Sunnyvale, CA, Kirkland, WA, New York, NY",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-East, US-West",
     "model": "",
     "deadline": "Expired",
     "post_date": "2026-06-09"
@@ -2622,7 +2622,7 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/88242276404208326-senior-security-engineer-insider-and-technology-risk",
     "company_url": "https://www.google.com",
     "listed_locations": "New York, NY, Kirkland, WA, Reston, VA Sunnyvale, CA",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-East, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-06-09"
@@ -2634,7 +2634,7 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/105972459747844806-fraud-defense-customer-engineer-google-cloud-platform-spanish",
     "company_url": "https://www.google.com",
     "listed_locations": "Dublin, Ireland, Atlanta, GA, Austin, TX",
-    "eligibility_regions": "US-East, US-Central, EMEA",
+    "eligibility_regions": "EMEA, US-Central, US-East",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-06-09"
@@ -2682,7 +2682,7 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/93794131418981062-principal-application-security-consultant-national-security-mandiant",
     "company_url": "https://www.google.com",
     "listed_locations": "Ottawa, ON, Canada",
-    "eligibility_regions": "",
+    "eligibility_regions": "Canada",
     "model": "Onsite",
     "deadline": "Expired",
     "post_date": "2026-06-09"
@@ -2694,7 +2694,7 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/98946322647655110-associate-principal-analyst-content-adversarial-red-team",
     "company_url": "https://www.google.com",
     "listed_locations": "Seattle, WA, Austin, TX",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-06-09"
@@ -2754,7 +2754,7 @@
     "url": "https://www.google.com/about/careers/applications/jobs/results/119061063244096198-disruption-engineer",
     "company_url": "https://www.google.com",
     "listed_locations": "New York, NY, Reston, VA, Sunnyvale, CA",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-East, US-West",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-06-15"
@@ -2982,7 +2982,7 @@
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/USA---Remote/Threat-Hunter--Remote--West-Mountain-Coast-_R29008?q=hunter",
     "company_url": "https://www.crowdstrike.com",
     "listed_locations": "Remote (US)",
-    "eligibility_regions": "US-West",
+    "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-06-16"
@@ -3114,7 +3114,7 @@
     "url": "https://openai.com/careers/technical-threat-investigator-threat-intel-engineering-san-francisco/",
     "company_url": "https://www.ibm.com/",
     "listed_locations": "San Francisco, CA, New York, NY, Remote (US)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-East, US-West",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17"
@@ -3150,7 +3150,7 @@
     "url": "https://careers.mitre.org/us/en/job/R115912/Lead-Operational-Technology-OT-Cybersecurity-Engineer",
     "company_url": "https://www.mitre.org",
     "listed_locations": "Fort Meade, MD, Windsor, MD, San Antonio, TX, San Diego, CA, Aberdeen, MD, McLean, VA, Bedford, MA, Huntsville, AL",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-06-19"
@@ -3174,7 +3174,7 @@
     "url": "https://jll.wd1.myworkdayjobs.com/en-US/jllcareers/job/Senior-Threat-Detection-Engineer_REQ511813",
     "company_url": "https://www.jll.com",
     "listed_locations": "Austin, TX, Chicago, IL, New York, NY, San Francisco, CA",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-06-19"
@@ -3222,7 +3222,7 @@
     "url": "https://job-boards.greenhouse.io/censys/jobs/8527413002",
     "company_url": "https://censys.com/",
     "listed_locations": "Remote (US/Canada)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "Canada, US-All",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-19"
@@ -3474,7 +3474,7 @@
     "url": "https://www.wiz.io/careers/job/4625139006/threat-intelligence-researcher-cloud?gh_jid=4625139006",
     "company_url": "https://www.wiz.io",
     "listed_locations": "New York City, Remote (US)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-06-29"
@@ -3594,7 +3594,7 @@
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5074937008",
     "company_url": "https://www.anthropic.com/",
     "listed_locations": "Remote (US), San Francisco, CA, Washington, DC",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22"
@@ -3762,7 +3762,7 @@
     "url": "https://www.trmlabs.com/careers?ashby_jid=7107ebcd-3df1-4de3-8ab3-fb145d267edd",
     "company_url": "https://www.trmlabs.com",
     "listed_locations": "Remote (US), UK",
-    "eligibility_regions": "US-All, EMEA",
+    "eligibility_regions": "EMEA, US-All",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-08-04"
@@ -3834,7 +3834,7 @@
     "url": "https://arcticwolf.wd1.myworkdayjobs.com/en-US/External/job/Director--Product---XDR_R26_810",
     "company_url": "https://arcticwolf.com/",
     "listed_locations": "Remote (US), Remote (CA), San Antonio, TX, Eden Prairie, MN, Waterloo, ON",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "Canada, US-All, US-Central, US-West",
     "model": "Remote, Hybrid",
     "deadline": "Expired",
     "post_date": "2026-08-06"
@@ -3846,7 +3846,7 @@
     "url": "https://arcticwolf.wd1.myworkdayjobs.com/en-US/External/job/Director--Product-Management---Endpoint-Detection---Response_R26_809-1",
     "company_url": "https://arcticwolf.com",
     "listed_locations": "Remote (US), Remote (CA), San Antonio, TX, Eden Prairie, MN, Waterloo, ON",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "Canada, US-All, US-Central, US-West",
     "model": "Remote, Hybrid",
     "deadline": "Expired",
     "post_date": "2026-08-06"
@@ -3894,7 +3894,7 @@
     "url": "https://careers.mcafee.com/jobs/1405?lang=en-us",
     "company_url": "https://www.mcafee.com/",
     "listed_locations": "San Jose, CA, Frisco, TX",
-    "eligibility_regions": "US-West, US-Central",
+    "eligibility_regions": "US-Central, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-08-06"
@@ -3918,7 +3918,7 @@
     "url": "https://job-boards.greenhouse.io/extrahopnetworks/jobs/6100830004",
     "company_url": "https://www.extrahop.com/",
     "listed_locations": "Seattle, WA, Remote (US)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-West",
     "model": "Remote, Hybrid",
     "deadline": "",
     "post_date": "2026-08-06"
@@ -3930,7 +3930,7 @@
     "url": "https://job-boards.greenhouse.io/extrahopnetworks/jobs/6016209004",
     "company_url": "https://www.extrahop.com/",
     "listed_locations": "Seattle, WA, Remote (US)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-West",
     "model": "Remote, Hybrid",
     "deadline": "Expired",
     "post_date": "2026-08-06"
@@ -3942,7 +3942,7 @@
     "url": "https://careers.rapid7.com/jobs/lead-product-manager-ai-soc-ca-united-states",
     "company_url": "https://www.rapid7.com",
     "listed_locations": "CA, Remote (US)",
-    "eligibility_regions": "US-West",
+    "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-14"
@@ -4026,7 +4026,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/burbank/principal-consultant-dfir-reactive-services-unit-42-remote/47263/96174882256",
     "company_url": "",
     "listed_locations": "Burbank, California, Remote (US)",
-    "eligibility_regions": "US-West, US-All",
+    "eligibility_regions": "US-All, US-West",
     "model": "Remote, Hybrid",
     "deadline": "",
     "post_date": "2026-08-14"
@@ -4038,7 +4038,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/harrisburg/principal-consultant-cloud-dfir-unit-42-remote/47263/96270268480",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "Harrisburg, PA, Remote (US)",
-    "eligibility_regions": "US-East, US-All",
+    "eligibility_regions": "US-All, US-East",
     "model": "Remote, Hybrid",
     "deadline": "",
     "post_date": "2026-08-14"
@@ -4050,7 +4050,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/senior-consulting-director-ai-security-proactive-services-unit-42/47263/97442358944",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "Santa Clara, CA, Remote (US)",
-    "eligibility_regions": "US-West, US-All",
+    "eligibility_regions": "US-All, US-West",
     "model": "Remote, Hybrid",
     "deadline": "Expired",
     "post_date": "2026-08-14"
@@ -4062,7 +4062,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/austin/practice-architect-delivery-architecture-coe/47263/99220485152",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "Austin, TX, Arlington, VA, Chicago, IL, Dallas, TX, Remote (US)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-Central, US-East",
     "model": "Remote, Hybrid",
     "deadline": "Expired",
     "post_date": "2026-08-14"
@@ -4074,7 +4074,7 @@
     "url": "https://jobs.jobvite.com/careers/barracuda-networks-inc/job/o4mbAfwV",
     "company_url": "https://www.barracuda.com",
     "listed_locations": "Chelmsford, MA, Ann Arbor, MI, Alpharetta, GA, PA, CT, MI, Atlanta, GA, Charlotte, NC, ME",
-    "eligibility_regions": "US-East, US-Central",
+    "eligibility_regions": "US-Central, US-East",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-08-15"
@@ -4110,7 +4110,7 @@
     "url": "https://jobs.jobvite.com/careers/barracuda-networks-inc/job/oldmAfwe",
     "company_url": "https://www.barracuda.com/",
     "listed_locations": "Ann Arbor, MI, CT, FL, Alpharetta, GA",
-    "eligibility_regions": "US-East, US-Central",
+    "eligibility_regions": "US-Central, US-East",
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-08-17"
@@ -4134,7 +4134,7 @@
     "url": "https://job-boards.greenhouse.io/bugcrowd/jobs/7493973?gh_jid=7493973",
     "company_url": "https://www.bugcrowd.com",
     "listed_locations": "AL, MA, PA",
-    "eligibility_regions": "US-East",
+    "eligibility_regions": "US-Central, US-East",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-17"
@@ -4182,7 +4182,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/illinois/principal-consultant-soc-transformation-and-xsiam-deployment/47263/96174881920",
     "company_url": "https://www.paloaltonetworks.com/",
     "listed_locations": "IL, Atlanta, GA, Burbank, CA, Chicago, IL, New York City, NY, Seattle, WA",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-17"
@@ -4230,7 +4230,7 @@
     "url": "https://ipinfo.applytojob.com/apply/76y0IV5x3X/Retool-Developer",
     "company_url": "https://ipinfo.io/",
     "listed_locations": "Remote (Global)",
-    "eligibility_regions": "US-All, EMEA, APAC, LATAM",
+    "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-18"
@@ -4290,7 +4290,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/pennsylvania/principal-consultant-soc-transformation-and-xsiam-deployment/47263/96174863600",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "PA, Remote (US)",
-    "eligibility_regions": "US-East, US-All",
+    "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-19"
@@ -4302,7 +4302,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/senior-consultant-dfir-reactive-services-unit-42/47263/96174875472",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "Santa Clara, CA, Remote (US)",
-    "eligibility_regions": "US-West, US-All",
+    "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-08-19"
@@ -4314,7 +4314,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/maryland/position-managed-xsiam-service-delivery-lead/47263/98717735760",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "MD, Remote (US)",
-    "eligibility_regions": "US-East, US-All",
+    "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-08-19"
@@ -4326,7 +4326,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/managed-xsiam-service-delivery-lead/47263/96174876064",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "Santa Clara, CA, Remote (US)",
-    "eligibility_regions": "US-West, US-All",
+    "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-19"
@@ -4338,7 +4338,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/director-ecosystems/47263/98755665520",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "Santa Clara, CA, Remote (US)",
-    "eligibility_regions": "US-West, US-All",
+    "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-19"
@@ -4350,7 +4350,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/reston/global-account-manager-intelligence-community/47263/97872744192",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "Reston, VA, Baltimore, MD, Washington, DC, Remote (US)",
-    "eligibility_regions": "US-East, US-All",
+    "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-19"
@@ -4362,7 +4362,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/texas/principal-product-intelligence-analyst-cortex-xsiam/47263/96174863216",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "TX, Remote (US)",
-    "eligibility_regions": "US-Central, US-All",
+    "eligibility_regions": "US-All, US-Central",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-19"
@@ -4398,7 +4398,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/connecticut/sr-principal-engineer-software-unit-42/47263/96174875984",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "CT, Remote (US)",
-    "eligibility_regions": "US-East, US-All",
+    "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-19"
@@ -4422,7 +4422,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/burbank/principal-technical-marketing-engineer-analyst-relations-cortex-cloud/47263/98684566672",
     "company_url": "https://www.paloaltonetworks.com/",
     "listed_locations": "Burbank, CA, Remote (US)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-26"
@@ -4446,7 +4446,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/sacramento/senior-threat-researcher-unit-42/47263/98434298592",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "Sacramento, CA, Remote (US)",
-    "eligibility_regions": "US-West, US-All",
+    "eligibility_regions": "US-All, US-West",
     "model": "Hybrid, Remote",
     "deadline": "Expired",
     "post_date": "2026-08-26"
@@ -4458,7 +4458,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/virginia/senior-threat-researcher-unit-42/47263/96975306512",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "VA, Remote (US)",
-    "eligibility_regions": "US-East, US-All",
+    "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-08-26"
@@ -4494,7 +4494,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/santa-clara/sr-principal-cybersecurity-researcher-unit-42/47263/96174881776",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "Santa Clara, CA, Remote (US)",
-    "eligibility_regions": "US-West, US-All",
+    "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-26"
@@ -4506,7 +4506,7 @@
     "url": "https://jobs.paloaltonetworks.com/en/job/arlington/principal-researcher-unit-42/47263/96174864048",
     "company_url": "https://www.paloaltonetworks.com",
     "listed_locations": "Arlington, VA, Remote (US)",
-    "eligibility_regions": "US-East, US-All",
+    "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-26"
@@ -4578,7 +4578,7 @@
     "url": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/Senior-Protective-Intelligence-Specialist---Travel---Event-Assessment_181241",
     "company_url": "https://investor.vanguard.com/",
     "listed_locations": "Malvern, PA, Charlotte, NC, Dallas, TX, Fort Worth, TX, DFW, TX, Scottsdale, AZ",
-    "eligibility_regions": "US-East, US-Central",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-08-26"
@@ -4590,7 +4590,7 @@
     "url": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/Senior-Protective-Intelligence-Specialist---Digital-Exposure-Assessment---Reduction_181239",
     "company_url": "https://investor.vanguard.com/",
     "listed_locations": "Malvern, PA, Charlotte, NC, Dallas, TX, Fort Worth, TX, DFW, TX, Scottsdale, AZ",
-    "eligibility_regions": "US-East, US-Central",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-08-26"
@@ -4602,7 +4602,7 @@
     "url": "https://careers.regions.com/us/en/job/RFCOUSR104882ENUSEXTERNAL/Threat-Detection-Engineer",
     "company_url": "https://regions.com/",
     "listed_locations": "Hoover, AL, Charlotte, NC, Atlanta, GA, Nashville, TN, Birmingham, AL",
-    "eligibility_regions": "US-Central",
+    "eligibility_regions": "US-Central, US-East",
     "model": "Onsite",
     "deadline": "Expired",
     "post_date": "2026-08-26"
@@ -4614,7 +4614,7 @@
     "url": "https://openai.com/careers/protective-intelligence-and-threat-analyst-san-francisco/",
     "company_url": "https://openai.com/",
     "listed_locations": "San Francisco, CA, New York, NY, Seattle, WA, Washington, DC, Remote (US)",
-    "eligibility_regions": "US-West, US-East, US-All",
+    "eligibility_regions": "US-All, US-East, US-West",
     "model": "Hybrid, Remote",
     "deadline": "",
     "post_date": "2026-08-26"
@@ -4686,7 +4686,7 @@
     "url": "https://edel.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001/job/20619/",
     "company_url": "https://www.fortinet.com/",
     "listed_locations": "Sunnyvale, CA, Remote (US)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-West",
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-10"
@@ -4758,7 +4758,7 @@
     "url": "https://job-boards.greenhouse.io/spycloud/jobs/7808339003",
     "company_url": "https://spycloud.com",
     "listed_locations": "Austin, TX, Remote (US)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-Central",
     "model": "Hybrid, Remote",
     "deadline": "",
     "post_date": "2026-09-13"
@@ -4770,7 +4770,7 @@
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Engineer-III--SDET---AI-Detection-and-Response--AIDR---Hybrid-_R28442",
     "company_url": "https://www.crowdstrike.com/",
     "listed_locations": "Sunnyvale, CA, Austin, TX, Redmond, WA",
-    "eligibility_regions": "US-West, US-Central",
+    "eligibility_regions": "US-Central, US-West",
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-13"
@@ -4782,7 +4782,7 @@
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Principal-Software-Engineer--Real-Time-Data-Enrichment-Platform--Hybrid-_R29505",
     "company_url": "https://www.crowdstrike.com/",
     "listed_locations": "New York, NY, Austin, TX, Sunnyvale, CA, Redmond, WA",
-    "eligibility_regions": "US-East, US-Central, US-West",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-09-13"
@@ -4806,7 +4806,7 @@
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Sr-Manager--Engineering---Semantic-Data-Modeling-Framework--Hybrid-_R29507",
     "company_url": "https://www.crowdstrike.com",
     "listed_locations": "New York, NY, Austin, TX, Sunnyvale, CA, Redmond, WA",
-    "eligibility_regions": "US-East, US-Central, US-West",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-13"
@@ -4842,7 +4842,7 @@
     "url": "https://job-boards.greenhouse.io/spycloud/jobs/7989517003",
     "company_url": "https://spycloud.com",
     "listed_locations": "Austin, TX, Remote (US)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-Central",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-09-13"
@@ -4854,7 +4854,7 @@
     "url": "https://job-boards.greenhouse.io/spycloud/jobs/7808119003",
     "company_url": "https://spycloud.com",
     "listed_locations": "Austin, TX, Remote (US)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-Central",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-09-13"
@@ -4878,7 +4878,7 @@
     "url": "https://careers.mcafee.com/jobs/1727?lang=en-us",
     "company_url": "https://www.mcafee.com/",
     "listed_locations": "San Jose, CA, New York, NY, Newport Beach, CA, Frisco, TX, San Jose, CA",
-    "eligibility_regions": "US-West, US-East, US-Central",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-19"
@@ -4926,7 +4926,7 @@
     "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Manager--Threat-Protection-Services_R14299-1",
     "company_url": "https://www.proofpoint.com/",
     "listed_locations": "CA, WY, AZ, UT, CO, NV, OR, NE, MT, WA, ID, ND",
-    "eligibility_regions": "US-West, US-Central",
+    "eligibility_regions": "US-Central, US-West",
     "model": "",
     "deadline": "",
     "post_date": "2026-09-19"
@@ -4950,7 +4950,7 @@
     "url": "https://rb.wd5.myworkdayjobs.com/FRS/job/Richmond-VA/Vice-President---Cyber-Incident-Response_R-0000033257-1",
     "company_url": "https://fee.org/",
     "listed_locations": "Richmond, VA, Atlanta, GA, Boston, MA, Chicago, IL, Cleveland, OH, Dallas, TX, Denver, CO, Kansas City, Minneapolis, MN, New York, NY, Philadelphia, PA, San Francisco, CA, St. Louis, MO",
-    "eligibility_regions": "US-East, US-West, US-East",
+    "eligibility_regions": "US-Central, US-East, US-West",
     "model": "",
     "deadline": "",
     "post_date": "2026-09-19"
@@ -4974,7 +4974,7 @@
     "url": "https://jobs.dayforcehcm.com/en-US/crisis24/CANDIDATEPORTAL/jobs/24163",
     "company_url": "https://www.crisis24.com/",
     "listed_locations": "Annapolis, MD",
-    "eligibility_regions": "US-West",
+    "eligibility_regions": "US-East",
     "model": "",
     "deadline": "",
     "post_date": "2026-09-20"
@@ -5082,7 +5082,7 @@
     "url": "https://www.trmlabs.com/careers?ashby_jid=230550e5-e2ea-4949-af68-e572e5cf7069",
     "company_url": "https://www.trmlabs.com",
     "listed_locations": "San Francisco, CA, Remote (US)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-09-23"

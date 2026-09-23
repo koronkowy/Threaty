@@ -53,11 +53,15 @@ def parse_job_with_gemini(url):
         2. If any matching tag or string is found, accurately set the model parameter to 'Remote', 'Hybrid', or 'Onsite'.
         3. Fallback: If no metadata markers exist, evaluate the body text for standard structural clauses (e.g., "work from anywhere", "in-office requirements", "2 days a week in our Prague office") to deduce the correct setting.
 
-        - Regional Mapping logic:
-        - Foster City, Sunnyvale, Draper, Salt Lake City, Provo, Santa Clara, Milpitas, Redwood City, Cupertino: Map to 'US-West'.
-        - Queretaro, Monterrey, Guadalajara, Mexico City: Map to 'LATAM'.
-        - Bangalore, Mumbai, Tokyo, etc.: Map to 'APAC'.
-        - Germany, UK, etc.: Map to 'EMEA'.
+        - Regional Mapping logic (Assign all that apply, comma-separated):
+        - If "Remote (US)", "Nationwide", "United States", "Americas", or "Global Remote": Map to 'US-All'.
+        - East Coast & DMV (VA, DC, MD, NYC, NY, Boston, MA, PA, NC, NJ, SC, FL, GA, OH, CT, ME, DMV): Map to 'US-East'.
+        - West Coast & PNW (WA, Seattle, Portland, OR, CA, SF, LA, San Francisco, UT, NV, AZ, CO, HI, PNW, Bay Area, SOCAL, Sunnyvale, Santa Clara, Draper, Costa Mesa, Mountain View, Burbank): Map to 'US-West'. Note: "Washington" means 'US-West' unless it says "Washington, DC" ('US-East').
+        - Midwest & South-Central (TX, Austin, Dallas, Houston, IL, Chicago, MN, TN, AL, MO, NE, ND, WI, MI, TOLA, Midwest): Map to 'US-Central'.
+        - Europe, Middle East, Africa (Europe, UK, Germany, London, Berlin, Tel Aviv, Prague, Czechia, Switzerland, Zurich, Poland, Ireland, Scotland, Wales, Austria, Luxembourg, Saudi Arabia, Bratislava, DACH, EMEA): Map to 'EMEA'.
+        - Asia/Pacific (India, Bangalore, Tokyo, Singapore, Sydney, Australia, Japan, Philippines, Manila, APAC, ANZ): Map to 'APAC'.
+        - Latin America (São Paulo, Mexico, Bogotá, Buenos Aires, Queretaro, Monterrey, Guadalajara, LATAM): Map to 'LATAM'.
+        - Canada (Canada, ON, Ontario, Toronto, Ottawa, Vancouver): Map to 'Canada'.
 
     Job Text: {text}
     """
