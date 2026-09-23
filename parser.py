@@ -55,8 +55,8 @@ def parse_job_with_gemini(url):
 
         - Regional Mapping logic (Assign all that apply, comma-separated):
         - If "Remote (US)", "Nationwide", "United States", "Americas", or "Global Remote": Map to 'US-All'.
-        - East Coast & DMV (VA, DC, MD, NYC, NY, Boston, MA, PA, NC, NJ, SC, FL, GA, OH, CT, ME, DMV): Map to 'US-East'.
-        - West Coast & PNW (WA, Seattle, Portland, OR, CA, SF, LA, San Francisco, UT, NV, AZ, CO, HI, PNW, Bay Area, SOCAL, Sunnyvale, Santa Clara, Draper, Costa Mesa, Mountain View, Burbank): Map to 'US-West'. Note: "Washington" means 'US-West' unless it says "Washington, DC" ('US-East').
+        - East Coast & DMV (VA, DC, MD, NYC, NY, Boston, MA, PA, NC, NJ, SC, FL, GA, OH, CT, ME, DMV, Washington DC, Washington, DC, Washington, D.C., D.C.): Map to 'US-East'.
+        - West Coast & PNW (WA, Seattle, Portland, OR, CA, SF, LA, San Francisco, UT, NV, AZ, CO, HI, PNW, Bay Area, SOCAL, Sunnyvale, Santa Clara, Draper, Costa Mesa, Mountain View, Burbank): Map to 'US-West'. Note: "Washington" means 'US-West' unless it says "Washington, DC", "Washington, D.C.", "Washington DC", or "D.C." ('US-East').
         - Midwest & South-Central (TX, Austin, Dallas, Houston, IL, Chicago, MN, TN, AL, MO, NE, ND, WI, MI, TOLA, Midwest): Map to 'US-Central'.
         - Europe, Middle East, Africa (Europe, UK, Germany, London, Berlin, Tel Aviv, Prague, Czechia, Switzerland, Zurich, Poland, Ireland, Scotland, Wales, Austria, Luxembourg, Saudi Arabia, Bratislava, DACH, EMEA): Map to 'EMEA'.
         - Asia/Pacific (India, Bangalore, Tokyo, Singapore, Sydney, Australia, Japan, Philippines, Manila, APAC, ANZ): Map to 'APAC'.

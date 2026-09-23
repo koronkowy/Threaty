@@ -89,7 +89,7 @@ Your **Gemini API Key** is never hardcoded. It must be stored in **GitHub Reposi
 | **Region**     | **Mapping Logic**                | **Examples / Hubs**                                                     |
 | -------------------- | -------------------------------------- | ----------------------------------------------------------------------------- |
 | **US-All**     | Nationwide remote roles                | Remote (US), Nationwide, United States, Americas, Global Remote               |
-| **US-East**    | Covers East Coast & DC Metro (DMV)     | VA, DC, MD, NYC, NY, Boston, MA, PA, NC, NJ, SC, FL, GA, OH, CT, ME, DMV      |
+| **US-East**    | Covers East Coast & DC Metro (DMV)     | VA, DC, MD, NYC, NY, Boston, MA, PA, NC, NJ, SC, FL, GA, OH, CT, ME, DMV, Washington DC, Washington, DC, Washington, D.C., D.C. |
 | **US-West**    | Covers West Coast & PNW                | WA, Seattle, Portland, OR, CA, SF, LA, San Francisco, UT, NV, AZ, CO, HI, PNW, Bay Area, SOCAL, Sunnyvale, Santa Clara, Draper, Costa Mesa, Mountain View, Burbank |
 | **US-Central** | Covers Midwest & South-Central & TOLA  | TX, Austin, Dallas, Houston, IL, Chicago, MN, TN, AL, MO, NE, ND, WI, MI, TOLA, Midwest |
 | **EMEA**       | Covers Europe, UK, DACH, & Middle East | Europe, UK, Germany, London, Berlin, Tel Aviv, Prague, Czechia, Switzerland, Zurich, Poland, Ireland, Scotland, Wales, Austria, Luxembourg, Saudi Arabia, Bratislava, DACH, EMEA |
@@ -97,7 +97,7 @@ Your **Gemini API Key** is never hardcoded. It must be stored in **GitHub Reposi
 | **LATAM**      | Covers Latin America                   | São Paulo, Mexico, Bogotá, Buenos Aires, Queretaro, Monterrey, Guadalajara, LATAM |
 | **Canada**     | Covers Canada                          | Canada, ON, Ontario, Toronto, Ottawa, Vancouver                               |
 
-> **Note:** "Washington" resolves to `US-West` (WA state) unless it explicitly includes "DC" (which resolves to `US-East`).
+> **Note:** "Washington" resolves to `US-West` (WA state) unless it explicitly includes "Washington, DC", "Washington, D.C.", "Washington DC", or "D.C." (which resolves to `US-East`).
 
 ### Regional Logic Summary
 
