@@ -77,8 +77,8 @@
     "status": "expired",
     "url": "https://job-boards.greenhouse.io/greynoiseintelligence/jobs/4684861005?gh_jid=4684861005",
     "company_url": "https://greynoise.io",
-    "listed_locations": "Washington, DC or Remote",
-    "eligibility_regions": "US-East",
+    "listed_locations": "Washington, DC, Remote (US)",
+    "eligibility_regions": "US-East, US-All",
     "model": "Remote",
     "deadline": "Expired",
     "post_date": "2026-05-22"
@@ -1554,7 +1554,7 @@
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5066995008",
     "company_url": "https://www.anthropic.com",
     "listed_locations": "San Francisco, CA, Washington, DC",
-    "eligibility_regions": "US-East",
+    "eligibility_regions": "US-East, US-West",
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-06-03"
@@ -2189,7 +2189,7 @@
     "status": "expired",
     "url": "https://www.capitalonecareers.com/job/mclean/manager-cyber-threat-researcher-cyber-intelligence-remote-eligible/1732/95857652768",
     "company_url": "https://www.capitalone.com",
-    "listed_locations": "McLean, VA, Richmond, VA, Remote, US, New York, NY, Plano, TX, Chicago, IL",
+    "listed_locations": "McLean, VA, Richmond, VA, Remote (US), New York, NY, Plano, TX, Chicago, IL",
     "eligibility_regions": "US-All, US-Central, US-East",
     "model": "Remote",
     "deadline": "",
@@ -2238,7 +2238,7 @@
     "url": "https://job-boards.greenhouse.io/anthropic/jobs/5066995008",
     "company_url": "https://www.anthropic.com",
     "listed_locations": "San Francisco, CA, Washington, DC",
-    "eligibility_regions": "US-East",
+    "eligibility_regions": "US-East, US-West",
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-06-06"
@@ -2501,8 +2501,8 @@
     "status": "expired",
     "url": "https://careers.gic.com.sg/job/New-York-VP%2C-Threat-Intelligence-Cyber-Security-Assurance-&-Defense/1357440366/",
     "company_url": "https://www.gic.com.sg",
-    "listed_locations": "New York, US",
-    "eligibility_regions": "US-All, US-East",
+    "listed_locations": "New York, NY",
+    "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
     "post_date": "2026-06-07"
@@ -4230,7 +4230,7 @@
     "url": "https://ipinfo.applytojob.com/apply/76y0IV5x3X/Retool-Developer",
     "company_url": "https://ipinfo.io/",
     "listed_locations": "Remote (Global)",
-    "eligibility_regions": "US-All",
+    "eligibility_regions": "US-All, EMEA, LATAM, APAC",
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-18"
