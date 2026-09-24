@@ -55,7 +55,9 @@ The `health_check.py` script performs the following logic on every job in the da
 3. **Link Integrity:** The script validates that the job URL is still a valid, unique posting. It detects:
    * **HTTP 404/410 Errors:** Confirmed broken links.
    * **Generic Redirects:** If a link redirects to a career portal homepage (instead of a specific job ID), it marks the listing as `expired`.
-4. **Self-Healing:** Once a job is marked `expired`, the script updates the status in `jobs.json`, which automatically triggers the frontend to dim the listing and update the deadline display to "Expired".
+4. **Skeleton Page & Manual Review Flow:** Some modern job boards (like Workday) use heavy JavaScript, resulting in an empty HTML skeleton (< 200 characters). To avoid falsely marking these as expired, the script extracts structural metadata from `<script type="application/ld+json">` and `<meta>` tags. If the text is still unverifiable (or the request times out), the job is flagged with `needs_manual_check: true`.
+5. **Monday Batched Reviews:** Every Monday, the pipeline aggregates any jobs flagged for manual review and creates a single GitHub Issue for human verification. On the frontend board, these unverifiable jobs will display their recency date in red. Once the human verified or the job successfully passes the next automated daily check, this flag auto-clears.
+6. **Self-Healing:** Once a job is marked `expired`, the script updates the status in `jobs.json`, which automatically triggers the frontend to dim the listing and update the deadline display to "Expired".
 
 ### Automated Pipeline
 
