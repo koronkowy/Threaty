@@ -432,7 +432,7 @@
                 <div class="location-city">${role.listed_locations}</div>
                 <div class="location-region">${role.eligibility_regions}</div>
             </td>
-            <td class="text-blue">${role.post_date}</td>
+            <td class="${role.needs_manual_check ? '' : 'text-blue'}" style="${role.needs_manual_check ? 'color: red;' : ''}">${role.post_date}</td>
             <td class="${role.status === 'expired' ? 'status-expired' : 'text-blue'}" style="text-align: center;">
     ${role.deadline === 'Expired' ? 'Expired' : (role.deadline || '—')}
 </td>

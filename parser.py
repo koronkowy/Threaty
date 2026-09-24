@@ -21,11 +21,27 @@ def parse_job_with_gemini(url):
 
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
-        text = soup.get_text(separator=' ', strip=True)[:15000]
 
-        if len(text) < 200:
-            print(f"Dead link detected (suspiciously short text, likely skeleton page): {url}", file=sys.stderr)
-            return None, "DEAD_LINK"
+        # Extract extra text from application/ld+json
+        extra_text = []
+        for script in soup.find_all('script', type='application/ld+json'):
+            if script.string:
+                extra_text.append(script.string)
+
+        # Extract meta tags
+        for meta in soup.find_all('meta', attrs={'name': ['description', 'keywords']}):
+            if meta.get('content'):
+                extra_text.append(meta['content'])
+        for meta in soup.find_all('meta', property=['og:description', 'og:title']):
+            if meta.get('content'):
+                extra_text.append(meta['content'])
+
+        text = soup.get_text(separator=' ', strip=True)[:15000]
+        combined_text = text + " " + " ".join(extra_text)
+
+        if len(combined_text) < 200:
+            print(f"Unverifiable link detected (suspiciously short text, likely skeleton page): {url}", file=sys.stderr)
+            return None, "MANUAL_CHECK_REQUIRED"
 
         dead_link_keywords = [
             "job not found",
@@ -35,10 +51,13 @@ def parse_job_with_gemini(url):
             "this job is no longer available",
             "this job has expired"
         ]
-        text_lower = text.lower()
+        text_lower = combined_text.lower()
         if any(keyword in text_lower for keyword in dead_link_keywords):
             print(f"Dead link detected (keyword match): {url}", file=sys.stderr)
             return None, "DEAD_LINK"
+
+        # Update text to pass into Gemini Prompt
+        text = combined_text
 
     except requests.exceptions.Timeout as e:
         print(f"Timeout scraping {url}: {e}", file=sys.stderr)
@@ -168,6 +187,7 @@ def main():
         "TIMEOUT": [],
         "API_ERROR": [],
         "JSON_ERROR": [],
+        "MANUAL_CHECK_REQUIRED": [],
         "OTHER": [],
         "SHELVED": []
     }
