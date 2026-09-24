@@ -14,9 +14,28 @@ def parse_job_with_gemini(url):
     try:
         headers = {'User-Agent': 'Mozilla/5.0'}
         response = requests.get(url, headers=headers, timeout=10)
+
+        if response.status_code in [404, 410]:
+            print(f"Dead link detected (HTTP {response.status_code}): {url}", file=sys.stderr)
+            return None, "DEAD_LINK"
+
         response.raise_for_status()
         soup = BeautifulSoup(response.content, 'html.parser')
         text = soup.get_text(separator=' ', strip=True)[:15000]
+
+        dead_link_keywords = [
+            "job not found",
+            "position has been closed",
+            "page you're looking for doesn't exist",
+            "no longer available",
+            "this job is no longer available",
+            "this job has expired"
+        ]
+        text_lower = text.lower()
+        if any(keyword in text_lower for keyword in dead_link_keywords):
+            print(f"Dead link detected (keyword match): {url}", file=sys.stderr)
+            return None, "DEAD_LINK"
+
     except requests.exceptions.Timeout as e:
         print(f"Timeout scraping {url}: {e}", file=sys.stderr)
         return None, "TIMEOUT"
@@ -141,6 +160,7 @@ def main():
 
     failed_categories = {
         "DUPLICATE": [],
+        "DEAD_LINK": [],
         "TIMEOUT": [],
         "API_ERROR": [],
         "JSON_ERROR": [],
