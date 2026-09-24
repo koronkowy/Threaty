@@ -23,11 +23,15 @@ def parse_job_with_gemini(url):
         soup = BeautifulSoup(response.content, 'html.parser')
         text = soup.get_text(separator=' ', strip=True)[:15000]
 
+        if len(text) < 200:
+            print(f"Dead link detected (suspiciously short text, likely skeleton page): {url}", file=sys.stderr)
+            return None, "DEAD_LINK"
+
         dead_link_keywords = [
             "job not found",
             "position has been closed",
             "page you're looking for doesn't exist",
-            "no longer available",
+            "the job you are looking for does not exist",
             "this job is no longer available",
             "this job has expired"
         ]
