@@ -5338,5 +5338,53 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-09-24"
+  },
+  {
+    "title": "Senior SDET - AI Detection and Response (AIDR) (Hybrid, Sunnyvale)",
+    "company": "CrowdStrike",
+    "status": "active",
+    "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Senior-SDET---AI-Detection-and-Response--AIDR---Hybrid-_R29795",
+    "company_url": "https://www.crowdstrike.com",
+    "listed_locations": "Sunnyvale, CA",
+    "eligibility_regions": "US-West",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-09-24"
+  },
+  {
+    "title": "Sr. Engineer, Cloud Native - AI Detection and Response (AIDR) (Hybrid, Sunnyvale)",
+    "company": "CrowdStrike",
+    "status": "active",
+    "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Sr-Engineer--Cloud-Native---AI-Detection-and-Response--AIDR---Hybrid--Sunnyvale-_R29788-1",
+    "company_url": "https://www.crowdstrike.com",
+    "listed_locations": "Sunnyvale, CA",
+    "eligibility_regions": "US-West",
+    "model": "Hybrid",
+    "deadline": "",
+    "post_date": "2026-09-24"
+  },
+  {
+    "title": "Principal Consultant - Cloud Red Team Blue Team (Remote)",
+    "company": "CrowdStrike",
+    "status": "active",
+    "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Principal-Consultant---Cloud-Red-Team-Blue-Team--Remote-_R29784",
+    "company_url": "https://www.crowdstrike.com",
+    "listed_locations": "Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-09-24"
+  },
+  {
+    "title": "Threat Hunter - FedCloud",
+    "company": "CrowdStrike",
+    "status": "active",
+    "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Threat-Hunter--FedCloud--Remote-_R29822",
+    "company_url": "https://www.crowdstrike.com",
+    "listed_locations": "Remote (US)",
+    "eligibility_regions": "US-All",
+    "model": "Remote",
+    "deadline": "",
+    "post_date": "2026-09-24"
   }
 ]
