@@ -19,9 +19,27 @@ def check_link(job_url):
             return "skip" # Signal to skip this check and leave status as is
         
         # 2. Check for 404 or generic redirects (same as before)
-        if response.status_code == 404:
+        if response.status_code in [404, 410]:
             return False
             
+        # 3. Check for suspiciously short text (skeleton pages)
+        text = soup.get_text(separator=' ', strip=True)[:15000]
+        if len(text) < 200:
+            return False
+
+        # 4. Check for dead link keywords
+        dead_link_keywords = [
+            "job not found",
+            "position has been closed",
+            "page you're looking for doesn't exist",
+            "the job you are looking for does not exist",
+            "this job is no longer available",
+            "this job has expired"
+        ]
+        text_lower = text.lower()
+        if any(keyword in text_lower for keyword in dead_link_keywords):
+            return False
+
         # Add your canonical redirect check here...
         return True
     except:
