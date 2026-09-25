@@ -9,7 +9,9 @@
     "listed_locations": "VA, Remote (US)",
     "eligibility_regions": "US-All, US-East",
     "post_date": "2026-05-22",
-    "deadline": "Expired"
+    "deadline": "Expired",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Intelligence Analyst, GTAC Vulnerability Mission",
@@ -21,7 +23,9 @@
     "listed_locations": "UK, Ireland, or Germany (Remote)",
     "eligibility_regions": "EMEA",
     "post_date": "2026-05-22",
-    "deadline": "Expired"
+    "deadline": "Expired",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Detection Engineer",
@@ -33,7 +37,9 @@
     "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "post_date": "2026-05-22",
-    "deadline": "Expired"
+    "deadline": "Expired",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat Data Infrastructure Engineer",
@@ -45,7 +51,9 @@
     "listed_locations": "UK (Remote)",
     "eligibility_regions": "EMEA",
     "post_date": "2026-05-22",
-    "deadline": "Expired"
+    "deadline": "Expired",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Backend Engineer, Threat Intelligence",
@@ -57,7 +65,9 @@
     "listed_locations": "Prague, Czechia",
     "eligibility_regions": "EMEA",
     "post_date": "2026-05-22",
-    "deadline": ""
+    "deadline": "",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat Advisor",
@@ -69,7 +79,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-22"
+    "post_date": "2026-05-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Customer Success Manager - Federal",
@@ -81,7 +93,9 @@
     "eligibility_regions": "US-East, US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-22"
+    "post_date": "2026-05-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Hunting Investigator",
@@ -93,7 +107,9 @@
     "eligibility_regions": "APAC",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-05-22"
+    "post_date": "2026-05-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Forensic Analyst Technical Leader",
@@ -105,7 +121,9 @@
     "eligibility_regions": "APAC",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-05-22"
+    "post_date": "2026-05-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Hunting Lead",
@@ -117,7 +135,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-22"
+    "post_date": "2026-05-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Analyst",
@@ -129,7 +149,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-22"
+    "post_date": "2026-05-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior OT Threat Hunter",
@@ -141,7 +163,9 @@
     "eligibility_regions": "APAC",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-22"
+    "post_date": "2026-05-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Automation Engineer",
@@ -153,7 +177,9 @@
     "eligibility_regions": "APAC",
     "model": "",
     "deadline": "",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Associate Threat Analyst",
@@ -165,7 +191,9 @@
     "eligibility_regions": "APAC",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Product Manager (Threat Prevention)",
@@ -177,7 +205,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Threat Intelligence Researcher (Unit 42)",
@@ -189,7 +219,9 @@
     "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Manager, Threat Analysts",
@@ -201,7 +233,9 @@
     "eligibility_regions": "APAC",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Hunting Researcher, Unit 42 MTH (MSIAM)",
@@ -213,7 +247,9 @@
     "eligibility_regions": "US-Central",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Cyber Threat Intelligence Researcher (Unit 42)",
@@ -225,7 +261,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Backend Engineer - Threat Intelligence",
@@ -237,7 +275,9 @@
     "eligibility_regions": "EMEA",
     "model": "",
     "deadline": "",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Intelligence Analyst Japan",
@@ -249,7 +289,9 @@
     "eligibility_regions": "APAC",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Director, Product Management (Unit 42)",
@@ -261,7 +303,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Software Engineer (Malware Detection)",
@@ -273,7 +317,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Product Manager",
@@ -285,7 +331,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Consultant, DFIR, Reactive Services (Unit 42) - Remote",
@@ -297,7 +345,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Software Engineer",
@@ -309,7 +359,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "InfoSec Specialist - SOC",
@@ -321,7 +373,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Consulting Director, DFIR, Reactive Services (Unit 42)",
@@ -333,7 +387,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Engineer - Elastic SIEM and Detection Engineering",
@@ -345,7 +401,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Software Engineer",
@@ -357,7 +415,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Detection Engineer- SkillBridge Intern",
@@ -369,7 +429,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-23"
+    "post_date": "2026-05-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Backend Engineer - Data",
@@ -381,7 +443,9 @@
     "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr Staff Machine Learning Engineer",
@@ -393,7 +457,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Staff Engineer Software (Unit 42)",
@@ -405,7 +471,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "MDR Analyst, Unit 42",
@@ -417,7 +485,9 @@
     "eligibility_regions": "APAC",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Researcher (Unit 42)",
@@ -429,7 +499,9 @@
     "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director, Rapid Response (Unit 42)",
@@ -441,7 +513,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Researcher (Unit 42)",
@@ -453,7 +527,9 @@
     "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-22"
+    "post_date": "2026-05-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Staff Machine Learning Platform Engineer, Prisma AIRS",
@@ -465,7 +541,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Principal Software Engineer - Layer 7 Security",
@@ -477,7 +555,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Staff Engineer (Product Security Incident Response)",
@@ -489,7 +569,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Consulting Director - Reactive Services (Unit 42)",
@@ -501,7 +583,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Consulting Director, SOC Assessment Service, Proactive Services (Unit 42) - Remote",
@@ -513,7 +597,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Consultant, SOC Advisory, Proactive Services (Unit 42) - Remote",
@@ -525,7 +611,9 @@
     "eligibility_regions": "Canada",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "MDR Customer Focus Analyst - Unit 42 - Remote - Weekend Shift",
@@ -537,7 +625,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "MDR Customer Focus Analyst - Unit 42 - Remote - Weekend Shift",
@@ -549,7 +639,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Consulting Director, DFIR, Reactive Services (Unit 42)",
@@ -561,7 +653,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Analyst, Unit 42 MDR",
@@ -573,7 +667,9 @@
     "eligibility_regions": "EMEA",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr Cloud Infrastructure Engineer (Advanced Threat Protection)",
@@ -585,7 +681,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "QRadar Advisor",
@@ -597,7 +695,9 @@
     "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Product Management Director, Okta Identity Threat Detection and Response Products",
@@ -609,7 +709,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-05-24"
+    "post_date": "2026-05-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Full Stack Engineer",
@@ -621,7 +723,9 @@
     "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Product Management Director, Okta Identity Threat Detection and Response Products",
@@ -633,7 +737,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Product Manager - Identity Threat Protection",
@@ -645,7 +751,9 @@
     "eligibility_regions": "Canada, US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director, Okta Threat Intelligence",
@@ -657,7 +765,9 @@
     "eligibility_regions": "US-Central, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Operations Engineer I - Bot Defense",
@@ -669,7 +779,9 @@
     "eligibility_regions": "LATAM",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Engineer",
@@ -681,7 +793,9 @@
     "eligibility_regions": "LATAM",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Operations Engineer I - Bot Defense",
@@ -693,7 +807,9 @@
     "eligibility_regions": "LATAM",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Product Manager - Threat Intel Platform - ETM",
@@ -705,7 +821,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director / Sr. Director - Product Management - Risk-Based Vulnerability Mgmt (RBVM)",
@@ -717,7 +835,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Director of Subject Matter Expert - CTEM, RBVM, ASPM - Risk Operation Center (ROC)",
@@ -729,7 +849,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Product Manager - Threat Protection",
@@ -741,7 +863,9 @@
     "eligibility_regions": "Canada, US-East, US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Software Engineer - Threat Intelligence",
@@ -753,7 +877,9 @@
     "eligibility_regions": "US-East, US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Software Engineer",
@@ -765,7 +891,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "VP, Product Marketing, Collaboration Security",
@@ -777,7 +905,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Director, Security Engineering",
@@ -789,7 +919,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Product Marketing Manager",
@@ -801,7 +933,9 @@
     "eligibility_regions": "US-East, US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Hunting Analyst",
@@ -813,7 +947,9 @@
     "eligibility_regions": "LATAM",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Tetragon Threat Detection Engineer - Isovalent",
@@ -825,7 +961,9 @@
     "eligibility_regions": "EMEA",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Information Security Engineer - Threat Defense - Automation",
@@ -837,7 +975,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat Advisor",
@@ -849,7 +989,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Research Engineer",
@@ -861,7 +1003,9 @@
     "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-27"
+    "post_date": "2026-05-27",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Product Manager, Applied AI - Agentic Services Solutions",
@@ -873,7 +1017,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal ML Architect - Security AI - Advanced Model Systems",
@@ -885,7 +1031,9 @@
     "eligibility_regions": "APAC, US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Hunter",
@@ -897,7 +1045,9 @@
     "eligibility_regions": "US-All",
     "model": "",
     "deadline": "",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Software Engineer III | Security",
@@ -909,7 +1059,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Software Engineer",
@@ -921,7 +1073,9 @@
     "eligibility_regions": "Canada, EMEA, US-East, US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Product Manager",
@@ -933,7 +1087,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Forensic Analyst Technical Leader",
@@ -945,7 +1101,9 @@
     "eligibility_regions": "APAC",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Tetragon Senior Linux Security Engineer",
@@ -957,7 +1115,9 @@
     "eligibility_regions": "EMEA",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Security Engineer III",
@@ -969,7 +1129,9 @@
     "eligibility_regions": "EMEA",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Product Manager II - Risk-Based Alerting (SIEM)",
@@ -981,7 +1143,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior PM - Managed Security Service Provider (Cloud SIEM)",
@@ -993,7 +1157,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Group Product Manager - Threat Detection and Incident Response (Cloud SIEM)",
@@ -1005,7 +1171,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Cloud Security Engineer",
@@ -1017,7 +1185,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Engineering Manager, Applied Machine Learning",
@@ -1029,7 +1199,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Lead Security Engineer",
@@ -1041,7 +1213,9 @@
     "eligibility_regions": "US-Central",
     "model": "",
     "deadline": "",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Operations (SOC) Engineer/Analyst",
@@ -1053,7 +1227,9 @@
     "eligibility_regions": "EMEA",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Lead Cybersecurity Content Engineer - Defense",
@@ -1065,7 +1241,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Defensive Security Analyst",
@@ -1077,7 +1255,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "VP - Managed Security Operations",
@@ -1089,7 +1269,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Threat Researcher",
@@ -1101,7 +1283,9 @@
     "eligibility_regions": "Canada",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Consultant - SIEM",
@@ -1113,7 +1297,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-28"
+    "post_date": "2026-05-28",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Research Engineering Technical Leader",
@@ -1125,7 +1311,9 @@
     "eligibility_regions": "EMEA",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Incident Detection & Response Product Manager",
@@ -1137,7 +1325,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Engineering Manager I, Threat Detection",
@@ -1149,7 +1339,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Manager, Cyber Engineered Defense (CrowdStrike Services)",
@@ -1161,7 +1353,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Manager, Cyber Engineered Defense (CrowdStrike Services)",
@@ -1173,7 +1367,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Engineer, Detection and Response",
@@ -1185,7 +1381,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Travel Security Analyst",
@@ -1197,7 +1395,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Software Engineer, Security",
@@ -1209,7 +1409,9 @@
     "eligibility_regions": "US-East, US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat and Attack Research Engineer",
@@ -1221,7 +1423,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat and Attack Research Engineer",
@@ -1233,7 +1437,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat and Attack Research Engineer",
@@ -1245,7 +1451,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat and Attack Research Engineer",
@@ -1257,7 +1465,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat and Attack Research Engineer",
@@ -1269,7 +1479,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat and Attack Research Engineer",
@@ -1281,7 +1493,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Manager, Cyber Threat Intelligence",
@@ -1293,7 +1507,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Security Engineer",
@@ -1305,7 +1521,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Operations Analyst",
@@ -1317,7 +1535,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Operations Analyst",
@@ -1329,7 +1549,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Operations Analyst",
@@ -1341,7 +1563,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Operations Analyst",
@@ -1353,7 +1577,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Engineer",
@@ -1365,7 +1591,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Detection and Response Engineer",
@@ -1377,7 +1605,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Software Engineer, Security",
@@ -1389,7 +1619,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Security Engineer",
@@ -1401,7 +1633,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Security Analyst, Insider Threat",
@@ -1413,7 +1647,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Security Analyst, Insider Threat",
@@ -1425,7 +1661,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Manager, Cyber Threat Intelligence",
@@ -1437,7 +1675,9 @@
     "eligibility_regions": "US-East, US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Engineer",
@@ -1449,7 +1689,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Engineer",
@@ -1461,7 +1703,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Software Engineer - Endpoint Security",
@@ -1473,7 +1717,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Software Engineer - Endpoint Security",
@@ -1485,7 +1731,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Software Engineer - Endpoint Security",
@@ -1497,7 +1745,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Software Engineer - Endpoint Security",
@@ -1509,7 +1759,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Privacy Advisor",
@@ -1521,7 +1773,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Score Advisor",
@@ -1533,7 +1787,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Product Manager, Cybersecurity",
@@ -1545,7 +1801,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Technical Cyber Threat Investigator",
@@ -1557,7 +1815,9 @@
     "eligibility_regions": "US-East, US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-03"
+    "post_date": "2026-06-03",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Detection & Response Engineer",
@@ -1569,7 +1829,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Software Engineer - Endpoint Security",
@@ -1581,7 +1843,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Privacy Advisor, Pacific Time Zone",
@@ -1593,7 +1857,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director of Software Engineering / AI-Forward Console Platform",
@@ -1605,7 +1871,9 @@
     "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Software Engineer / Next-Generation API & AI Platform Architecture",
@@ -1617,7 +1885,9 @@
     "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Software Engineer (Backend, Data at Scale)",
@@ -1629,7 +1899,9 @@
     "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Software Engineer - Integration Team",
@@ -1641,7 +1913,9 @@
     "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Content Specialist",
@@ -1653,7 +1927,9 @@
     "eligibility_regions": "US-Central",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director of Product Analytics",
@@ -1665,7 +1941,9 @@
     "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Technical Account Manager (TAM)",
@@ -1677,7 +1955,9 @@
     "eligibility_regions": "US-Central",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Security Research Engineer",
@@ -1689,7 +1969,9 @@
     "eligibility_regions": "US-Central",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Researcher III (Phishing)",
@@ -1701,7 +1983,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Researcher III (Phishing) - Europe",
@@ -1713,7 +1997,9 @@
     "eligibility_regions": "EMEA",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Analyst, Mandiant Custom Intelligence",
@@ -1725,7 +2011,9 @@
     "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Threat Intelligence Analyst, Google Threat Intelligence Group",
@@ -1737,7 +2025,9 @@
     "eligibility_regions": "APAC",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Analyst, Threat Intelligence Operations (English)",
@@ -1749,7 +2039,9 @@
     "eligibility_regions": "APAC",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Cyber Threat Intelligence Consultant, Mandiant (English, Arabic)",
@@ -1761,7 +2053,9 @@
     "eligibility_regions": "EMEA",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Analyst, Threat Intelligence Operations (English)",
@@ -1773,7 +2067,9 @@
     "eligibility_regions": "APAC",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Intelligence Analyst, Google Threat Intelligence Delivery",
@@ -1785,7 +2081,9 @@
     "eligibility_regions": "APAC",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Client Advisor, Mandiant, Google Cloud",
@@ -1797,7 +2095,9 @@
     "eligibility_regions": "US-Central",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Engineering Analyst, Google Ads, Trust and Safety",
@@ -1809,7 +2109,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-04"
+    "post_date": "2026-06-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Intelligence Consultant",
@@ -1821,7 +2123,9 @@
     "eligibility_regions": "EMEA",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-05"
+    "post_date": "2026-06-05",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Lead Cyber Threat Intelligence Analyst",
@@ -1833,7 +2137,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-05"
+    "post_date": "2026-06-05",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Engineer - Threat Intelligence & Detection Engineering",
@@ -1845,7 +2151,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-05"
+    "post_date": "2026-06-05",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Manager, Corporate Security - Intelligence Services",
@@ -1857,7 +2165,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-05"
+    "post_date": "2026-06-05",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Lead Cyber Threat Intelligence",
@@ -1869,7 +2179,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-05"
+    "post_date": "2026-06-05",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Intelligence Consultant COS490",
@@ -1881,7 +2193,9 @@
     "eligibility_regions": "US-Central, US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-05"
+    "post_date": "2026-06-05",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Engineer 2 - Cyber Threat Intelligence",
@@ -1893,7 +2207,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-05"
+    "post_date": "2026-06-05",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Intelligence Analyst JR- TS/SCI with Polygraph",
@@ -1905,7 +2221,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Consulting Director - Threat Hunter",
@@ -1917,7 +2235,9 @@
     "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Intelligence Analyst",
@@ -1929,7 +2249,9 @@
     "eligibility_regions": "US-Central, US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat Intelligence Analyst",
@@ -1941,7 +2263,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Manager, Cyber Threat Intelligence",
@@ -1953,7 +2277,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Security Engineer - Threat Intelligence",
@@ -1965,7 +2291,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Principal Cybersecurity Researcher (Unit 42)",
@@ -1977,7 +2305,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Security Threat Intelligence Analyst II - CTI Supply Chain",
@@ -1989,7 +2319,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-05-08"
+    "post_date": "2026-05-08",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Intelligence (CTI) Analyst",
@@ -2001,7 +2333,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-08"
+    "post_date": "2026-05-08",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Intelligence Analyst",
@@ -2013,7 +2347,9 @@
     "eligibility_regions": "US-Central",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-08"
+    "post_date": "2026-05-08",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Intelligence (CTI) Analyst",
@@ -2025,7 +2361,9 @@
     "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-07-26"
+    "post_date": "2026-07-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Intel Analyst",
@@ -2037,7 +2375,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Open-Source Intelligence Coordinator",
@@ -2049,7 +2389,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Intel Analyst",
@@ -2061,7 +2403,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Corporate Intelligence Analyst (Chicago Metropolitan Area)",
@@ -2073,7 +2417,9 @@
     "eligibility_regions": "US-Central",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Intel Analyst- Senior",
@@ -2085,7 +2431,9 @@
     "eligibility_regions": "US-Central",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Manager, Security & Intelligence - Production",
@@ -2097,7 +2445,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Manager, Intelligence",
@@ -2109,7 +2459,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director, Threat Research",
@@ -2121,7 +2473,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Vice President, Cyber Threat Center",
@@ -2133,7 +2487,9 @@
     "eligibility_regions": "US-Central, US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Threat Intelligence Analyst",
@@ -2145,7 +2501,9 @@
     "eligibility_regions": "US-Central, US-East",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Manager, Threat Intel Analyst",
@@ -2157,7 +2515,9 @@
     "eligibility_regions": "US-Central",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "VP Cyber Threat Intelligence",
@@ -2169,7 +2529,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat Intelligence Automation Engineer",
@@ -2181,7 +2543,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Manager, Cyber Threat Researcher, Cyber Intelligence",
@@ -2193,7 +2557,9 @@
     "eligibility_regions": "US-All, US-Central, US-East",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director, Okta Threat Intelligence",
@@ -2205,7 +2571,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Intelligence Analyst",
@@ -2217,7 +2585,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Manager, Threat Intelligence",
@@ -2229,7 +2599,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Technical Cyber Threat Investigator",
@@ -2241,7 +2613,9 @@
     "eligibility_regions": "US-East, US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "IT Manager - Threat Intelligence",
@@ -2253,7 +2627,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Head of Threat Research",
@@ -2265,7 +2641,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Head of Threat Research",
@@ -2277,7 +2655,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Threat Intelligence Analyst",
@@ -2289,7 +2669,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Intelligence and Services Operations Manager",
@@ -2301,7 +2683,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Intelligence Analyst",
@@ -2313,7 +2697,9 @@
     "eligibility_regions": "US-Central",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Crime Sr. Specialist (Cyber Threat exp. required)",
@@ -2325,7 +2711,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Manager, Threat Intelligence & Security Operations",
@@ -2337,7 +2725,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-06"
+    "post_date": "2026-06-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Applied Threat Intelligence Analyst - Microsoft Security Threat Response",
@@ -2349,7 +2739,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Intelligence Analyst",
@@ -2361,7 +2753,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Researcher",
@@ -2373,7 +2767,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Intelligence Analyst",
@@ -2385,7 +2781,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Engineer - Platform Threat Intelligence",
@@ -2397,7 +2795,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director, Threat Intelligence Research",
@@ -2409,7 +2809,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Intelligence Researcher (Cloud)",
@@ -2421,7 +2823,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "2026-09-29",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "(USA) Staff, Cyber Intelligence Engineer",
@@ -2433,7 +2837,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Intelligence - Technical Analysis and Investigations Lead \u2013 VP",
@@ -2445,7 +2851,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior CIRT / Threat Intel Analyst",
@@ -2457,7 +2865,9 @@
     "eligibility_regions": "EMEA",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cybersecurity Manager - Cyber Threat Intelligence and Metrics",
@@ -2469,7 +2879,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-05-13"
+    "post_date": "2026-05-13",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Intelligence Regional Lead - Vice President",
@@ -2481,7 +2893,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat Intelligence Analyst, VP",
@@ -2493,7 +2907,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "VP, Threat Intelligence - Cyber Security Assurance & Defense",
@@ -2505,7 +2921,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Security Analyst, Threat Intelligence",
@@ -2517,7 +2935,9 @@
     "eligibility_regions": "Canada",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "All-Source Intelligence Analyst",
@@ -2529,7 +2949,9 @@
     "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Threat Intelligence Manager, AWS Region Services",
@@ -2541,7 +2963,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Threat Intelligence Manager",
@@ -2553,7 +2977,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Intelligence Analyst",
@@ -2565,7 +2991,9 @@
     "eligibility_regions": "US-Central",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Global Security Operations Center - Intelligence Analyst",
@@ -2577,7 +3005,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Applied Threat Intelligence Analyst",
@@ -2589,7 +3019,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-07"
+    "post_date": "2026-06-07",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Engineer, Insider and Technology Risk",
@@ -2601,7 +3033,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-09"
+    "post_date": "2026-06-09",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Product Manager, Workspace Abuse and Safety, Enterprise Protections",
@@ -2613,7 +3047,9 @@
     "eligibility_regions": "US-East, US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-09"
+    "post_date": "2026-06-09",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Engineer, Insider and Technology Risk",
@@ -2625,7 +3061,9 @@
     "eligibility_regions": "US-East, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-09"
+    "post_date": "2026-06-09",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Fraud Defense Customer Engineer, Google Cloud Platform (Spanish)",
@@ -2637,7 +3075,9 @@
     "eligibility_regions": "EMEA, US-Central, US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-09"
+    "post_date": "2026-06-09",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Software Engineer, Photos Security, Privacy",
@@ -2649,7 +3089,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-09"
+    "post_date": "2026-06-09",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Engineering Analyst, Trust and Safety, Intel Collections",
@@ -2661,7 +3103,9 @@
     "eligibility_regions": "US-Central",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-09"
+    "post_date": "2026-06-09",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Hunter",
@@ -2673,7 +3117,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-09"
+    "post_date": "2026-06-09",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Application Security Consultant, National Security, Mandiant",
@@ -2685,7 +3131,9 @@
     "eligibility_regions": "Canada",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-09"
+    "post_date": "2026-06-09",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Associate Principal Analyst, Content Adversarial Red Team",
@@ -2697,7 +3145,9 @@
     "eligibility_regions": "US-Central, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-09"
+    "post_date": "2026-06-09",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Research Scientist",
@@ -2709,7 +3159,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-09"
+    "post_date": "2026-06-09",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Manager of Governance, Risk and Compliance (GRC)",
@@ -2721,7 +3173,9 @@
     "eligibility_regions": "US-Central",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-09"
+    "post_date": "2026-06-09",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Engineering Analyst Manager, Account Security, Intelligent Defenses Lead",
@@ -2733,7 +3187,9 @@
     "eligibility_regions": "EMEA",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-12"
+    "post_date": "2026-06-12",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Regional Intelligence Manager, Data Centers",
@@ -2745,7 +3201,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Disruption Engineer",
@@ -2757,7 +3215,9 @@
     "eligibility_regions": "US-East, US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Intelligence Analyst, GTIG Intelligence Delivery",
@@ -2769,7 +3229,9 @@
     "eligibility_regions": "EMEA",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Investigations Manager",
@@ -2781,7 +3243,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Engineering Manager, Threat Detection",
@@ -2793,7 +3257,9 @@
     "eligibility_regions": "APAC",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Intelligence Analyst",
@@ -2805,7 +3271,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr Threat Intelligence Investigator",
@@ -2817,7 +3285,9 @@
     "eligibility_regions": "US-Central",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Intelligence Advisor",
@@ -2829,7 +3299,9 @@
     "eligibility_regions": "US-Central",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat News Monitoring - Detection Lead",
@@ -2841,7 +3313,9 @@
     "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Intelligence Specialist",
@@ -2853,7 +3327,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Principal Cyber Intelligence Analyst",
@@ -2865,7 +3341,9 @@
     "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Researcher",
@@ -2877,7 +3355,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Intelligence Researcher",
@@ -2889,7 +3369,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Intel Lead",
@@ -2901,7 +3383,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-05-29"
+    "post_date": "2026-05-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director, Cyber Threat Intelligence (CTI)",
@@ -2913,7 +3397,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Expert Threat Intelligence Analyst - Central Technology",
@@ -2925,7 +3411,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Applied Threat Intelligence Analyst - Microsoft Security Threat Response",
@@ -2937,7 +3425,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Threat Detection Engineer",
@@ -2949,7 +3439,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Software Engineer, AI/ML, Chronicle Security",
@@ -2961,7 +3453,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-06-15"
+    "post_date": "2026-06-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Product Manager, Engagement Safety, YouTube",
@@ -2973,7 +3467,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-16"
+    "post_date": "2026-06-16",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Hunter",
@@ -2985,7 +3481,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-16"
+    "post_date": "2026-06-16",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Full Stack Engineer (Intelligence Center)",
@@ -2997,7 +3495,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-16"
+    "post_date": "2026-06-16",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Lead Cyber Risk Manager (Splunk Engineer)",
@@ -3009,7 +3509,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-16"
+    "post_date": "2026-06-16",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Intermediate Cybersecurity Engineer",
@@ -3021,7 +3523,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-16"
+    "post_date": "2026-06-16",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Cybersecurity Engineer",
@@ -3033,7 +3537,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-16"
+    "post_date": "2026-06-16",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Cyber Operations Engineer",
@@ -3045,7 +3551,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-16"
+    "post_date": "2026-06-16",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Adversarial AI Engineer",
@@ -3057,7 +3565,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-16"
+    "post_date": "2026-06-16",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Lead Adversarial AI Engineer",
@@ -3069,7 +3579,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-16"
+    "post_date": "2026-06-16",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Lead Digital Investigations Engineer",
@@ -3081,7 +3593,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-16"
+    "post_date": "2026-06-16",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Technical Service Lead - Enterprise Logging",
@@ -3093,7 +3607,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-16"
+    "post_date": "2026-06-16",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Operations Center Engineer",
@@ -3105,7 +3621,9 @@
     "eligibility_regions": "US-Central",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-17"
+    "post_date": "2026-06-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Technical Threat Investigator, Threat Intel Engineering",
@@ -3117,7 +3635,9 @@
     "eligibility_regions": "US-All, US-East, US-West",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-17"
+    "post_date": "2026-06-17",
+    "needs_manual_check": true,
+    "last_manual_check": "2026-09-25"
   },
   {
     "title": "Principal Researcher (Threats), Financial Services",
@@ -3129,7 +3649,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-17"
+    "post_date": "2026-06-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Engineer - Threat Intelligence & Detection Engineering",
@@ -3141,7 +3663,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-05"
+    "post_date": "2026-06-05",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Lead Operational Technology (OT) Cybersecurity Engineer",
@@ -3153,7 +3677,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-19"
+    "post_date": "2026-06-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Applied Cybersecurity Engineer (Intelligence Center)",
@@ -3165,7 +3691,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-06-19"
+    "post_date": "2026-06-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat Detection Engineer",
@@ -3177,7 +3705,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-19"
+    "post_date": "2026-06-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Expert Cybersecurity - Cyber Threat & Response",
@@ -3189,7 +3719,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-12"
+    "post_date": "2026-06-12",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Cybersecurity Quantum Security",
@@ -3201,7 +3733,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-06-12"
+    "post_date": "2026-06-12",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Manager Information Security",
@@ -3213,7 +3747,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-19"
+    "post_date": "2026-06-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Backend Engineer, SOC & Threat Hunting",
@@ -3225,7 +3761,9 @@
     "eligibility_regions": "Canada, US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-19"
+    "post_date": "2026-06-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Research Scientist",
@@ -3237,7 +3775,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-19"
+    "post_date": "2026-06-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Software Engineer, Security",
@@ -3249,7 +3789,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-19"
+    "post_date": "2026-06-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Complex Claim Specialist, Cyber",
@@ -3261,7 +3803,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-19"
+    "post_date": "2026-06-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Director, GSOC Practice",
@@ -3273,7 +3817,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-19"
+    "post_date": "2026-06-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Research Scientist II",
@@ -3285,7 +3831,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-19"
+    "post_date": "2026-06-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Analyst, Cybercrime Intelligence Analysis (Europe, Remote)",
@@ -3297,7 +3845,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-20"
+    "post_date": "2026-06-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior AI Security Engineer",
@@ -3309,7 +3859,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-06-20"
+    "post_date": "2026-06-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Operational Technology (OT) Systems Security, Lead",
@@ -3321,7 +3873,9 @@
     "eligibility_regions": "US-East, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-20"
+    "post_date": "2026-06-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Intelligence Investigator",
@@ -3333,7 +3887,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-20"
+    "post_date": "2026-06-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Intelligence Researcher- CTI",
@@ -3345,7 +3901,9 @@
     "eligibility_regions": "",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-20"
+    "post_date": "2026-06-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Engineering Team Lead- Detection & Response",
@@ -3357,7 +3915,9 @@
     "eligibility_regions": "",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-20"
+    "post_date": "2026-06-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat Intelligence Researcher",
@@ -3369,7 +3929,9 @@
     "eligibility_regions": "",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-20"
+    "post_date": "2026-06-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat Engineer- Detection",
@@ -3381,7 +3943,9 @@
     "eligibility_regions": "",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-20"
+    "post_date": "2026-06-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Backend Engineer- CTI",
@@ -3393,7 +3957,9 @@
     "eligibility_regions": "",
     "model": "",
     "deadline": "",
-    "post_date": "2026-06-20"
+    "post_date": "2026-06-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "IBM CISO - Cybersecurity Forensic Analyst",
@@ -3405,7 +3971,9 @@
     "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-20"
+    "post_date": "2026-06-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Manager, Cyber Engineered Defense (CrowdStrike Services)",
@@ -3417,7 +3985,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-22"
+    "post_date": "2026-06-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Manager - SIEM SOAR Engineer",
@@ -3429,7 +3999,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-22"
+    "post_date": "2026-06-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Junior Threat Analyst",
@@ -3441,7 +4013,9 @@
     "eligibility_regions": "EMEA",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-06-29"
+    "post_date": "2026-06-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Swimlane SOAR Engineer",
@@ -3453,7 +4027,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-06-29"
+    "post_date": "2026-06-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Consultant - SIEM",
@@ -3465,7 +4041,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-29"
+    "post_date": "2026-06-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Intelligence Researcher (Cloud)",
@@ -3477,7 +4055,9 @@
     "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-06-29"
+    "post_date": "2026-06-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Insider Threat Analyst",
@@ -3489,7 +4069,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-07-10"
+    "post_date": "2026-07-10",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Lead Cyber Threat Intelligence Analyst",
@@ -3501,7 +4083,9 @@
     "eligibility_regions": "EMEA, US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-07-22"
+    "post_date": "2026-07-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr Threat Hunter",
@@ -3513,7 +4097,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-07-22"
+    "post_date": "2026-07-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Detection & Response, Lead",
@@ -3525,7 +4111,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-07-22"
+    "post_date": "2026-07-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Security Incident Responder",
@@ -3537,7 +4125,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-07-22"
+    "post_date": "2026-07-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director - CrowdStrike AIDR Architect",
@@ -3549,7 +4139,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-07-22"
+    "post_date": "2026-07-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Cyber Threat Intelligence Analyst \u2013 USA",
@@ -3561,7 +4153,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-07-22"
+    "post_date": "2026-07-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Staff Product Security Engineer | Product Security Incident Response Team (PSIRT)",
@@ -3573,7 +4167,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-07-22"
+    "post_date": "2026-07-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Security Engineer, Security Operations - Moveworks",
@@ -3585,7 +4181,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-07-22"
+    "post_date": "2026-07-22",
+    "needs_manual_check": true,
+    "last_manual_check": "2026-09-25"
   },
   {
     "title": "Threat Intelligence Engineer",
@@ -3597,7 +4195,9 @@
     "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-07-22"
+    "post_date": "2026-07-22",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Defense Operations Lead",
@@ -3609,7 +4209,9 @@
     "eligibility_regions": "US-Central",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-07-23"
+    "post_date": "2026-07-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Global Investigations, Sextortion",
@@ -3621,7 +4223,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-07-23"
+    "post_date": "2026-07-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Global Investigator - Federal Law Enforcement",
@@ -3633,7 +4237,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-07-23"
+    "post_date": "2026-07-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Global Investigator - National Security",
@@ -3645,7 +4251,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-07-23"
+    "post_date": "2026-07-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Lead Cyber Threat Intelligence Analyst",
@@ -3657,7 +4265,9 @@
     "eligibility_regions": "EMEA, US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-07-23"
+    "post_date": "2026-07-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Blockchain Intelligence Analyst, Ransomware",
@@ -3669,7 +4279,9 @@
     "eligibility_regions": "EMEA, US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-07-23"
+    "post_date": "2026-07-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Cyber Threat Intelligence Analyst",
@@ -3681,7 +4293,9 @@
     "eligibility_regions": "EMEA, US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-07-23"
+    "post_date": "2026-07-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Cyber Threat Intelligence Analyst",
@@ -3693,7 +4307,9 @@
     "eligibility_regions": "EMEA, US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-07-23"
+    "post_date": "2026-07-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Head of Cyber Missions",
@@ -3705,7 +4321,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-07-23"
+    "post_date": "2026-07-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Product Manager, Threat Intelligence",
@@ -3717,7 +4335,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-07-23"
+    "post_date": "2026-07-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Product Marketing Manager, National Security",
@@ -3729,7 +4349,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-07-23"
+    "post_date": "2026-07-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Enablement Manager, Global Investigators",
@@ -3741,7 +4363,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-04"
+    "post_date": "2026-08-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "All Source Investigator",
@@ -3753,7 +4377,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-04"
+    "post_date": "2026-08-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Intelligence Analyst",
@@ -3765,7 +4391,9 @@
     "eligibility_regions": "EMEA, US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-04"
+    "post_date": "2026-08-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Lead, All-Source Investigations",
@@ -3777,7 +4405,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-08-04"
+    "post_date": "2026-08-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Lead, All-Source Investigator",
@@ -3789,7 +4419,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-08-04"
+    "post_date": "2026-08-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr Manager - CSIRT",
@@ -3801,7 +4433,9 @@
     "eligibility_regions": "US-Central",
     "model": "",
     "deadline": "Expired",
-    "post_date": "2026-08-04"
+    "post_date": "2026-08-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Capabilities Hunter",
@@ -3813,7 +4447,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-04"
+    "post_date": "2026-08-04",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Operations Analyst",
@@ -3825,7 +4461,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-08-06"
+    "post_date": "2026-08-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director, Product - XDR",
@@ -3837,7 +4475,9 @@
     "eligibility_regions": "Canada, US-All, US-Central, US-West",
     "model": "Remote, Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-08-06"
+    "post_date": "2026-08-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director, Product Management - Endpoint Detection & Response",
@@ -3849,7 +4489,9 @@
     "eligibility_regions": "Canada, US-All, US-Central, US-West",
     "model": "Remote, Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-08-06"
+    "post_date": "2026-08-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Manager, Adversary Hunting",
@@ -3861,7 +4503,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-06"
+    "post_date": "2026-08-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Detection Engineer \u2013 Night Shift (Wed\u2013Sat, 5pm\u20133am MST)",
@@ -3873,7 +4517,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-06"
+    "post_date": "2026-08-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Machine Learning Engineer - Data Lake, Anomaly Detection",
@@ -3885,7 +4531,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-08-06"
+    "post_date": "2026-08-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "InfoSec Specialist - SOC",
@@ -3897,7 +4545,9 @@
     "eligibility_regions": "US-Central, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-08-06"
+    "post_date": "2026-08-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Product Security Analyst 3",
@@ -3909,7 +4559,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote, Hybrid",
     "deadline": "",
-    "post_date": "2026-08-06"
+    "post_date": "2026-08-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Software Engineer, Data Science",
@@ -3921,7 +4573,9 @@
     "eligibility_regions": "US-All, US-West",
     "model": "Remote, Hybrid",
     "deadline": "",
-    "post_date": "2026-08-06"
+    "post_date": "2026-08-06",
+    "needs_manual_check": true,
+    "last_manual_check": "2026-09-25"
   },
   {
     "title": "Manager, Engineering, ML Infrastructure & Tooling",
@@ -3933,7 +4587,9 @@
     "eligibility_regions": "US-All, US-West",
     "model": "Remote, Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-08-06"
+    "post_date": "2026-08-06",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Lead Product Manager, AI-SOC",
@@ -3945,7 +4601,9 @@
     "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-14"
+    "post_date": "2026-08-14",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Response Engineer (TRE)",
@@ -3957,7 +4615,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-14"
+    "post_date": "2026-08-14",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Product Manager - Security Research",
@@ -3969,7 +4629,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote, Hybrid",
     "deadline": "",
-    "post_date": "2026-08-14"
+    "post_date": "2026-08-14",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Technical Escalation Manager",
@@ -3981,7 +4643,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "",
-    "post_date": "2026-08-14"
+    "post_date": "2026-08-14",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cybersecurity Engineer",
@@ -3993,7 +4657,9 @@
     "eligibility_regions": "US-East",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-14"
+    "post_date": "2026-08-14",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Program Manager (Part Time)",
@@ -4005,7 +4671,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-14"
+    "post_date": "2026-08-14",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Manager, Security Operations",
@@ -4017,7 +4685,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-14"
+    "post_date": "2026-08-14",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Consultant, DFIR, Reactive Services (Unit 42) - Remote",
@@ -4029,7 +4699,9 @@
     "eligibility_regions": "US-All, US-West",
     "model": "Remote, Hybrid",
     "deadline": "",
-    "post_date": "2026-08-14"
+    "post_date": "2026-08-14",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Consultant, Cloud DFIR (Unit 42) - Remote",
@@ -4041,7 +4713,9 @@
     "eligibility_regions": "US-All, US-East",
     "model": "Remote, Hybrid",
     "deadline": "",
-    "post_date": "2026-08-14"
+    "post_date": "2026-08-14",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Consulting Director, AI Security, Proactive Services (Unit 42)",
@@ -4053,7 +4727,9 @@
     "eligibility_regions": "US-All, US-West",
     "model": "Remote, Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-08-14"
+    "post_date": "2026-08-14",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Practice Architect, Delivery Architecture (COE)",
@@ -4065,7 +4741,9 @@
     "eligibility_regions": "US-All, US-Central, US-East",
     "model": "Remote, Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-08-14"
+    "post_date": "2026-08-14",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director, MDR (Managed Detection and Response)",
@@ -4077,7 +4755,9 @@
     "eligibility_regions": "US-Central, US-East",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-15"
+    "post_date": "2026-08-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Response Engineer (TRE)",
@@ -4089,7 +4769,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-15"
+    "post_date": "2026-08-15",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "MDR Security Engineer",
@@ -4101,7 +4783,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-08-17"
+    "post_date": "2026-08-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Software Engineer II",
@@ -4113,7 +4797,9 @@
     "eligibility_regions": "US-Central, US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-08-17"
+    "post_date": "2026-08-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Technical Delivery Manager 2 (Technical Engagement Manager 2)",
@@ -4125,7 +4811,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-17"
+    "post_date": "2026-08-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cleared Vulnerability Research Engineer",
@@ -4137,7 +4825,9 @@
     "eligibility_regions": "US-Central, US-East",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-17"
+    "post_date": "2026-08-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Security Researcher",
@@ -4149,7 +4839,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-08-17"
+    "post_date": "2026-08-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Consulting Director, DFIR, Reactive Services (Unit 42)",
@@ -4161,7 +4853,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-17"
+    "post_date": "2026-08-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Product Intelligence Analyst (Cortex, Agentic Endpoint Security and XDR)",
@@ -4173,7 +4867,9 @@
     "eligibility_regions": "US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-17"
+    "post_date": "2026-08-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Consultant, SOC Transformation and XSIAM Deployment",
@@ -4185,7 +4881,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-17"
+    "post_date": "2026-08-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director, Product Management (Cortex Exposure Management)",
@@ -4197,7 +4895,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-08-17"
+    "post_date": "2026-08-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Software Engineer - Back End (Wildfire)",
@@ -4209,7 +4909,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-08-17"
+    "post_date": "2026-08-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Principal Software Engineer (Cortex Platform)",
@@ -4221,7 +4923,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-08-17"
+    "post_date": "2026-08-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Retool Developer",
@@ -4233,7 +4937,9 @@
     "eligibility_regions": "US-All, EMEA, LATAM, APAC",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-18"
+    "post_date": "2026-08-18",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "DFIR",
@@ -4245,7 +4951,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-18"
+    "post_date": "2026-08-18",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Director of Subject Matter Expert - CTEM, RBVM, ASPM - Risk Operation Center (ROC)",
@@ -4257,7 +4965,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-08-18"
+    "post_date": "2026-08-18",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director/Sr Director, Product Management, Risk-Based Vulnerability Mgmt (RBVM)",
@@ -4269,7 +4979,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-08-18"
+    "post_date": "2026-08-18",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Product Manager (AI & Data)",
@@ -4281,7 +4993,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-19"
+    "post_date": "2026-08-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Consultant, SOC Transformation & XSIAM Deployment",
@@ -4293,7 +5007,9 @@
     "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-19"
+    "post_date": "2026-08-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Consultant, DFIR, Reactive Services (Unit 42)",
@@ -4305,7 +5021,9 @@
     "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-19"
+    "post_date": "2026-08-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Managed XSIAM Service Delivery Lead",
@@ -4317,7 +5035,9 @@
     "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-19"
+    "post_date": "2026-08-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Managed XSIAM Service Delivery Lead",
@@ -4329,7 +5049,9 @@
     "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-19"
+    "post_date": "2026-08-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director, Ecosystems",
@@ -4341,7 +5063,9 @@
     "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-19"
+    "post_date": "2026-08-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Global Account Manager - Intelligence Community",
@@ -4353,7 +5077,9 @@
     "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-19"
+    "post_date": "2026-08-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Product Intelligence Analyst (Cortex XSIAM)",
@@ -4365,7 +5091,9 @@
     "eligibility_regions": "US-All, US-Central",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-19"
+    "post_date": "2026-08-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Staff Information Security Engineer \u2013 AI & Attack Surface Management",
@@ -4377,7 +5105,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-08-19"
+    "post_date": "2026-08-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Product Manager (Threat Prevention)",
@@ -4389,7 +5119,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-08-19"
+    "post_date": "2026-08-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Principal Engineer Software (Unit 42)",
@@ -4401,7 +5133,9 @@
     "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-19"
+    "post_date": "2026-08-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Product Manager (Cortex Cloud)",
@@ -4413,7 +5147,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Technical Marketing Engineer, Analyst Relations (Cortex Cloud)",
@@ -4425,7 +5161,9 @@
     "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Infosec Engineer- Product Security Incident Response",
@@ -4437,7 +5175,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat Researcher, Unit 42",
@@ -4449,7 +5189,9 @@
     "eligibility_regions": "US-All, US-West",
     "model": "Hybrid, Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat Researcher, Unit 42",
@@ -4461,7 +5203,9 @@
     "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Security Researcher - Advanced Threat Prevention",
@@ -4473,7 +5217,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Cloud Infrastructure Engineer (Advanced Threat Protection)",
@@ -4485,7 +5231,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Principal Cybersecurity Researcher - Rapid Response (Unit 42)",
@@ -4497,7 +5245,9 @@
     "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Researcher (Unit 42)",
@@ -4509,7 +5259,9 @@
     "eligibility_regions": "US-All, US-East",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director, Product Engineering (AI POD Lead)",
@@ -4521,7 +5273,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "Expired",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Intel Research Engineer",
@@ -4533,7 +5287,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Software Development Engineer In Test",
@@ -4545,7 +5301,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Data Engineer",
@@ -4557,7 +5315,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Backend Engineer, Identity Threat Protection",
@@ -4569,7 +5329,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Protective Intelligence Specialist - Travel - Event Assessment",
@@ -4581,7 +5343,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Protective Intelligence Specialist - Digital Exposure Assessment - Reduction",
@@ -4593,7 +5357,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Detection Engineer",
@@ -4605,7 +5371,9 @@
     "eligibility_regions": "US-Central, US-East",
     "model": "Onsite",
     "deadline": "Expired",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Protective Intelligence & Threat Analyst",
@@ -4617,7 +5385,9 @@
     "eligibility_regions": "US-All, US-East, US-West",
     "model": "Hybrid, Remote",
     "deadline": "",
-    "post_date": "2026-08-26"
+    "post_date": "2026-08-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr Threat Hunter",
@@ -4629,7 +5399,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-10"
+    "post_date": "2026-09-10",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Researcher, Financial Services",
@@ -4641,7 +5413,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-10"
+    "post_date": "2026-09-10",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Technical Marketing Engineer (Malware Defense)",
@@ -4653,7 +5427,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-09-10"
+    "post_date": "2026-09-10",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior MSIAM SOC Engineer (Unit 42)",
@@ -4665,7 +5441,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-10"
+    "post_date": "2026-09-10",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat Intelligence Research Engineer",
@@ -4677,7 +5455,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-10"
+    "post_date": "2026-09-10",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Threat Intelligence Research Engineer",
@@ -4689,7 +5469,9 @@
     "eligibility_regions": "US-All, US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-10"
+    "post_date": "2026-09-10",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director - Cyber Threat Intelligence (CTI)",
@@ -4701,7 +5483,9 @@
     "eligibility_regions": "US-Central",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-09-11"
+    "post_date": "2026-09-11",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr Software Engineer - Linux Sensor",
@@ -4713,7 +5497,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-11"
+    "post_date": "2026-09-11",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Windows Sensor Engineer",
@@ -4725,7 +5511,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-11"
+    "post_date": "2026-09-11",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Software Engineer - Sensor (macOS) - Hybrid",
@@ -4737,7 +5525,9 @@
     "eligibility_regions": "US-Central, US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-11"
+    "post_date": "2026-09-11",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Background Investigator",
@@ -4749,7 +5539,9 @@
     "eligibility_regions": "EMEA",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-13"
+    "post_date": "2026-09-13",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Data Processing Engineer",
@@ -4761,7 +5553,9 @@
     "eligibility_regions": "US-All, US-Central",
     "model": "Hybrid, Remote",
     "deadline": "",
-    "post_date": "2026-09-13"
+    "post_date": "2026-09-13",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Engineer III - SDET - AI Detection and Response (AIDR) - Hybrid",
@@ -4773,7 +5567,9 @@
     "eligibility_regions": "US-Central, US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-13"
+    "post_date": "2026-09-13",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Software Engineer - Real-Time Data Enrichment Platform",
@@ -4785,7 +5581,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "Expired",
-    "post_date": "2026-09-13"
+    "post_date": "2026-09-13",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Software Engineer, Investigations",
@@ -4797,7 +5595,9 @@
     "eligibility_regions": "US-Central",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-13"
+    "post_date": "2026-09-13",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Manager, Engineering - Semantic Data Modeling Framework",
@@ -4809,7 +5609,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-13"
+    "post_date": "2026-09-13",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Analyst - Tier 3",
@@ -4821,7 +5623,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-13"
+    "post_date": "2026-09-13",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Analyst - Tier 2",
@@ -4833,7 +5637,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-13"
+    "post_date": "2026-09-13",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Research Engineer III",
@@ -4845,7 +5651,9 @@
     "eligibility_regions": "US-All, US-Central",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-13"
+    "post_date": "2026-09-13",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Product Manager, Investigations",
@@ -4857,7 +5665,9 @@
     "eligibility_regions": "US-All, US-Central",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-13"
+    "post_date": "2026-09-13",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Hunter (TS/SCI Clearance Required)",
@@ -4869,7 +5679,9 @@
     "eligibility_regions": "US-East",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-09-19"
+    "post_date": "2026-09-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director of Product, Web Protections",
@@ -4881,7 +5693,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-19"
+    "post_date": "2026-09-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Software Engineer, AI SIEM",
@@ -4893,7 +5707,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-19"
+    "post_date": "2026-09-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Information Security Engineer - Threat Defense - Automation",
@@ -4905,7 +5721,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-19"
+    "post_date": "2026-09-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Cyber Threat Defense - Security Operations Engineer",
@@ -4917,7 +5735,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-19"
+    "post_date": "2026-09-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Manager - Threat Protection Services",
@@ -4929,7 +5749,9 @@
     "eligibility_regions": "US-Central, US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-19"
+    "post_date": "2026-09-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Security Operations Center Operator",
@@ -4941,7 +5763,9 @@
     "eligibility_regions": "US-West",
     "model": "Onsite",
     "deadline": "",
-    "post_date": "2026-09-19"
+    "post_date": "2026-09-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Vice President - Cyber Incident Response",
@@ -4953,7 +5777,9 @@
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-19"
+    "post_date": "2026-09-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Cyber Threat Intel Analyst",
@@ -4965,7 +5791,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "2026-10-01",
-    "post_date": "2026-09-19"
+    "post_date": "2026-09-19",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Intelligence Analyst II",
@@ -4977,7 +5805,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-20"
+    "post_date": "2026-09-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "GSOC Operator",
@@ -4989,7 +5819,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-20"
+    "post_date": "2026-09-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "GSOC Analyst- Night Shift",
@@ -5001,7 +5833,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-20"
+    "post_date": "2026-09-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Director, Client Solutions & Innovation, Global Intelligence and Operations",
@@ -5013,7 +5847,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-20"
+    "post_date": "2026-09-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Premier Support Technician",
@@ -5025,7 +5861,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-20"
+    "post_date": "2026-09-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Intelligence Manager, Client Solutions and Innovation",
@@ -5037,7 +5875,9 @@
     "eligibility_regions": "US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-20"
+    "post_date": "2026-09-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Intelligence Analyst III",
@@ -5049,7 +5889,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-20"
+    "post_date": "2026-09-20",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Staff Data Platform Engineer - AI Platform",
@@ -5061,7 +5903,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Data Engineer, Graph Analytics",
@@ -5073,7 +5917,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Software Engineer, Data - SF",
@@ -5085,7 +5931,9 @@
     "eligibility_regions": "US-All, US-West",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Software Engineer, Data Product - SF Only",
@@ -5097,7 +5945,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Software Engineer, Data Product - US",
@@ -5109,7 +5959,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Software Engineer, Graph Analytics",
@@ -5121,7 +5973,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Tech Lead, Staff Software Engineer, Data Product (US)",
@@ -5133,7 +5987,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Forward Deployed Engineer - US National Security",
@@ -5145,7 +6001,9 @@
     "eligibility_regions": "US-All",
     "model": "Hybrid, Remote",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "GSOC Operator",
@@ -5157,7 +6015,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Intelligence Analyst",
@@ -5169,7 +6029,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Professional Services Manager, Vehicle Intelligence Product (ALPR)",
@@ -5181,7 +6043,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Threat Detection Operations Engineer",
@@ -5193,7 +6057,9 @@
     "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Detection Engineering & Threat Hunting Analyst",
@@ -5205,7 +6071,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior Manager, Detection Engineering & Threat Hunting",
@@ -5217,7 +6085,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-23"
+    "post_date": "2026-09-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Software Engineer, Sensor - Mac, Linux, or Windows (Hybrid)",
@@ -5229,7 +6099,9 @@
     "eligibility_regions": "US-West, Canada, US-Central, US-East",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-24"
+    "post_date": "2026-09-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Vulnerability Management Engineer - Remote",
@@ -5241,7 +6113,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-24"
+    "post_date": "2026-09-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Strategic Advisory Services, AI Security Consultant (Remote)",
@@ -5253,7 +6127,9 @@
     "eligibility_regions": "US-All, US-Central",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-24"
+    "post_date": "2026-09-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Software Development Engineer - Agentic AI",
@@ -5265,7 +6141,9 @@
     "eligibility_regions": "US-Central",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-24"
+    "post_date": "2026-09-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Global Intelligence Manager",
@@ -5277,7 +6155,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-16"
+    "post_date": "2026-09-16",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Protective Operations GSOC Operations Specialist",
@@ -5289,7 +6169,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-24"
+    "post_date": "2026-09-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "GSOC Intelligence Manager (Program Manager)",
@@ -5301,7 +6183,9 @@
     "eligibility_regions": "US-Central",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-24"
+    "post_date": "2026-09-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "GSOC Analyst (Overnight Shift)",
@@ -5313,7 +6197,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-24"
+    "post_date": "2026-09-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "GSOC Analyst",
@@ -5325,7 +6211,9 @@
     "eligibility_regions": "US-West",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-24"
+    "post_date": "2026-09-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Operations Lead (Swing Shift)",
@@ -5337,7 +6225,9 @@
     "eligibility_regions": "US-East",
     "model": "",
     "deadline": "",
-    "post_date": "2026-09-24"
+    "post_date": "2026-09-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Senior SDET - AI Detection and Response (AIDR) (Hybrid, Sunnyvale)",
@@ -5349,7 +6239,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-24"
+    "post_date": "2026-09-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Sr. Engineer, Cloud Native - AI Detection and Response (AIDR) (Hybrid, Sunnyvale)",
@@ -5361,7 +6253,9 @@
     "eligibility_regions": "US-West",
     "model": "Hybrid",
     "deadline": "",
-    "post_date": "2026-09-24"
+    "post_date": "2026-09-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Principal Consultant - Cloud Red Team Blue Team (Remote)",
@@ -5373,7 +6267,9 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-24"
+    "post_date": "2026-09-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   },
   {
     "title": "Threat Hunter - FedCloud",
@@ -5385,6 +6281,8 @@
     "eligibility_regions": "US-All",
     "model": "Remote",
     "deadline": "",
-    "post_date": "2026-09-24"
+    "post_date": "2026-09-24",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   }
 ]
