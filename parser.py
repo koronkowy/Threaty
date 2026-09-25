@@ -80,7 +80,9 @@ def parse_job_with_gemini(url):
       "eligibility_regions": "Map locations to: US-All, US-East, US-West, US-Central, EMEA, LATAM, or APAC",
       "model": "Remote, Hybrid, or Onsite",
       "deadline": "YYYY-MM-DD or empty string",
-      "post_date": "{date.today().isoformat()}"
+      "post_date": "{date.today().isoformat()}",
+      "needs_manual_check": false,
+      "last_manual_check": ""
     }}
 
     Rules:
@@ -213,6 +215,10 @@ def main():
 
         new_job, error_reason = parse_job_with_gemini(url)
         if new_job:
+            # Explicitly enforce new fields to handle potential Gemini hallucination
+            new_job['needs_manual_check'] = False
+            new_job['last_manual_check'] = ""
+
             jobs.append(new_job)
             existing_urls.add(new_job['url'])
             success_count += 1
