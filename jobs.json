@@ -6284,5 +6284,61 @@
     "post_date": "2026-09-24",
     "needs_manual_check": false,
     "last_manual_check": ""
+  },
+  {
+    "title": "Security Engineer, Cyber Threat Intelligence",
+    "company": "Saronic Technologies",
+    "status": "active",
+    "url": "https://jobs.ashbyhq.com/saronic/2e831f46-b2ec-4a43-99a3-1990808224e5",
+    "company_url": "https://www.saronic.com/",
+    "listed_locations": "Austin, Texas; San Diego, California",
+    "eligibility_regions": "US-Central, US-West",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-07-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
+  },
+  {
+    "title": "Security Engineer, Detection Engineering",
+    "company": "Saronic Technologies",
+    "status": "active",
+    "url": "https://jobs.ashbyhq.com/saronic/61770fb7-97a5-4be3-9556-32b2ff522e6d",
+    "company_url": "https://www.saronic.com/",
+    "listed_locations": "Austin, Texas",
+    "eligibility_regions": "US-Central",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-06-25",
+    "needs_manual_check": false,
+    "last_manual_check": ""
+  },
+  {
+    "title": "Security Operations Analyst",
+    "company": "Saronic Technologies",
+    "status": "active",
+    "url": "https://jobs.ashbyhq.com/saronic/47a3d837-cd15-4234-a02d-7fdde811fc69",
+    "company_url": "https://www.saronic.com/",
+    "listed_locations": "Austin, Texas; San Diego, California",
+    "eligibility_regions": "US-Central, US-West",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-09-25",
+    "needs_manual_check": false,
+    "last_manual_check": ""
+  },
+  {
+    "title": "Senior Security Operations Analyst",
+    "company": "Saronic Technologies",
+    "status": "active",
+    "url": "https://jobs.ashbyhq.com/saronic/be69a6b7-53d9-49dd-9294-1362c603006c",
+    "company_url": "https://www.saronic.com/",
+    "listed_locations": "Austin, Texas, United States; San Diego, California, United States",
+    "eligibility_regions": "US-Central, US-West",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-06-17",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   }
 ]
