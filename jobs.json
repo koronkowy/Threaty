@@ -1374,15 +1374,15 @@
   {
     "title": "Senior Security Engineer, Detection and Response",
     "company": "HackerOne",
-    "status": "active",
+    "status": "expired",
     "url": "https://jobs.ashbyhq.com/hackerone/72cdf9a9-74cb-4c0e-8cf8-241ba32680ec",
     "company_url": "https://www.hackerone.com",
     "listed_locations": "Austin, TX, Boston, MA, San Francisco, CA, Seattle, WA, Washington, DC",
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Remote",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-05-29",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -1410,8 +1410,8 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-05-29",
-    "needs_manual_check": true,
-    "last_manual_check": ""
+    "needs_manual_check": false,
+    "last_manual_check": "2026-06-26"
   },
   {
     "title": "Senior Threat and Attack Research Engineer",
@@ -3636,8 +3636,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-09-25"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-09-26"
   },
   {
     "title": "Principal Researcher (Threats), Financial Services",
@@ -4182,8 +4182,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-09-25"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-09-26"
   },
   {
     "title": "Threat Intelligence Engineer",
@@ -6246,15 +6246,15 @@
   {
     "title": "Sr. Engineer, Cloud Native - AI Detection and Response (AIDR) (Hybrid, Sunnyvale)",
     "company": "CrowdStrike",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Sr-Engineer--Cloud-Native---AI-Detection-and-Response--AIDR---Hybrid--Sunnyvale-_R29788-1",
     "company_url": "https://www.crowdstrike.com",
     "listed_locations": "Sunnyvale, CA",
     "eligibility_regions": "US-West",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-24",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
