@@ -1382,7 +1382,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-05-29",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -1410,7 +1410,7 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-05-29",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
