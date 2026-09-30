@@ -822,7 +822,7 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-05-27",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -836,7 +836,7 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-05-27",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -2816,13 +2816,13 @@
   {
     "title": "Threat Intelligence Researcher (Cloud)",
     "company": "Wiz",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.wiz.io/careers/job/4658917006/threat-intelligence-researcher-cloud?gh_jid=4658917006",
     "company_url": "https://www.wiz.io",
     "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
-    "deadline": "2026-09-29",
+    "deadline": "Expired",
     "post_date": "2026-06-07",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -4980,7 +4980,7 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-08-18",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -5344,7 +5344,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-08-26",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -5358,7 +5358,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-08-26",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
