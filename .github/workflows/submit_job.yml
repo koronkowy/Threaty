@@ -62,6 +62,7 @@ jobs:
           TIMEOUTS=$(sed -n '/TIMEOUT_URLS_START/,/TIMEOUT_URLS_END/p' run.log | sed '1d;$d')
           API_ERRORS=$(sed -n '/API_ERROR_URLS_START/,/API_ERROR_URLS_END/p' run.log | sed '1d;$d')
           JSON_ERRORS=$(sed -n '/JSON_ERROR_URLS_START/,/JSON_ERROR_URLS_END/p' run.log | sed '1d;$d')
+          MANUAL_CHECK_ERRORS=$(sed -n '/MANUAL_CHECK_REQUIRED_URLS_START/,/MANUAL_CHECK_REQUIRED_URLS_END/p' run.log | sed '1d;$d')
           OTHER_ERRORS=$(sed -n '/OTHER_URLS_START/,/OTHER_URLS_END/p' run.log | sed '1d;$d')
           SHELVED=$(sed -n '/SHELVED_URLS_START/,/SHELVED_URLS_END/p' run.log | sed '1d;$d')
           
@@ -98,6 +99,12 @@ jobs:
           if [ ! -z "$JSON_ERRORS" ]; then
             HAS_ERRORS=true
             printf -v ADDITION "\n\n**Failed due to Malformed JSON from AI:**\n%s" "$JSON_ERRORS"
+            ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
+          fi
+
+          if [ ! -z "$MANUAL_CHECK_ERRORS" ]; then
+            HAS_ERRORS=true
+            printf -v ADDITION "\n\n**Failed due to Suspiciously Short Text (Manual Check Required):**\n%s" "$MANUAL_CHECK_ERRORS"
             ERROR_DETAILS="${ERROR_DETAILS}${ADDITION}"
           fi
 
