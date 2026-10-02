@@ -3636,8 +3636,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-01"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-02"
   },
   {
     "title": "Principal Researcher (Threats), Financial Services",
@@ -4182,8 +4182,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-01"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-02"
   },
   {
     "title": "Threat Intelligence Engineer",
@@ -4636,15 +4636,15 @@
   {
     "title": "Technical Escalation Manager",
     "company": "Qualys",
-    "status": "active",
+    "status": "expired",
     "url": "https://qualys.wd5.myworkdayjobs.com/en-US/Careers/job/Technical-Escalation-Manager_R0004717",
     "company_url": "https://www.qualys.com",
     "listed_locations": "Raleigh, NC",
     "eligibility_regions": "US-East",
     "model": "",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-08-14",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -6106,15 +6106,15 @@
   {
     "title": "Sr. Vulnerability Management Engineer - Remote",
     "company": "CrowdStrike",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Sr-Vulnerability-Management-Engineer--Remote-_R25646",
     "company_url": "https://www.crowdstrike.com",
     "listed_locations": "Sunnyvale, CA",
     "eligibility_regions": "US-West",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-24",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
