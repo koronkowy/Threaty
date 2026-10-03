@@ -3636,7 +3636,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-10-02"
   },
   {
@@ -4182,7 +4182,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-10-02"
   },
   {
@@ -6624,13 +6624,13 @@
   {
     "title": "Security Analyst",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/framingham-massachusetts/security-analyst/00320-0013476176-usen",
     "company_url": "https://www.roberthalf.com/us/en",
     "listed_locations": "Framingham, MA",
     "eligibility_regions": "US-All, US-East",
     "model": "Remote",
-    "deadline": "2026-10-02",
+    "deadline": "Expired",
     "post_date": "2026-10-01",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -6860,7 +6860,7 @@
     "last_manual_check": ""
   },
   {
-    "title": "Customer Intake Specialist (Overnight)",
+    "title": "Customer\u202fIntake\u202fSpecialist (Overnight)",
     "company": "Crisis24",
     "status": "active",
     "url": "https://jobs.dayforcehcm.com/en-US/crisis24/CANDIDATEPORTAL/jobs/23636",
@@ -6943,7 +6943,7 @@
     "needs_manual_check": false,
     "last_manual_check": ""
   },
-    {
+  {
     "title": "Threat Intelligence Platform Engineer",
     "company": "Coinbase",
     "status": "active",
@@ -6954,7 +6954,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   }
 ]
