@@ -3636,8 +3636,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-02"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-04"
   },
   {
     "title": "Principal Researcher (Threats), Financial Services",
@@ -4182,8 +4182,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-02"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-04"
   },
   {
     "title": "Threat Intelligence Engineer",
@@ -6954,7 +6954,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": true,
-    "last_manual_check": ""
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-04"
   }
 ]
