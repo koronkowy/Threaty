@@ -1774,7 +1774,7 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-06-03",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
