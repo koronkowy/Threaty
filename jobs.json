@@ -6268,7 +6268,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-09-24",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -7010,7 +7010,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-08-26",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
