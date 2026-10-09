@@ -3292,15 +3292,15 @@
   {
     "title": "Senior Intelligence Advisor",
     "company": "Intuitive",
-    "status": "active",
+    "status": "expired",
     "url": "https://intuitive.wd1.myworkdayjobs.com/en-US/irtc_careers/job/Senior-Intelligence-Advisor_2526-272",
     "company_url": "https://www.intuitive.com",
     "listed_locations": "Huntsville, AL",
     "eligibility_regions": "US-Central",
     "model": "",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-06-15",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -3636,8 +3636,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-04"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-09"
   },
   {
     "title": "Principal Researcher (Threats), Financial Services",
@@ -4182,8 +4182,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-04"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-09"
   },
   {
     "title": "Threat Intelligence Engineer",
@@ -6260,15 +6260,15 @@
   {
     "title": "Principal Consultant - Cloud Red Team Blue Team (Remote)",
     "company": "CrowdStrike",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Principal-Consultant---Cloud-Red-Team-Blue-Team--Remote-_R29784",
     "company_url": "https://www.crowdstrike.com",
     "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-24",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -6954,8 +6954,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-04"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-09"
   },
   {
     "title": "Senior Cybersecurity Incident Response Engineer (Remote, US)",
@@ -7002,15 +7002,15 @@
   {
     "title": "Sr. Engineer, Cloud Native - AI Detection and Response (AIDR) (Hybrid, Sunnyvale)",
     "company": "CrowdStrike, Inc.",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Sr-Engineer--Cloud-Native---AI-Detection-and-Response--AIDR---Hybrid--Sunnyvale-_R29790",
     "company_url": "http://crowdstrike.com/",
     "listed_locations": "Sunnyvale, CA",
     "eligibility_regions": "US-West",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-08-26",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -7044,29 +7044,29 @@
   {
     "title": "Sr. Engineer II, DevOps, NG-SIEM (Hybrid)",
     "company": "CrowdStrike",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Sr-Engineer-II--EPICS--NG-SIEM--Hybrid-_R28391",
     "company_url": "https://www.crowdstrike.com",
     "listed_locations": "Austin, TX",
     "eligibility_regions": "US-Central",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-25",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
     "title": "Principal Product Manager - Threat Detection Content (Hybrid)",
     "company": "CrowdStrike, Inc.",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Principal-Product-Manager---Threat-Detection-Content--Hybrid-_R29758",
     "company_url": "https://www.crowdstrike.com",
     "listed_locations": "Sunnyvale, CA, New York, NY, Austin, TX, Arlington, VA, Redmond, WA",
     "eligibility_regions": "US-West, US-East, US-Central",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-08-11",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
