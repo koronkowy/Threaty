@@ -3636,7 +3636,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-10-09"
   },
   {
@@ -4182,7 +4182,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-10-09"
   },
   {
@@ -5610,7 +5610,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-13",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -6596,13 +6596,13 @@
   {
     "title": "IT Security Analyst",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/daytona-beach-florida/it-security-analyst/01030-0013479729-usen",
     "company_url": "https://www.roberthalf.com/us/en",
     "listed_locations": "Daytona Beach, FL",
     "eligibility_regions": "US-East",
     "model": "",
-    "deadline": "2026-10-09",
+    "deadline": "Expired",
     "post_date": "2026-09-09",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -6954,7 +6954,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-10-09"
   },
   {
@@ -7080,7 +7080,7 @@
     "model": "Hybrid, Remote",
     "deadline": "",
     "post_date": "2026-09-28",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -7142,13 +7142,13 @@
   {
     "title": "Senior Incident Response Consultant, Mandiant, Google Cloud",
     "company": "Google",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.google.com/about/careers/applications/jobs/results/110728803705070278-senior-incident-response-consultant-mandiant-google-cloud",
     "company_url": "https://www.google.com",
     "listed_locations": "TX, Remote (US)",
     "eligibility_regions": "US-All, US-Central",
     "model": "Remote",
-    "deadline": "2026-09-14",
+    "deadline": "Expired",
     "post_date": "2026-10-09",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -7212,13 +7212,13 @@
   {
     "title": "Security Consultant, SOAR, Mandiant, Google Cloud",
     "company": "Google",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.google.com/about/careers/applications/jobs/results/109401147709498054-security-consultant-soar-mandiant-google-cloud",
     "company_url": "https://www.google.com",
     "listed_locations": "Austin, TX, Remote (US)",
     "eligibility_regions": "US-All, US-Central",
     "model": "Remote",
-    "deadline": "2026-09-24",
+    "deadline": "Expired",
     "post_date": "2026-10-09",
     "needs_manual_check": false,
     "last_manual_check": ""
