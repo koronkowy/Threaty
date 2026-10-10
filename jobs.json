@@ -3636,8 +3636,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-09"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-10"
   },
   {
     "title": "Principal Researcher (Threats), Financial Services",
@@ -4182,8 +4182,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-09"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-10"
   },
   {
     "title": "Threat Intelligence Engineer",
@@ -5602,15 +5602,15 @@
   {
     "title": "Sr. Manager, Engineering - Semantic Data Modeling Framework",
     "company": "CrowdStrike",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Sr-Manager--Engineering---Semantic-Data-Modeling-Framework--Hybrid-_R29507",
     "company_url": "https://www.crowdstrike.com",
     "listed_locations": "New York, NY, Austin, TX, Sunnyvale, CA, Redmond, WA",
     "eligibility_regions": "US-Central, US-East, US-West",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-13",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -6954,8 +6954,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-09"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-10"
   },
   {
     "title": "Senior Cybersecurity Incident Response Engineer (Remote, US)",
@@ -7072,15 +7072,15 @@
   {
     "title": "Analyst I, Falcon Complete (Hybrid, San Antonio)",
     "company": "CrowdStrike, Inc.",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Analyst-I--Falcon-Complete--Remote-_R29479?",
     "company_url": "https://www.crowdstrike.com",
     "listed_locations": "San Antonio, TX, Remote (US)",
     "eligibility_regions": "US-Central, US-All",
     "model": "Hybrid, Remote",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-28",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
