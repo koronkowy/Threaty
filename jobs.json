@@ -6128,7 +6128,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-09-24",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -7114,7 +7114,7 @@
   {
     "title": "Senior Incident Response Consultant, Mandiant, Google Cloud",
     "company": "Google",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.google.com/about/careers/applications/jobs/results/111648248828961478-senior-incident-response-consultant-mandiant-google-cloud",
     "company_url": "https://www.google.com",
     "listed_locations": "New York, NY",
