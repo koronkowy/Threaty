@@ -7318,7 +7318,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2025-01-29",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
