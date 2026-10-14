@@ -3636,8 +3636,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-10"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-14"
   },
   {
     "title": "Principal Researcher (Threats), Financial Services",
@@ -4182,8 +4182,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-10"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-14"
   },
   {
     "title": "Threat Intelligence Engineer",
@@ -6120,15 +6120,15 @@
   {
     "title": "Strategic Advisory Services, AI Security Consultant (Remote)",
     "company": "CrowdStrike",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Strategic-Advisory-Services--AI-Security-Consultant--Remote-_R28272",
     "company_url": "https://www.crowdstrike.com",
     "listed_locations": "Remote (US), TX",
     "eligibility_regions": "US-All, US-Central",
     "model": "Remote",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-24",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -6954,8 +6954,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-10"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-14"
   },
   {
     "title": "Senior Cybersecurity Incident Response Engineer (Remote, US)",
@@ -7318,8 +7318,8 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2025-01-29",
-    "needs_manual_check": true,
-    "last_manual_check": ""
+    "needs_manual_check": false,
+    "last_manual_check": "2025-10-14"
   },
   {
     "title": "Information Security Engineer - Insider Risk",
@@ -7514,8 +7514,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
-    "last_manual_check": ""
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-14"
   },
   {
     "title": "Fraud Data Analyst",
@@ -7528,8 +7528,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
-    "last_manual_check": ""
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-14"
   },
   {
     "title": "Pattern Analyst",
@@ -7542,8 +7542,8 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
-    "last_manual_check": ""
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-14"
   },
   {
     "title": "Pattern Analyst",
@@ -7556,8 +7556,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
-    "last_manual_check": ""
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-14"
   },
   {
     "title": "Vulnerability Researcher",
