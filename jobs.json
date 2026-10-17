@@ -3636,7 +3636,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": "2026-10-14"
   },
   {
@@ -6736,13 +6736,13 @@
   {
     "title": "Cyber Security Engineer",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/pompano-beach-florida/cyber-security-engineer/01000-0013505001-usen",
     "company_url": "https://www.roberthalf.com",
     "listed_locations": "Pompano Beach, FL",
     "eligibility_regions": "US-East",
     "model": "",
-    "deadline": "2026-10-16",
+    "deadline": "Expired",
     "post_date": "2026-09-11",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -6764,13 +6764,13 @@
   {
     "title": "Cybersecurity Analyst",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/oyster-bay-new-york/cybersecurity-analyst/02940-0013504146-usen",
     "company_url": "https://www.roberthalf.com",
     "listed_locations": "Oyster Bay, NY",
     "eligibility_regions": "US-East",
     "model": "",
-    "deadline": "2026-10-16",
+    "deadline": "Expired",
     "post_date": "2026-09-11",
     "needs_manual_check": false,
     "last_manual_check": ""
