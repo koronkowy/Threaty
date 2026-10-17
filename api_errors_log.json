@@ -2,5 +2,9 @@
   {
     "timestamp": 1792207348.364562,
     "status_code": 503
+  },
+  {
+    "timestamp": 1792219668.2638285,
+    "status_code": 429
   }
 ]
