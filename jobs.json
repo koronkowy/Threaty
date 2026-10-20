@@ -3636,8 +3636,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-14"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-19"
   },
   {
     "title": "Principal Researcher (Threats), Financial Services",
@@ -4182,8 +4182,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-14"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-19"
   },
   {
     "title": "Threat Intelligence Engineer",
@@ -6954,8 +6954,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-14"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-19"
   },
   {
     "title": "Senior Cybersecurity Incident Response Engineer (Remote, US)",
@@ -7030,15 +7030,15 @@
   {
     "title": "Engineer III - Linux Sensor (Hybrid)",
     "company": "CrowdStrike, Inc.",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Engineer-III----Sensor_R29559",
     "company_url": "http://crowdstrike.com/",
     "listed_locations": "Redmond, WA, Sunnyvale, CA, Austin, TX, New York City, NY, Toronto, Canada",
     "eligibility_regions": "US-East, US-West, US-Central, Canada",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-08-12",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -7504,20 +7504,6 @@
     "last_manual_check": ""
   },
   {
-    "title": "Forensics Product Manager",
-    "company": "Exterro",
-    "status": "active",
-    "url": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=a6d4025e-fbda-4675-b776-bf669713f14a&ccId=19000101_000001&jobId=525335&lang=en_US",
-    "company_url": "https://www.exterro.com/",
-    "listed_locations": "Remote (US)",
-    "eligibility_regions": "US-All",
-    "model": "Remote",
-    "deadline": "",
-    "post_date": "2026-10-10",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-14"
-  },
-  {
     "title": "Fraud Data Analyst",
     "company": "LexisNexis",
     "status": "active",
@@ -7528,8 +7514,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-14"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-19"
   },
   {
     "title": "Pattern Analyst",
@@ -7542,11 +7528,11 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-14"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-19"
   },
   {
-    "title": "Pattern Analyst",
+    "title": "Senior Advisor, Advanced Guardrails for AI-Induced Incidents",
     "company": "Institute for Security and Technology",
     "status": "active",
     "url": "https://jobs.gusto.com/postings/institute-for-security-and-technology-senior-advisor-advanced-guardrails-for-ai-induced-incidents-6758ef3e-276a-40e0-a9a7-92aab788b283",
@@ -7556,8 +7542,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-14"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-19"
   },
   {
     "title": "Vulnerability Researcher",
