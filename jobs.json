@@ -3636,7 +3636,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-10-19"
   },
   {
@@ -4182,7 +4182,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-10-19"
   },
   {
@@ -6954,7 +6954,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-10-19"
   },
   {
@@ -7184,7 +7184,7 @@
   {
     "title": "Principal Incident Response Security Consultant, Mandiant, Google Cloud",
     "company": "Google",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.google.com/about/careers/applications/jobs/results/104542202889151174-principal-incident-response-security-consultant-mandiant-google-cloud",
     "company_url": "https://www.google.com",
     "listed_locations": "CA, AZ",
@@ -7226,7 +7226,7 @@
   {
     "title": "Senior Security Engineer, Serving Layer and Platform Security, DeepMind",
     "company": "Google DeepMind",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.google.com/about/careers/applications/jobs/results/99523482064167622-senior-security-engineer-serving-layer-and-platform-security-deepmind",
     "company_url": "https://www.google.com/",
     "listed_locations": "Mountain View, CA, New York, NY",
@@ -7514,7 +7514,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-10-19"
   },
   {
@@ -7528,7 +7528,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-10-19"
   },
   {
@@ -7542,7 +7542,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-10-19"
   },
   {
@@ -7780,7 +7780,7 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-10-16",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-10-19"
   },
   {
@@ -7794,7 +7794,7 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-10-16",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-10-19"
   },
   {
@@ -7828,13 +7828,13 @@
   {
     "title": "Secret SOC Engineer - 173584",
     "company": "Piper Companies",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.pipercompanies.com/details/390/secret_soc_engineer_173584",
     "company_url": "http://www.pipercompanies.com",
     "listed_locations": "Raleigh, NC",
     "eligibility_regions": "US-East",
     "model": "Onsite",
-    "deadline": "2026-10-02",
+    "deadline": "Expired",
     "post_date": "2026-10-19",
     "needs_manual_check": false,
     "last_manual_check": ""
