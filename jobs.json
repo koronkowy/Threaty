@@ -3950,7 +3950,7 @@
   {
     "title": "Senior Backend Engineer- CTI",
     "company": "Dream",
-    "status": "active",
+    "status": "expired",
     "url": "https://dreamgroup.com/comeet-positions/senior-backend-engineer-cti-59f5a",
     "company_url": "https://dreamgroup.com",
     "listed_locations": "",
@@ -6996,7 +6996,7 @@
     "model": "",
     "deadline": "2026-12-07",
     "post_date": "2026-09-09",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -7304,13 +7304,13 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-04-14",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
     "title": "Information Security Engineer",
     "company": "Palantir Technologies",
-    "status": "active",
+    "status": "expired",
     "url": "https://jobs.lever.co/palantir/1124402c-2088-40c6-b6aa-b9ef7777519b",
     "company_url": "https://www.palantir.com",
     "listed_locations": "Seattle, WA",
@@ -7688,7 +7688,7 @@
   {
     "title": "Information Security Engineer",
     "company": "Palantir Technologies",
-    "status": "active",
+    "status": "expired",
     "url": "https://jobs.lever.co/palantir/e2a8360a-710a-4185-b2a9-3b7d9fe590b1",
     "company_url": "https://www.palantir.com",
     "listed_locations": "New York, NY",
@@ -7702,7 +7702,7 @@
   {
     "title": "Information Security Engineer",
     "company": "Palantir Technologies",
-    "status": "active",
+    "status": "expired",
     "url": "https://jobs.lever.co/palantir/36703f67-6fae-445c-9277-f946121faaa0",
     "company_url": "https://www.palantir.com",
     "listed_locations": "Washington, DC",
