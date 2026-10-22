@@ -5568,7 +5568,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-13",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -6996,7 +6996,7 @@
     "model": "",
     "deadline": "2026-12-07",
     "post_date": "2026-09-09",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -7304,7 +7304,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-04-14",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
