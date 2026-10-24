@@ -5540,7 +5540,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-09-13",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -6652,13 +6652,13 @@
   {
     "title": "Cyber Security Analyst",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/los-angeles-california/cyber-security-analyst/00400-9504398098-usen",
     "company_url": "https://www.roberthalf.com/us/en",
     "listed_locations": "Los Angeles, CA",
     "eligibility_regions": "US-West",
     "model": "Remote",
-    "deadline": "2026-10-23",
+    "deadline": "Expired",
     "post_date": "2026-10-01",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -6666,13 +6666,13 @@
   {
     "title": "Cyber Security Analyst",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/los-angeles-california/cyber-security-analyst/00290-0013510267-usen",
     "company_url": "https://www.roberthalf.com/us/en",
     "listed_locations": "Los Angeles, CA",
     "eligibility_regions": "US-West, US-All",
     "model": "Remote",
-    "deadline": "2026-10-23",
+    "deadline": "Expired",
     "post_date": "2026-10-01",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -6680,13 +6680,13 @@
   {
     "title": "Cyber Security Analyst",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/eden-prairie-minnesota/cyber-security-analyst/02300-0013510606-usen",
     "company_url": "https://www.roberthalf.com/us/en",
     "listed_locations": "Eden Prairie, MN",
     "eligibility_regions": "US-All, US-Central",
     "model": "Remote",
-    "deadline": "2026-10-23",
+    "deadline": "Expired",
     "post_date": "2026-10-01",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -6708,13 +6708,13 @@
   {
     "title": "Cybersecurity Analyst",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/jacksonville-florida/cybersecurity-analyst/01120-9504396200-usen",
     "company_url": "https://www.roberthalf.com",
     "listed_locations": "Jacksonville, FL",
     "eligibility_regions": "US-East",
     "model": "",
-    "deadline": "2026-10-23",
+    "deadline": "Expired",
     "post_date": "2026-09-17",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -6722,13 +6722,13 @@
   {
     "title": "Cybersecurity Engineer",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/jacksonville-florida/cybersecurity-engineer/01120-9504397016-usen",
     "company_url": "https://www.roberthalf.com",
     "listed_locations": "Jacksonville, FL",
     "eligibility_regions": "US-East",
     "model": "",
-    "deadline": "2026-10-23",
+    "deadline": "Expired",
     "post_date": "2026-09-18",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -6750,13 +6750,13 @@
   {
     "title": "Cybersecurity Engineer",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/nashville-tennessee/cybersecurity-engineer/03930-9504399251-usen",
     "company_url": "https://www.roberthalf.com",
     "listed_locations": "Nashville, TN",
     "eligibility_regions": "US-Central",
     "model": "",
-    "deadline": "2026-10-23",
+    "deadline": "Expired",
     "post_date": "2026-09-22",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -6778,13 +6778,13 @@
   {
     "title": "Cybersecurity Analyst",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/los-angeles-california/cybersecurity-analyst/00290-9504397999-usen",
     "company_url": "https://www.roberthalf.com/us/en",
     "listed_locations": "Los Angeles, CCA",
     "eligibility_regions": "US-West",
     "model": "Remote",
-    "deadline": "2026-10-23",
+    "deadline": "Expired",
     "post_date": "2026-10-01",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -7170,7 +7170,7 @@
   {
     "title": "Senior Incident Response Security Consultant, Google Cloud, Mandiant",
     "company": "Google",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.google.com/about/careers/applications/jobs/results/76518078153663174-senior-incident-response-security-consultant-google-cloud-mandiant",
     "company_url": "https://www.google.com",
     "listed_locations": "Reston, VA, New York, NY, GA, MA, NY, VA, Remote (US)",
@@ -7422,13 +7422,13 @@
   {
     "title": "Infrastructure & Security Engineer",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/naperville-illinois/infrastructure-security-engineer/01300-0013449547-usen",
     "company_url": "https://www.roberthalf.com",
     "listed_locations": "Naperville, IL",
     "eligibility_regions": "US-Central",
     "model": "",
-    "deadline": "2026-10-23",
+    "deadline": "Expired",
     "post_date": "2026-09-22",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -7436,13 +7436,13 @@
   {
     "title": "Sr. IT Security Engineer",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/bensalem-pa/sr-it-security-engineer/03720-0013379975-usen",
     "company_url": "https://www.roberthalf.com",
     "listed_locations": "Bensalem, PA",
     "eligibility_regions": "US-East",
     "model": "",
-    "deadline": "2026-10-23",
+    "deadline": "Expired",
     "post_date": "2026-09-23",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -7478,13 +7478,13 @@
   {
     "title": "Soc Analyst I - Hartford, Ct",
     "company": "Motion Recruitment",
-    "status": "active",
+    "status": "expired",
     "url": "https://motionrecruitment.com/tech-jobs/hartford/contract/soc-analyst-i-hartford-ct/885583",
     "company_url": "https://motionrecruitment.com/",
     "listed_locations": "Hartford, CT",
     "eligibility_regions": "US-East",
     "model": "Hybrid",
-    "deadline": "2026-10-23",
+    "deadline": "Expired",
     "post_date": "2026-08-19",
     "needs_manual_check": false,
     "last_manual_check": ""
