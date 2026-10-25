@@ -5540,7 +5540,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-09-13",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -6148,7 +6148,7 @@
   {
     "title": "Global Intelligence Manager",
     "company": "The Walt Disney Company",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.disneycareers.com/en/job/-/-/391/98231670752",
     "company_url": "https://thewaltdisneycompany.com",
     "listed_locations": "Burbank, CA",
