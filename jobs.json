@@ -4182,8 +4182,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-19"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-26"
   },
   {
     "title": "Threat Intelligence Engineer",
@@ -5560,15 +5560,15 @@
   {
     "title": "Engineer III - SDET - AI Detection and Response (AIDR) - Hybrid",
     "company": "CrowdStrike",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Engineer-III--SDET---AI-Detection-and-Response--AIDR---Hybrid-_R28442",
     "company_url": "https://www.crowdstrike.com/",
     "listed_locations": "Sunnyvale, CA, Austin, TX, Redmond, WA",
     "eligibility_regions": "US-Central, US-West",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-13",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -6954,8 +6954,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-19"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-26"
   },
   {
     "title": "Senior Cybersecurity Incident Response Engineer (Remote, US)",
@@ -7514,8 +7514,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-19"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-26"
   },
   {
     "title": "Pattern Analyst",
@@ -7528,21 +7528,21 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-19"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-26"
   },
   {
     "title": "Senior Advisor, Advanced Guardrails for AI-Induced Incidents",
     "company": "Institute for Security and Technology",
-    "status": "active",
+    "status": "expired",
     "url": "https://jobs.gusto.com/postings/institute-for-security-and-technology-senior-advisor-advanced-guardrails-for-ai-induced-incidents-6758ef3e-276a-40e0-a9a7-92aab788b283",
     "company_url": "https://securityandtechnology.org/",
     "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": "2026-10-19"
   },
   {
@@ -7780,8 +7780,8 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-10-16",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-19"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-26"
   },
   {
     "title": "Jr Cyber Defense Incident Responder",
@@ -7794,8 +7794,8 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-10-16",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-19"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-26"
   },
   {
     "title": "Senior Splunk Engineer",
