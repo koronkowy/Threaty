@@ -3636,8 +3636,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-19"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-28"
   },
   {
     "title": "Principal Researcher (Threats), Financial Services",
@@ -4182,8 +4182,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-26"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-28"
   },
   {
     "title": "Threat Intelligence Engineer",
@@ -6954,8 +6954,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-26"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-28"
   },
   {
     "title": "Senior Cybersecurity Incident Response Engineer (Remote, US)",
@@ -7514,8 +7514,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-26"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-28"
   },
   {
     "title": "Pattern Analyst",
@@ -7528,8 +7528,8 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-26"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-10-28"
   },
   {
     "title": "Senior Advisor, Advanced Guardrails for AI-Induced Incidents",
