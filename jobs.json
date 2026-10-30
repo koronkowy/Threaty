@@ -4098,7 +4098,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -5322,7 +5322,7 @@
   {
     "title": "Staff Backend Engineer, Identity Threat Protection",
     "company": "Okta",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.okta.com/company/careers/engineering/staff-backend-engineer-identity-threat-protection-8053199/",
     "company_url": "https://www.okta.com",
     "listed_locations": "San Francisco, CA",
@@ -5484,7 +5484,7 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-09-11",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -5736,7 +5736,7 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-09-19",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -7268,13 +7268,13 @@
   {
     "title": "Sr Cybersecurity Analyst - Cyber Threat Intelligence (CTI)",
     "company": "Target",
-    "status": "active",
+    "status": "expired",
     "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/Nationwide/Sr-Cybersecurity-Analyst---Cyber-Threat-Intelligence--CTI-_R0000475558",
     "company_url": "https://target.com",
     "listed_locations": "Brooklyn Park, MN, Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote, Hybrid",
-    "deadline": "2026-10-29",
+    "deadline": "Expired",
     "post_date": "2026-10-08",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -7304,7 +7304,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-04-14",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
