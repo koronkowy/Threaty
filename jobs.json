@@ -6058,7 +6058,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-23",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -6492,7 +6492,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-09-26",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -6582,13 +6582,13 @@
   {
     "title": "Senior Security Engineer (IT)",
     "company": "Robert Half",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.roberthalf.com/us/en/job/milwaukee-wisconsin/senior-security-engineer-it/04620-0013513798-usen",
     "company_url": "https://www.roberthalf.com/us/en",
     "listed_locations": "Milwaukee, WI",
     "eligibility_regions": "US-Central",
     "model": "",
-    "deadline": "2026-10-30",
+    "deadline": "Expired",
     "post_date": "2026-10-01",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -7024,7 +7024,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-08-17",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -7128,7 +7128,7 @@
   {
     "title": "Senior Incident Response Security Consultant, Mandiant, Google Cloud",
     "company": "Google",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.google.com/about/careers/applications/jobs/results/136759383936639686-senior-incident-response-security-consultant-mandiant-google-cloud",
     "company_url": "https://www.google.com",
     "listed_locations": "VA, AL, CT, DC, DE, FL, GA, KY, MA, MD, MI, NC, NH, NJ, NY, PA, RI, SC, TN, VT, Remote (US)",
@@ -7304,7 +7304,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-04-14",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -7492,7 +7492,7 @@
   {
     "title": "AI Threat Defense Engineer, Google Cloud Consulting",
     "company": "Google",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.google.com/about/careers/applications/jobs/results/102388100696548038-ai-threat-defense-engineer-google-cloud-consulting",
     "company_url": "https://www.google.com",
     "listed_locations": "San Francisco, CA, New York, NY, Sunnyvale, CA",
@@ -7604,7 +7604,7 @@
   {
     "title": "Senior Software Engineer",
     "company": "Team Cymru",
-    "status": "active",
+    "status": "expired",
     "url": "https://teamcymru.applytojob.com/apply/JzHOJeSeEh/Senior-Software-Engineer?source=Our%20Career%20Page%20Widget",
     "company_url": "https://www.team-cymru.com/",
     "listed_locations": "Remote (US)",
@@ -8164,13 +8164,13 @@
   {
     "title": "SIEM Automation Consultant - 173427",
     "company": "Piper Companies",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.pipercompanies.com/details/1745/siem_automation_consultant_173427",
     "company_url": "http://www.pipercompanies.com",
     "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
-    "deadline": "2026-10-30",
+    "deadline": "Expired",
     "post_date": "2026-10-26",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -8256,7 +8256,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-08-03",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -8318,7 +8318,7 @@
   {
     "title": "Senior Manager, SIEM/ SOAR Engineer (CrowdStrike)",
     "company": "Kroll",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.kroll.com/en/job/united-states/senior-manager-siem-soar-engineer-crowdstrike/21014759",
     "company_url": "https://careers.kroll.com",
     "listed_locations": "Remote (US)",
