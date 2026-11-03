@@ -74,7 +74,7 @@ This process is fully hands-free:
 
 > **Note:** If the **Gemini 429 Errors** badge is red, job postings may be delayed as we have hit our daily quota or per-minute rate limits for the Gemini AI. If the **Gemini 503 Errors** badge is red, the Gemini API is currently overloaded or experiencing downtime. Please check back later!
 
-Threaty relies on Google's **Gemini AI** (specifically the `gemini-flash-latest` model) acting as a "Data Clerk" to parse and structure the unstructured text of job descriptions.
+Threaty relies on Google's **Gemini AI** (specifically the `gemini-3.8-flash`, `gemini-3.6-flash`, and `gemini-3.5-flash-lite` models) acting as a "Data Clerk" to parse and structure the unstructured text of job descriptions.
 
 This project is built to work fairly well even on **Gemini's Free Tier**. However, the free tier does come with restrictions regarding daily limits and per-minute API calls. If the ingestion pipeline is processing a large batch of jobs, you may encounter temporary rate limits (429 errors).
 
