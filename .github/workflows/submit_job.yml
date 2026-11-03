@@ -7,9 +7,6 @@ concurrency:
   group: job-submission-pipeline
   cancel-in-progress: false
 
-env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
-  NODE_OPTIONS: "--no-deprecation"
 
 jobs:
   ingest-job:
@@ -40,7 +37,7 @@ jobs:
           cat run.log
 
       - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           commit-message: "Feat: Add batch jobs from Issue #${{ github.event.issue.number }}"
           title: "Review: Batch Job Submission #${{ github.event.issue.number }}"
