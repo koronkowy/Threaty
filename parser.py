@@ -97,6 +97,13 @@ def parse_job_with_gemini(url):
         2. If any matching tag or string is found, accurately set the model parameter to 'Remote', 'Hybrid', or 'Onsite'.
         3. Fallback: If no metadata markers exist, evaluate the body text for standard structural clauses (e.g., "work from anywhere", "in-office requirements", "2 days a week in our Prague office") to deduce the correct setting.
 
+        - Location Formatting Logic ('listed_locations'):
+        1. US Locations must always be formatted as "City, State Abbreviation" (e.g., "Chicago, IL"). Multiple locations must be comma-separated (e.g., "Chicago, IL, Austin, TX").
+        2. Non-US Locations must be formatted as "City, Country" or "City, Province/State Abbreviation, Country" if possible (e.g., "London, United Kingdom", "Toronto, ON, Canada").
+        3. If only a US city is mentioned (e.g., "Chicago"), actively infer and append the correct state abbreviation (e.g., "Chicago, IL").
+        4. If only a US state is mentioned without a city, use the state abbreviation (e.g., "Texas" becomes "TX", "California" becomes "CA").
+        5. If the job is open to fully remote in the US or Canada, append "Remote (US)" or "Remote (CA)" to the list (e.g., "Austin, TX, Remote (US)").
+
         - Regional Mapping logic (Assign all that apply, comma-separated):
         - If "Remote (US)", "Nationwide", "United States", "Americas", or "Global Remote": Map to 'US-All'.
         - East Coast & DMV (VA, DC, MD, NYC, NY, Boston, MA, PA, NC, NJ, SC, FL, GA, OH, CT, ME, DMV, Washington DC, Washington, DC, Washington, D.C., D.C.): Map to 'US-East'.

@@ -101,6 +101,15 @@ Your **Gemini API Key** is never hardcoded. It must be stored in **GitHub Reposi
 
 > **Note:** "Washington" resolves to `US-West` (WA state) unless it explicitly includes "Washington, DC", "Washington, D.C.", "Washington DC", or "D.C." (which resolves to `US-East`).
 
+### Location Extraction Logic
+
+The "Data Clerk" is instructed to extract and format locations with the following strict rules:
+1. **US Locations:** Always formatted as "City, State Abbreviation" (e.g., "Chicago, IL"). Multiple locations are comma-separated (e.g., "Chicago, IL, Austin, TX").
+2. **Non-US Locations:** Formatted as "City, Country" or "City, Province/State Abbreviation, Country" if possible (e.g., "London, United Kingdom", "Toronto, ON, Canada").
+3. **City-Only Inference:** If only a US city is mentioned (e.g., "Chicago"), the correct state abbreviation is actively inferred and appended (e.g., "Chicago, IL").
+4. **State-Only:** If only a US state is mentioned without a city, the state abbreviation is used (e.g., "Texas" becomes "TX", "California" becomes "CA").
+5. **Remote Fallback:** If the job is open to fully remote in the US or Canada, "Remote (US)" or "Remote (CA)" is appended to the location list (e.g., "Austin, TX, Remote (US)").
+
 ### Regional Logic Summary
 
 * **Intelligent Expansion:** When you search for a specific hub (e.g., "Seattle"), the engine automatically expands the query to include the parent region (`US-West`) and nationwide remote roles (`US-All`).
