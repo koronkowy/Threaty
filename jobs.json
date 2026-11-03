@@ -8678,5 +8678,61 @@
     "post_date": "2026-11-03",
     "needs_manual_check": false,
     "last_manual_check": ""
+  },
+  {
+    "title": "Senior Investigator Digital Forensics, Incident Response (DFIR)",
+    "company": "Accenture",
+    "status": "active",
+    "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00366716_en&title=Senior+Investigator+Digital+Forensics%2C+Incident+Response+%28DFIR%29",
+    "company_url": "https://www.accenture.com",
+    "listed_locations": "Chicago, IL, Albany, NY, Arlington, VA, Atlanta, GA, Austin, TX, Beaverton, OR, Bentonville, AR, Boston, MA, Carmel, IN, Charlotte, NC, Cincinnati, OH, Cleveland, OH, Columbus, OH, Culver City, CA, Denver, CO, Des Moines, IA, Detroit, MI, Hartford, CT, Houston, TX, Irving, TX, Kirkland, WA, Miami, FL, Milwaukee, WI, Minneapolis, MN, Morristown, NJ, Mountain View, CA, Nashville, TN, New York City, NY, Oklahoma City, OK, Overland Park, KS, Philadelphia, PA, Pittsburgh, PA, Raleigh, NC, Redmond, WA, Sacramento, CA, San Diego, CA, San Francisco, CA, Scottsdale, AZ, Seattle, WA, St. Louis, MO, St. Petersburg, FL, Walnut Creek, CA",
+    "eligibility_regions": "US-East, US-West, US-Central",
+    "model": "",
+    "deadline": "2026-12-08",
+    "post_date": "2026-10-26",
+    "needs_manual_check": false,
+    "last_manual_check": ""
+  },
+  {
+    "title": "SecOps Modernization & Agentic SOC Sr Manager",
+    "company": "Accenture",
+    "status": "active",
+    "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00351657_en&title=SecOps+Modernization+%26+Agentic+SOC+Sr+Manager",
+    "company_url": "https://www.accenture.com",
+    "listed_locations": "Chicago, IL, Albany, NY, Arlington, VA, Atlanta, GA, Austin, TX, Beaverton, OR, Bentonville, AR, Boston, MA, Carmel, IN, Charlotte, NC, Cincinnati, OH, Cleveland, OH, Columbus, OH, Culver City, CA, Denver, CO, Des Moines, IA, Detroit, MI, Hartford, CT, Houston, TX, Irving, TX, Kirkland, WA, Miami, FL, Milwaukee, WI, Minneapolis, MN, Morristown, NJ, Mountain View, CA, Nashville, TN, New York City, NY, Oklahoma City, OK, Orlando, FL, Overland Park, KS, Philadelphia, PA, Pittsburgh, PA, Raleigh, NC, Redmond, WA, Sacramento, CA, San Diego, CA, San Francisco, CA, Scottsdale, AZ, Seattle, WA, St. Louis, MO, St. Petersburg, FL, Walnut Creek, CA",
+    "eligibility_regions": "US-East, US-West, US-Central",
+    "model": "",
+    "deadline": "2026-11-30",
+    "post_date": "2026-10-29",
+    "needs_manual_check": false,
+    "last_manual_check": ""
+  },
+  {
+    "title": "Cyber Defense Senior SME",
+    "company": "Wipro Limited",
+    "status": "active",
+    "url": "https://careers.wipro.com/job/Cyber-Defense-Senior-SME/191858-en_US",
+    "company_url": "https://www.wipro.com",
+    "listed_locations": "Cincinnati, Ohio, Virginia",
+    "eligibility_regions": "US-East",
+    "model": "",
+    "deadline": "",
+    "post_date": "2026-09-02",
+    "needs_manual_check": false,
+    "last_manual_check": ""
+  },
+  {
+    "title": "SAST Security Engineer",
+    "company": "Wipro",
+    "status": "active",
+    "url": "https://careers.wipro.com/job/SAST-Security-Engineer/187751-en_US",
+    "company_url": "https://www.wipro.com",
+    "listed_locations": "Minneapolis, Minnesota; Dallas, Texas; Cincinnati, Ohio; Portland, Oregon",
+    "eligibility_regions": "US-East, US-West, US-Central",
+    "model": "Onsite",
+    "deadline": "",
+    "post_date": "2026-10-23",
+    "needs_manual_check": false,
+    "last_manual_check": ""
   }
 ]
