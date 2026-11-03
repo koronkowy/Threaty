@@ -3636,8 +3636,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-28"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-11-2"
   },
   {
     "title": "Principal Researcher (Threats), Financial Services",
@@ -4090,15 +4090,15 @@
   {
     "title": "Sr Threat Hunter",
     "company": "Palo Alto Networks",
-    "status": "active",
+    "status": "expired",
     "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/en-GB/panwexternalcareers/job/Sr-Threat-Hunter_JR-018923",
     "company_url": "https://www.paloaltonetworks.com/",
     "listed_locations": "Los Angeles, CA",
     "eligibility_regions": "US-West",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-07-22",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -4182,8 +4182,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-28"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-11-2"
   },
   {
     "title": "Threat Intelligence Engineer",
@@ -5476,15 +5476,15 @@
   {
     "title": "Director - Cyber Threat Intelligence (CTI)",
     "company": "Target",
-    "status": "active",
+    "status": "expired",
     "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/7000-Target-Pkwy-NNCD-0375-Brooklyn-ParkMN-55445/Director---Cyber-Threat-Intelligence--CTI-_R0000452240-1",
     "company_url": "https://www.target.com/",
     "listed_locations": "Brooklyn Park, MN",
     "eligibility_regions": "US-Central",
     "model": "Onsite",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-11",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -5518,15 +5518,15 @@
   {
     "title": "Software Engineer - Sensor (macOS) - Hybrid",
     "company": "CrowdStrike",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Software-Engineer---Sensor--macOS---Hybrid-_R29279",
     "company_url": "https://www.crowdstrike.com",
     "listed_locations": "Sunnyvale, CA, Redmond, WA, Austin, TX",
     "eligibility_regions": "US-Central, US-West",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-11",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -5714,29 +5714,29 @@
   {
     "title": "Staff Information Security Engineer - Threat Defense - Automation",
     "company": "Proofpoint",
-    "status": "active",
+    "status": "expired",
     "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Staff-Information-Security-Engineer---Threat-Defense---Automation_R14506",
     "company_url": "https://www.proofpoint.com/",
     "listed_locations": "Sunnyvale, CA, Draper, UT",
     "eligibility_regions": "US-West",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-19",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
     "title": "Senior Cyber Threat Defense - Security Operations Engineer",
     "company": "Proofpoint",
-    "status": "active",
+    "status": "expired",
     "url": "https://proofpoint.wd5.myworkdayjobs.com/en-US/proofpointcareers/job/Senior-Cyber-Threat-Defense---Security-Operations-Engineer_R14519",
     "company_url": "https://www.proofpoint.com/",
     "listed_locations": "Draper, UT",
     "eligibility_regions": "US-West",
     "model": "",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-19",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -6232,15 +6232,15 @@
   {
     "title": "Senior SDET - AI Detection and Response (AIDR) (Hybrid, Sunnyvale)",
     "company": "CrowdStrike",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Senior-SDET---AI-Detection-and-Response--AIDR---Hybrid-_R29795",
     "company_url": "https://www.crowdstrike.com",
     "listed_locations": "Sunnyvale, CA",
     "eligibility_regions": "US-West",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-24",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -6954,8 +6954,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-28"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-11-2"
   },
   {
     "title": "Senior Cybersecurity Incident Response Engineer (Remote, US)",
@@ -6988,15 +6988,15 @@
   {
     "title": "Cyber Threat Intelligence Analyst, Mid",
     "company": "Booz Allen Hamilton",
-    "status": "active",
+    "status": "expired",
     "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Bethesda-MD/Cyber-Threat-Intelligence-Analyst--Mid_R0248299",
     "company_url": "https://www.boozallen.com/",
     "listed_locations": "Bethesda, MD",
     "eligibility_regions": "US-East",
-    "model": "",
+    "model": "Expired",
     "deadline": "2026-12-07",
     "post_date": "2026-09-09",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -7016,15 +7016,15 @@
   {
     "title": "Sr. Engineer II, Cloud Native - AI Detection and Response (AIDR) (Hybrid, Sunnyvale)",
     "company": "CrowdStrike, Inc.",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Sr-Engineer-II--Cloud-Native---AI-Detection-and-Response--AIDR---Hybrid--Sunnyvale-_R29787",
     "company_url": "http://crowdstrike.com/",
     "listed_locations": "Sunnyvale, CA",
     "eligibility_regions": "US-West",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-08-17",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -7514,21 +7514,21 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-28"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-11-2"
   },
   {
     "title": "Pattern Analyst",
     "company": "LexisNexis",
-    "status": "active",
+    "status": "expired",
     "url": "https://risk.lexisnexis.com/about-us/careers/jobs/R117383",
     "company_url": "https://www.lexisnexis.com/",
     "listed_locations": "Washington, DC",
     "eligibility_regions": "US-East",
     "model": "Hybrid",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": "2026-10-28"
   },
   {
@@ -8247,16 +8247,16 @@
   },
   {
     "title": "Cybersecurity Advisor - Threat Management",
-    "company": "https://www.optiv.com/",
-    "status": "active",
+    "company": "Optiv",
+    "status": "expired",
     "url": "https://optiv.wd5.myworkdayjobs.com/en-US/Optiv_Careers/job/Cybersecurity-Advisor---Threat-Management---Remote--MN-Wisc--IL_2026-13927",
     "company_url": "https://www.optiv.com/",
     "listed_locations": "Milwaukee, WI, Chicago, IL, Minneapolis, MN",
     "eligibility_regions": "US-Central",
     "model": "Remote",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-08-03",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -8438,8 +8438,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-28",
-    "needs_manual_check": true,
-    "last_manual_check": ""
+    "needs_manual_check": false,
+    "last_manual_check": "2026-11-2"
   },
   {
     "title": "Crowdstrike Technical Consultant",
