@@ -3636,7 +3636,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-11-2"
   },
   {
@@ -4182,7 +4182,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-11-2"
   },
   {
@@ -6954,7 +6954,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-11-2"
   },
   {
@@ -7156,7 +7156,7 @@
   {
     "title": "Senior Incident Response Security Consultant, Mandiant, Google Cloud",
     "company": "Google",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.google.com/about/careers/applications/jobs/results/87459777386291910-senior-incident-response-security-consultant-mandiant-google-cloud",
     "company_url": "https://www.google.com",
     "listed_locations": "AZ, CA, NM, Remote (US)",
@@ -7514,7 +7514,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-11-2"
   },
   {
@@ -7766,7 +7766,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-16",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -8038,7 +8038,7 @@
   {
     "title": "Countering Adversary Defense Industry Staff Officer II",
     "company": "Zachary Piper Solutions",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.pipercompanies.com/details/2623/countering_adversary_defense_industry_staff_officer_ii",
     "company_url": "http://www.pipercompanies.com",
     "listed_locations": "Arlington, VA",
@@ -8150,13 +8150,13 @@
   {
     "title": "Threat Investigator",
     "company": "Piper Companies",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.pipercompanies.com/details/2145/threat_investigator",
     "company_url": "http://www.pipercompanies.com",
     "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
-    "deadline": "2026-11-03",
+    "deadline": "Expired",
     "post_date": "2026-10-04",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -8438,19 +8438,19 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-28",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-11-2"
   },
   {
     "title": "Crowdstrike Technical Consultant",
     "company": "Accenture",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00344784_en&title=Crowdstrike+Technical+Consultant",
     "company_url": "https://www.accenture.com",
     "listed_locations": "Chicago, IL, Albany, NY, Arlington, VA, Atlanta, GA, Austin, TX, Beaverton, OR, Bentonville, AR, Boston, MA, Carmel, IN, Charlotte, NC, Cincinnati, OH, Cleveland, OH, Columbus, OH, Culver City, CA, Denver, CO, Des Moines, IA, Detroit, MI, Hartford, CT, Houston, TX, Irving, TX, Kirkland, WA, Miami, FL, Milwaukee, WI, Minneapolis, MN, Morristown, NJ, Mountain View, CA, Nashville, TN, New York City, NY, Oklahoma City, OK, Overland Park, KS, Philadelphia, PA, Pittsburgh, PA, Raleigh, NC, Redmond, WA, Sacramento, CA, San Diego, CA, San Francisco, CA, Scottsdale, AZ, Seattle, WA, St. Louis, MO, St. Petersburg, FL, Walnut Creek, CA",
     "eligibility_regions": "US-All, US-East, US-West, US-Central",
     "model": "",
-    "deadline": "2026-10-02",
+    "deadline": "Expired",
     "post_date": "2026-11-03",
     "needs_manual_check": false,
     "last_manual_check": ""
