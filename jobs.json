@@ -7514,7 +7514,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": "2026-11-2"
   },
   {
@@ -7618,7 +7618,7 @@
   {
     "title": "Technical Trainer - Curriculum Developer",
     "company": "Team Cymru",
-    "status": "active",
+    "status": "expired",
     "url": "https://teamcymru.applytojob.com/apply/UYFmhoEEau/Technical-Trainer-Curriculum-Developer?source=Our%20Career%20Page%20Widget",
     "company_url": "https://www.team-cymru.com/",
     "listed_locations": "Remote (US)",
@@ -8242,7 +8242,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-08",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
