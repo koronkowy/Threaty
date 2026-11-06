@@ -954,7 +954,7 @@
   {
     "title": "Tetragon Threat Detection Engineer - Isovalent",
     "company": "Cisco",
-    "status": "inactive",
+    "status": "expired",
     "url": "https://careers.cisco.com/global/en/job/2012314/Tetragon-Threat-Detection-Engineer-Isovalent",
     "company_url": "https://www.cisco.com",
     "listed_locations": "Zurich, Switzerland",
@@ -6282,7 +6282,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-09-24",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -6568,7 +6568,7 @@
   {
     "title": "Head of SecOps Relations",
     "company": "Intezer",
-    "status": "active",
+    "status": "expired",
     "url": "https://intezer.com/careers/head-of-secops-relations",
     "company_url": "https://intezer.com",
     "listed_locations": "Remote (US)",
@@ -7654,7 +7654,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2018-11-13",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -7884,7 +7884,7 @@
   {
     "title": "SOC Engineer II - Secret Clearance - 167846",
     "company": "Piper Companies",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.pipercompanies.com/details/114/soc_engineer_ii_secret_clearance_167846",
     "company_url": "http://www.pipercompanies.com",
     "listed_locations": "Fulton, MD",
@@ -8486,13 +8486,13 @@
   {
     "title": "Threat Informed Defense Senior Manager",
     "company": "Accenture",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.accenture.com/us-en/careers/jobdetails?id=R00358386_en&title=Threat+Informed+Defense+Senior+Manager",
     "company_url": "https://www.accenture.com",
     "listed_locations": "Arlington, VA, Albany, NY, Atlanta, GA, Austin, TX, Beaverton, OR, Bentonville, AR, Boston, MA, Carmel, IN, Charlotte, NC, Chicago, IL, Cincinnati, OH, Cleveland, OH, Columbus, OH, Culver City, CA, Denver, CO, Des Moines, IA, Detroit, MI, Hartford, CT, Houston, TX, Irving, TX, Kirkland, WA, Miami, FL, Milwaukee, WI, Minneapolis, MN, Morristown, NJ, Mountain View, CA, Nashville, TN, New York City, NY, Oklahoma City, OK, Orlando, FL, Overland Park, KS, Philadelphia, PA, Pittsburgh, PA, Raleigh, NC, Redmond, WA, Sacramento, CA, San Diego, CA, San Francisco, CA, Scottsdale, AZ, Seattle, WA, St. Louis, MO, St. Petersburg, FL, Walnut Creek, CA",
     "eligibility_regions": "US-All, US-East, US-West, US-Central",
     "model": "",
-    "deadline": "2026-11-05",
+    "deadline": "Expired",
     "post_date": "2026-11-03",
     "needs_manual_check": false,
     "last_manual_check": ""
