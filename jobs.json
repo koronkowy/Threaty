@@ -1794,7 +1794,7 @@
   {
     "title": "Product Manager, Cybersecurity",
     "company": "DeleteMe",
-    "status": "active",
+    "status": "expired",
     "url": "https://jobs.lever.co/deleteme/1ad06f05-8ca1-4025-9fcc-0df6e514f84a",
     "company_url": "https://joindeleteme.com/",
     "listed_locations": "Boston, MA",
@@ -5540,7 +5540,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-09-13",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -6484,7 +6484,7 @@
   {
     "title": "Senior Incident Responder",
     "company": "BlackCloak",
-    "status": "active",
+    "status": "expired",
     "url": "https://jobs.lever.co/BlackCloak/df1df01d-1fc7-4af2-b202-bc5eba38a7c2",
     "company_url": "https://blackcloak.io",
     "listed_locations": "United States",
