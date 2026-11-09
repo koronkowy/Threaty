@@ -7514,7 +7514,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": "2026-11-2"
   },
   {
