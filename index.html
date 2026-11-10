@@ -333,22 +333,30 @@
                 "colorado", "co", "denver", "naperville", "schaumburg", "dearborn", "ann arbor"
             ],
             
-            "emea": [
+            "canada": [
+                "canada", "on", "ontario", "toronto", "ottawa", "kitchener", "waterloo", "mississauga", "hamilton", "bc", "british columbia", "vancouver", "victoria", "kelowna", "qc", "quebec", "montreal", "quebec city", "gatineau", "ab", "alberta", "calgary", "edmonton", "mb", "manitoba", "winnipeg", "sk", "saskatchewan", "saskatoon", "regina", "ns", "nova scotia", "halifax", "nb", "new brunswick", "fredericton", "moncton", "pei", "prince edward island", "charlottetown", "nl", "newfoundland", "st. john's"
+            ],
+
+            "europe": [
                 "london", "reading", "manchester", "birmingham", "bristol", "edinburgh", "glasgow", "belfast", "leeds", "cambridge uk", "oxford",
                 "dublin", "cork", "galway", "amsterdam", "rotterdam", "utrecht", "berlin", "frankfurt", "munich", "hamburg", "stuttgart", "dusseldorf",
-                "paris", "warsaw", "krakow", "prague", "prg", "czechia", "czech republic", "cz", "madrid", "barcelona", "lisbon", "brussels", "zurich", "geneva", "vienna", "tel aviv", "herzliya", "haifa", 
-                "jerusalem", "petah tikva", "uk", "ireland", "europe", "germany", "united kingdom", "israel", "netherlands", "poland", "belgium", "switzerland", "austria",
-                "dach", "benelux", "gulf", "gcc", "scotland"
+                "paris", "warsaw", "krakow", "prague", "prg", "czechia", "czech republic", "cz", "madrid", "barcelona", "lisbon", "brussels", "zurich", "geneva", "vienna",
+                "uk", "ireland", "europe", "germany", "united kingdom", "netherlands", "poland", "belgium", "switzerland", "austria", "france", "lyon", "spain", "portugal", "italy", "rome", "milan", "sweden", "stockholm", "norway", "oslo", "denmark", "copenhagen", "finland", "helsinki", "baltics", "estonia", "tallinn", "latvia", "riga", "lithuania", "vilnius", "slovakia", "bratislava", "hungary", "budapest", "romania", "bucharest", "ukraine", "kyiv", "balkans", "serbia", "belgrade", "croatia", "zagreb", "greece", "athens",
+                "dach", "benelux", "scotland", "schengen", "great britain", "england"
+            ],
+
+            "mena": [
+                "mena", "middle east", "north africa", "gcc", "levant", "israel", "tel aviv", "herzliya", "haifa", "jerusalem", "petah tikva", "lebanon", "beirut", "palestine", "ramallah", "gaza", "jordan", "amman", "egypt", "cairo", "uae", "dubai", "abu dhabi", "saudi arabia", "riyadh", "qatar", "doha", "kuwait", "kuwait city", "bahrain", "manama", "oman", "muscat", "iraq", "baghdad", "yemen", "sana'a", "morocco", "rabat", "casablanca", "tunisia", "tunis", "algeria", "algiers", "gulf"
             ],
             
             "apac": [
                 "tokyo", "yokohama", "osaka", "kyoto", "nagoya", "singapore", "bengaluru", "bangalore", "hyderabad", "pune", "mumbai", "delhi", "gurgaon", "gurugram", 
                 "noida", "chennai", "kolkata", "sydney", "melbourne", "brisbane", "perth", "canberra", "auckland", "wellington", "seoul", "incheon", "cyberjaya", "kuala lumpur",
-                "japan", "india", "australia", "new zealand", "malaysia", "korea", "asia", "pacific", "anz", "asean"
+                "japan", "india", "australia", "new zealand", "malaysia", "korea", "asia", "pacific", "anz", "asean", "philippines", "manila", "south korea", "taiwan", "taipei", "indonesia", "jakarta", "thailand", "bangkok", "vietnam", "ho chi minh city"
             ],
             
             "latam": [
-                "brazil", "sao paulo", "são paulo", "rio de janeiro", "brasilia", "campinas", "mexico", "mexico city", "cdmx", "monterrey", "guadalajara", "queretaro", "colombia", "bogota", "bogotá", "medellin", "argentina", "buenos aires", "chile", "santiago", "costa rica", "san jose", "latin america", "latam"
+                "brazil", "sao paulo", "são paulo", "rio de janeiro", "brasilia", "campinas", "mexico", "mexico city", "cdmx", "monterrey", "guadalajara", "queretaro", "colombia", "bogota", "bogotá", "medellin", "argentina", "buenos aires", "chile", "santiago", "costa rica", "san jose", "latin america", "latam", "central america", "panama", "guatemala", "el salvador", "cordoba", "peru", "lima"
             ]
         };
 
@@ -357,7 +365,11 @@
             ...regionalGeoDictionary["us-east"],
             ...regionalGeoDictionary["us-west"],
             ...regionalGeoDictionary["us-central"],
-            "remote", "usa", "united states", "all us", "nationwide", "cross-country"
+            "remote", "usa", "united states", "all us", "nationwide", "cross-country", "global remote", "worldwide", "anywhere"
+        ];
+
+        regionalGeoDictionary["global"] = [
+            "global remote", "worldwide", "anywhere"
         ];
 
         // Structural Alias Mapping Normalization
@@ -365,7 +377,7 @@
             "mountain": "us-west", "southwest": "us-west", "pnw": "us-west", "mountain view": "us-west",
             "tola": "us-central", "us-tola": "us-central", "south-central": "us-central", "midwest": "us-central",
             "new england": "us-east", "mid-atlantic": "us-east", "nova": "us-east", "dmv": "us-east", "tri-state": "us-east",
-            "dach": "emea", "benelux": "emea", "anz": "apac", "asean": "apac"
+            "dach": "europe", "benelux": "europe", "gcc": "mena", "anz": "apac", "asean": "apac"
         };
         for (const [alias, parent] of Object.entries(structuralAliases)) {
             if (regionalGeoDictionary[parent]) {

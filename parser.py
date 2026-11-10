@@ -77,7 +77,7 @@ def parse_job_with_gemini(url):
       "url": "{url}",
       "company_url": "Main corporate website URL",
       "listed_locations": "Exact city/state listed",
-      "eligibility_regions": "Map locations to: US-All, US-East, US-West, US-Central, EMEA, LATAM, or APAC",
+      "eligibility_regions": "Map locations to: US-All, US-East, US-West, US-Central, Canada, Europe, MENA, LATAM, or APAC",
       "model": "Remote, Hybrid, or Onsite",
       "deadline": "YYYY-MM-DD or empty string",
       "post_date": "{date.today().isoformat()}",
@@ -105,14 +105,17 @@ def parse_job_with_gemini(url):
         5. If the job is open to fully remote in the US or Canada, append "Remote (US)" or "Remote (CA)" to the list (e.g., "Austin, TX, Remote (US)").
 
         - Regional Mapping logic (Assign all that apply, comma-separated):
-        - If "Remote (US)", "Nationwide", "United States", "Americas", or "Global Remote": Map to 'US-All'.
+        - If "Global Remote", "Worldwide", or "Anywhere": Map to 'US-All', 'Canada', 'Europe', 'MENA', 'APAC', 'LATAM'.
+        - If "Americas": Map to 'US-All', 'Canada', 'LATAM'.
+        - If "Remote (US)", "Nationwide", or "United States": Map to 'US-All'.
         - East Coast & DMV (VA, DC, MD, NYC, NY, Boston, MA, PA, NC, NJ, SC, FL, GA, OH, CT, ME, DMV, Washington DC, Washington, DC, Washington, D.C., D.C.): Map to 'US-East'.
         - West Coast & PNW (WA, Seattle, Portland, OR, CA, SF, LA, San Francisco, UT, NV, AZ, CO, HI, PNW, Bay Area, SOCAL, Sunnyvale, Santa Clara, Draper, Costa Mesa, Mountain View, Burbank): Map to 'US-West'. Note: "Washington" means 'US-West' unless it says "Washington, DC", "Washington, D.C.", "Washington DC", or "D.C." ('US-East').
         - Midwest & South-Central (TX, Austin, Dallas, Houston, IL, Chicago, MN, TN, AL, MO, NE, ND, WI, MI, TOLA, Midwest): Map to 'US-Central'.
-        - Europe, Middle East, Africa (Europe, UK, Germany, London, Berlin, Tel Aviv, Prague, Czechia, Switzerland, Zurich, Poland, Ireland, Scotland, Wales, Austria, Luxembourg, Saudi Arabia, Bratislava, DACH, EMEA): Map to 'EMEA'.
-        - Asia/Pacific (India, Bangalore, Tokyo, Singapore, Sydney, Australia, Japan, Philippines, Manila, APAC, ANZ): Map to 'APAC'.
-        - Latin America (São Paulo, Mexico, Bogotá, Buenos Aires, Queretaro, Monterrey, Guadalajara, LATAM): Map to 'LATAM'.
-        - Canada (Canada, ON, Ontario, Toronto, Ottawa, Vancouver): Map to 'Canada'.
+        - Canada (Canada, ON, Ontario, Toronto, Ottawa, Kitchener, Waterloo, Mississauga, Hamilton, BC, British Columbia, Vancouver, Victoria, Kelowna, QC, Quebec, Montreal, Quebec City, Gatineau, AB, Alberta, Calgary, Edmonton, MB, Manitoba, Winnipeg, SK, Saskatchewan, Saskatoon, Regina, NS, Nova Scotia, Halifax, NB, New Brunswick, Fredericton, Moncton, PEI, Prince Edward Island, Charlottetown, NL, Newfoundland, St. John's): Map to 'Canada'.
+        - Europe (Europe, Schengen, UK, United Kingdom, Great Britain, England, London, Manchester, Edinburgh, Scotland, Ireland, Dublin, Germany, Berlin, Munich, Frankfurt, Hamburg, DACH, Austria, Vienna, Switzerland, Zurich, Geneva, France, Paris, Lyon, Netherlands, Amsterdam, Belgium, Brussels, Luxembourg, Spain, Madrid, Barcelona, Portugal, Lisbon, Italy, Rome, Milan, Sweden, Stockholm, Norway, Oslo, Denmark, Copenhagen, Finland, Helsinki, Baltics, Estonia, Tallinn, Latvia, Riga, Lithuania, Vilnius, Poland, Warsaw, Krakow, Czechia, Prague, Slovakia, Bratislava, Hungary, Budapest, Romania, Bucharest, Ukraine, Kyiv, Balkans, Serbia, Belgrade, Croatia, Zagreb, Greece, Athens): Map to 'Europe'.
+        - Middle East & North Africa (MENA, Middle East, North Africa, GCC, Levant, Israel, Tel Aviv, Jerusalem, Haifa, Lebanon, Beirut, Palestine, Ramallah, Gaza, Jordan, Amman, Egypt, Cairo, UAE, Dubai, Abu Dhabi, Saudi Arabia, Riyadh, Qatar, Doha, Kuwait, Kuwait City, Bahrain, Manama, Oman, Muscat, Iraq, Baghdad, Yemen, Sana'a, Morocco, Rabat, Casablanca, Tunisia, Tunis, Algeria, Algiers): Map to 'MENA'.
+        - Asia/Pacific (Asia/Pacific, APAC, ANZ, India, Bangalore, Mumbai, New Delhi, Hyderabad, Pune, Chennai, Pakistan, Karachi, Lahore, Islamabad, Tokyo, Japan, Singapore, Sydney, Australia, Philippines, Manila, South Korea, Seoul, Taiwan, Taipei, Indonesia, Jakarta, Malaysia, Kuala Lumpur, Thailand, Bangkok, Vietnam, Ho Chi Minh City): Map to 'APAC'.
+        - Latin America (Latin America, LATAM, Central America, Costa Rica, San Jose, Panama, Guatemala, El Salvador, São Paulo, Brazil, Mexico, Mexico City, Queretaro, Monterrey, Guadalajara, Bogotá, Colombia, Medellin, Buenos Aires, Argentina, Cordoba, Chile, Santiago, Peru, Lima): Map to 'LATAM'.
 
     Job Text: {text}
     """

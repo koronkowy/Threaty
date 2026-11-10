@@ -88,16 +88,18 @@ Your **Gemini API Key** is never hardcoded. It must be stored in **GitHub Reposi
 
 ## 🗺️ Geographic & Regional Logic
 
-| **Region**     | **Mapping Logic**                | **Examples / Hubs**                                                     |
-| -------------------- | -------------------------------------- | ----------------------------------------------------------------------------- |
-| **US-All**     | Nationwide remote roles                | Remote (US), Nationwide, United States, Americas, Global Remote               |
-| **US-East**    | Covers East Coast & DC Metro (DMV)     | VA, DC, MD, NYC, NY, Boston, MA, PA, NC, NJ, SC, FL, GA, OH, CT, ME, DMV, Washington DC, Washington, DC, Washington, D.C., D.C. |
-| **US-West**    | Covers West Coast & PNW                | WA, Seattle, Portland, OR, CA, SF, LA, San Francisco, UT, NV, AZ, CO, HI, PNW, Bay Area, SOCAL, Sunnyvale, Santa Clara, Draper, Costa Mesa, Mountain View, Burbank |
-| **US-Central** | Covers Midwest & South-Central & TOLA  | TX, Austin, Dallas, Houston, IL, Chicago, MN, TN, AL, MO, NE, ND, WI, MI, TOLA, Midwest |
-| **EMEA**       | Covers Europe, UK, DACH, & Middle East | Europe, UK, Germany, London, Berlin, Tel Aviv, Prague, Czechia, Switzerland, Zurich, Poland, Ireland, Scotland, Wales, Austria, Luxembourg, Saudi Arabia, Bratislava, DACH, EMEA |
-| **APAC**       | Covers Asia/Pacific                    | India, Bangalore, Tokyo, Singapore, Sydney, Australia, Japan, Philippines, Manila, APAC, ANZ |
-| **LATAM**      | Covers Latin America                   | São Paulo, Mexico, Bogotá, Buenos Aires, Queretaro, Monterrey, Guadalajara, LATAM |
-| **Canada**     | Covers Canada                          | Canada, ON, Ontario, Toronto, Ottawa, Vancouver                               |
+| **Region** | **Mapping Logic** | **Examples / Hubs** |
+| :--- | :--- | :--- |
+| **Global** | Worldwide / Global remote roles | Global Remote, Worldwide, Anywhere (Maps to all primary regions) |
+| **US-All** | Nationwide US remote roles | Remote (US), Nationwide, United States, Americas |
+| **US-East** | East Coast & DC Metro (DMV) | VA, DC, MD, NYC, NY, Boston, MA, PA, NC, NJ, SC, FL, GA, OH, CT, ME, DMV, Washington DC |
+| **US-West** | West Coast & PNW | WA, Seattle, Portland, OR, CA, SF, LA, San Francisco, UT, NV, AZ, CO, HI, PNW, Bay Area, SOCAL |
+| **US-Central** | Midwest & South-Central / TOLA | TX, Austin, Dallas, Houston, IL, Chicago, MN, TN, AL, MO, NE, ND, WI, MI, TOLA, Midwest |
+| **Canada** | Canada nationwide & all provinces | Canada, Americas, ON, Toronto, BC, Vancouver, QC, Montreal, AB, Calgary, MB, Winnipeg, SK, Saskatoon, NS, Halifax, NB, PEI, NL |
+| **Europe** | UK, EU, Schengen, DACH, Nordics, Baltics, Balkans | Europe, Schengen, UK, London, Dublin, Germany, Berlin, DACH, Paris, Amsterdam, Madrid, Stockholm, Tallinn, Warsaw, Prague, Belgrade, Kyiv |
+| **MENA** | Middle East & North Africa | MENA, Levant, GCC, Israel, Tel Aviv, Beirut, Palestine, Ramallah, Amman, Cairo, Dubai, Riyadh, Qatar, Bahrain, Oman, Iraq, Morocco, Tunis |
+| **APAC** | Asia/Pacific & Australasia | APAC, ANZ, India, Bangalore, Mumbai, Pakistan, Karachi, Lahore, Tokyo, Singapore, Sydney, Manila, Seoul, Taipei, Jakarta, Bangkok |
+| **LATAM** | Central & South America | LATAM, Americas, Central America, Costa Rica, Panama, São Paulo, Mexico City, Bogotá, Buenos Aires, Santiago, Lima |
 
 > **Note:** "Washington" resolves to `US-West` (WA state) unless it explicitly includes "Washington, DC", "Washington, D.C.", "Washington DC", or "D.C." (which resolves to `US-East`).
 
