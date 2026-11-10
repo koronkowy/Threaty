@@ -3636,8 +3636,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-11-2"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-11-10"
   },
   {
     "title": "Principal Researcher (Threats), Financial Services",
@@ -4182,8 +4182,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-11-2"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-11-10"
   },
   {
     "title": "Threat Intelligence Engineer",
@@ -6274,15 +6274,15 @@
   {
     "title": "Threat Hunter - FedCloud",
     "company": "CrowdStrike",
-    "status": "active",
+    "status": "expired",
     "url": "https://crowdstrike.wd5.myworkdayjobs.com/en-US/crowdstrikecareers/job/Threat-Hunter--FedCloud--Remote-_R29822",
     "company_url": "https://www.crowdstrike.com",
     "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-09-24",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -6954,8 +6954,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-11-2"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-11-10"
   },
   {
     "title": "Senior Cybersecurity Incident Response Engineer (Remote, US)",
@@ -7654,8 +7654,8 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2018-11-13",
-    "needs_manual_check": true,
-    "last_manual_check": ""
+    "needs_manual_check": false,
+    "last_manual_check": "2026-11-10"
   },
   {
     "title": "Security Systems Engineer",
@@ -7758,15 +7758,15 @@
   {
     "title": "Lead Vulnerability Intelligence Analyst",
     "company": "Intel 471",
-    "status": "active",
+    "status": "expired",
     "url": "https://intel471.bamboohr.com/careers/340",
     "company_url": "https://www.intel471.com/",
     "listed_locations": "Europe, LATAM",
     "eligibility_regions": "Europe, LATAM",
     "model": "Remote",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-10-16",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -7780,8 +7780,8 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-10-16",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-10-26"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-11-10"
   },
   {
     "title": "Jr Cyber Defense Incident Responder",
@@ -8234,15 +8234,15 @@
   {
     "title": "ASO Threat Analyst Manager",
     "company": "Optiv",
-    "status": "active",
+    "status": "expired",
     "url": "https://optiv.wd5.myworkdayjobs.com/en-US/Optiv_Careers/job/ASO-Threat-Analyst-Manager---Remote--USA_2026-14117",
     "company_url": "https://www.optiv.com/",
     "listed_locations": "Overland Park, KS, Columbia, SC, Charlotte, NC, Atlanta, GA, Louisville, KY, Jacksonville, FL",
     "eligibility_regions": "US-East, US-Central",
     "model": "Remote",
-    "deadline": "",
+    "deadline": "Expired",
     "post_date": "2026-10-08",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -8438,8 +8438,8 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-28",
-    "needs_manual_check": true,
-    "last_manual_check": "2026-11-2"
+    "needs_manual_check": false,
+    "last_manual_check": "2026-11-10"
   },
   {
     "title": "Crowdstrike Technical Consultant",
