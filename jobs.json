@@ -3636,7 +3636,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-11-10"
   },
   {
@@ -4182,7 +4182,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-07-22",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-11-10"
   },
   {
@@ -6954,7 +6954,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-02",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-11-10"
   },
   {
@@ -7780,7 +7780,7 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-10-16",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-11-10"
   },
   {
@@ -8066,7 +8066,7 @@
   {
     "title": "SOC Analyst Tier 3",
     "company": "Piper Companies",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.pipercompanies.com/details/2743/soc_analyst_tier_3",
     "company_url": "http://www.pipercompanies.com",
     "listed_locations": "Raleigh, NC",
@@ -8080,7 +8080,7 @@
   {
     "title": "Threat Hunting Investigator",
     "company": "Piper Companies",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.pipercompanies.com/details/2735/threat_hunting_investigator_175938_175939_176449",
     "company_url": "http://www.pipercompanies.com",
     "listed_locations": "Remote (US)",
@@ -8438,7 +8438,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-28",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": "2026-11-10"
   },
   {
@@ -8948,7 +8948,7 @@
   {
     "title": "Senior Information System Security Engineer (Splunk Engineer)",
     "company": "The MITRE Corporation",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.mitre.org/us/en/job/R117766/Senior-Information-System-Security-Engineer-Splunk-Engineer",
     "company_url": "https://careers.mitre.org",
     "listed_locations": "Bedford, MA",
