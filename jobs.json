@@ -8466,7 +8466,7 @@
     "model": "",
     "deadline": "2026-11-30",
     "post_date": "2026-11-03",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -8480,7 +8480,7 @@
     "model": "Hybrid",
     "deadline": "2026-11-30",
     "post_date": "2026-11-03",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -8508,7 +8508,7 @@
     "model": "",
     "deadline": "2026-11-30",
     "post_date": "2026-11-03",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -8522,7 +8522,7 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-11-03",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -8690,7 +8690,7 @@
     "model": "",
     "deadline": "2026-12-08",
     "post_date": "2026-10-26",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -8704,7 +8704,7 @@
     "model": "",
     "deadline": "2026-11-30",
     "post_date": "2026-10-29",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
