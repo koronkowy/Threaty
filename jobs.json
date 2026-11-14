@@ -7576,13 +7576,13 @@
   {
     "title": "Growth Lead, Consumer Fraud Reporting",
     "company": "TRM Labs",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.trmlabs.com/careers?ashby_jid=73b2f6bd-7f59-4378-8b9f-b0921489c8ef",
     "company_url": "https://www.trmlabs.com",
     "listed_locations": "Remote (US)",
     "eligibility_regions": "US-All",
     "model": "Remote",
-    "deadline": "2026-11-13",
+    "deadline": "Expired",
     "post_date": "2026-06-11",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -7632,13 +7632,13 @@
   {
     "title": "All-Source Intelligence Analyst (DC, MD, VA only)",
     "company": "TRM Labs",
-    "status": "active",
+    "status": "expired",
     "url": "https://www.trmlabs.com/careers/80dcf3a6-3429-485a-8f05-81173b1ea52e",
     "company_url": "https://www.trmlabs.com",
     "listed_locations": "Washington, DC, MD, VA",
     "eligibility_regions": "US-East",
     "model": "Remote",
-    "deadline": "2026-11-13",
+    "deadline": "Expired",
     "post_date": "2026-05-18",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -7744,7 +7744,7 @@
   {
     "title": "Principal Incident Response Analyst",
     "company": "Amtrak",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.amtrak.com/job/Principal-Incident-Response-Analyst-90397446/1420017900/",
     "company_url": "https://www.amtrak.com",
     "listed_locations": "Remote (US)",
@@ -8466,7 +8466,7 @@
     "model": "",
     "deadline": "2026-11-30",
     "post_date": "2026-11-03",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -8480,7 +8480,7 @@
     "model": "Hybrid",
     "deadline": "2026-11-30",
     "post_date": "2026-11-03",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -8508,7 +8508,7 @@
     "model": "",
     "deadline": "2026-11-30",
     "post_date": "2026-11-03",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -8522,7 +8522,7 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-11-03",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -8690,7 +8690,7 @@
     "model": "",
     "deadline": "2026-12-08",
     "post_date": "2026-10-26",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -8704,7 +8704,7 @@
     "model": "",
     "deadline": "2026-11-30",
     "post_date": "2026-10-29",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
