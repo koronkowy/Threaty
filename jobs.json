@@ -7394,13 +7394,13 @@
   {
     "title": "Cyber Threat Monitoring Analyst - CT",
     "company": "Motion Recruitment",
-    "status": "active",
+    "status": "expired",
     "url": "https://motionrecruitment.com/tech-jobs/farmington/contract/cyber-threat-monitoring-analyst-ct/887348",
     "company_url": "https://motionrecruitment.com/",
     "listed_locations": "Farmington, CT",
     "eligibility_regions": "US-East",
     "model": "Hybrid",
-    "deadline": "2026-11-15",
+    "deadline": "Expired",
     "post_date": "2026-09-11",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -8368,7 +8368,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-28",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
