@@ -4966,7 +4966,7 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-08-18",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -5512,7 +5512,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-11",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -8368,7 +8368,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-28",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -8822,7 +8822,7 @@
   {
     "title": "Senior Cyber Intelligence Engineer",
     "company": "MITRE",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.mitre.org/us/en/job/R116907/Senior-Cyber-Intelligence-Engineer",
     "company_url": "https://www.mitre.org",
     "listed_locations": "Fort Meade - Annapolis Junction, MD",
