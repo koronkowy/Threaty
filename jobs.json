@@ -4944,7 +4944,7 @@
   {
     "title": "DFIR",
     "company": "CYE",
-    "status": "active",
+    "status": "expired",
     "url": "https://cyesec.com/careers/6d8de0b9-1969-41ab-ba0f-e3dd7ac6b6dd",
     "company_url": "https://cyesec.com",
     "listed_locations": "Remote (US)",
@@ -4966,7 +4966,7 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-08-18",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -6100,7 +6100,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-24",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -6982,7 +6982,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-08-24",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -7450,13 +7450,13 @@
   {
     "title": "Junior Threat Detection Analyst",
     "company": "Motion Recruitment",
-    "status": "active",
+    "status": "expired",
     "url": "https://motionrecruitment.com/tech-jobs/hartford/contract/junior-threat-detection-analyst-hartford-ct/887412",
     "company_url": "https://motionrecruitment.com/",
     "listed_locations": "Hartford, CT",
     "eligibility_regions": "US-East",
     "model": "Hybrid",
-    "deadline": "2026-11-18",
+    "deadline": "Expired",
     "post_date": "2026-09-14",
     "needs_manual_check": false,
     "last_manual_check": ""
@@ -8228,7 +8228,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-05",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -8270,7 +8270,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-20",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -8368,7 +8368,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-28",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -8536,7 +8536,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-11-03",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -8668,7 +8668,7 @@
   {
     "title": "Counter-Countermeasure and Threat Discrimination Program Engineer",
     "company": "Parsons",
-    "status": "active",
+    "status": "expired",
     "url": "https://jobs.parsons.com/jobs/counter-countermeasure-and-threat-discrimination-program-engineer-huntsville-r-183672-jobs--engineering--",
     "company_url": "https://www.parsons.com",
     "listed_locations": "Huntsville, AL",
@@ -8760,7 +8760,7 @@
     "model": "Remote",
     "deadline": "2027-01-01",
     "post_date": "2026-11-03",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
