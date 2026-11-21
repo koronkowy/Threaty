@@ -3636,7 +3636,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-06-17",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": "2026-11-10"
   },
   {
@@ -4210,7 +4210,7 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-07-23",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -4630,7 +4630,7 @@
     "model": "Remote, Hybrid",
     "deadline": "",
     "post_date": "2026-08-14",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -4966,7 +4966,7 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-08-18",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -5512,7 +5512,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-11",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -7332,7 +7332,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -8808,7 +8808,7 @@
   {
     "title": "Cyber New Professionals Program",
     "company": "MITRE",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.mitre.org/us/en/job/R117365/Cyber-New-Professionals-Program",
     "company_url": "https://www.mitre.org",
     "listed_locations": "McLean, VA, Bedford, MA, Annapolis Junction, MD, Huntsville, AL",
