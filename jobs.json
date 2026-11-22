@@ -4210,7 +4210,7 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-07-23",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -4630,7 +4630,7 @@
     "model": "Remote, Hybrid",
     "deadline": "",
     "post_date": "2026-08-14",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -4966,7 +4966,7 @@
     "model": "",
     "deadline": "",
     "post_date": "2026-08-18",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -7332,7 +7332,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-10-10",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
