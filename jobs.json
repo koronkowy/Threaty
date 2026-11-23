@@ -8368,7 +8368,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-28",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
