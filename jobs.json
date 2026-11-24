@@ -1774,7 +1774,7 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-06-03",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -3558,7 +3558,7 @@
   {
     "title": "Senior Adversarial AI Engineer",
     "company": "MITRE",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.mitre.org/us/en/job/R116694/Senior-Adversarial-AI-Engineer",
     "company_url": "https://www.mitre.org",
     "listed_locations": "McLean, VA",
@@ -5512,7 +5512,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-11",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -6100,7 +6100,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-24",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -8368,7 +8368,7 @@
     "model": "Remote",
     "deadline": "",
     "post_date": "2026-10-28",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -8794,7 +8794,7 @@
   {
     "title": "Senior Intelligence Engineer",
     "company": "MITRE",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.mitre.org/us/en/job/R117843/Senior-Intelligence-Engineer",
     "company_url": "https://www.mitre.org",
     "listed_locations": "Wright-Patterson AFB - Fairborn, OH",
