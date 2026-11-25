@@ -1774,7 +1774,7 @@
     "model": "Onsite",
     "deadline": "",
     "post_date": "2026-06-03",
-    "needs_manual_check": true,
+    "needs_manual_check": false,
     "last_manual_check": ""
   },
   {
@@ -5512,7 +5512,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-11",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -6100,7 +6100,7 @@
     "model": "Hybrid",
     "deadline": "",
     "post_date": "2026-09-24",
-    "needs_manual_check": false,
+    "needs_manual_check": true,
     "last_manual_check": ""
   },
   {
@@ -8836,7 +8836,7 @@
   {
     "title": "Senior Bilingual Intel Analyst",
     "company": "The MITRE Corporation",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.mitre.org/us/en/job/R117804/Senior-Bilingual-Intel-Analyst",
     "company_url": "https://www.mitre.org",
     "listed_locations": "Summit Point, WV",
@@ -8906,7 +8906,7 @@
   {
     "title": "National and Defense Intelligence Intern",
     "company": "MITRE",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.mitre.org/us/en/job/R117405/National-and-Defense-Intelligence-Intern",
     "company_url": "https://www.mitre.org",
     "listed_locations": "McLean, VA, Bedford, MA",
@@ -8920,7 +8920,7 @@
   {
     "title": "National and Defense Intelligence Intern",
     "company": "MITRE",
-    "status": "active",
+    "status": "expired",
     "url": "https://careers.mitre.org/us/en/job/R117860/National-and-Defense-Intelligence-Intern",
     "company_url": "https://www.mitre.org",
     "listed_locations": "McLean, VA, Bedford, MA",
